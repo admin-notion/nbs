@@ -1,4 +1,5 @@
 import Link from "next/link";
+import FormsPage from "../components/reusableComponents/formsPage";
 
 const Migration = () => {
     return (
@@ -13,7 +14,7 @@ const Migration = () => {
 
                         </p>
                         <div>
-                            <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+                            <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                         </div>
                     </div>
                 </section>
@@ -27,31 +28,31 @@ const Migration = () => {
 
                 </section>
                 <section>
-                    <div className=" ml-8 py-16  md:ml-16  md:mr-16">
-                        <div className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-80 md:w-full  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className=" py-16 my-10 md:pl-16  md:pr-16 bg-black text-white">
+                        <div className=" mx-6 md:mx-0 md:text-4xl mb-10  md:text-left  text-4xl w-80 md:w-full  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Offerings <br /> <span>"System Migration Services encompass data, application, OS, cloud, legacy
                                 system upgrades, database, platform, infrastructure migrations, version upgrades,
                                 and risk assessment."</span>
                         </div>
                         <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6">
-                            <div className="border border-solid border-black px-10 py-10">
-                                <div className=" text-black md:text-3xl mb-4 md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white px-10 py-10">
+                                <div className="  md:text-3xl mb-4 md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Data Migration
                                 </div>
                                 <p className=" text-lg">Transfer of data from one system to another while ensuring integrity and consistency.
                                 </p>
 
                             </div>
-                            <div className="border border-solid border-black px-10 py-10">
-                                <div className=" text-black md:text-3xl mb-4  md:text-left  text-4xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  px-10 py-10">
+                                <div className="  md:text-3xl mb-4  md:text-left  text-4xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Application Migration:
                                 </div>
                                 <p className=" text-lg">Moving software applications from one environment to another, often involving code refactoring or compatibility adjustments.
                                 </p>
 
                             </div>
-                            <div className="border border-solid border-black px-10 py-10">
-                                <div className=" text-black md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white    px-10 py-10">
+                                <div className=" md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Operating System Migration
 
 
@@ -59,48 +60,48 @@ const Migration = () => {
                                 <p className="text-lg">Transitioning from one operating system to another, such as migrating from Windows to Linux.
                                 </p>
                             </div>
-                            <div className="border border-solid border-black px-10 py-10">
-                                <div className=" text-black md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  px-10 py-10">
+                                <div className=" md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Cloud Migration:
 
                                 </div>
                                 <p className="text-lg"> Shifting on-premises systems and data to cloud-based platforms like AWS, Azure, or Google Cloud.
                                 </p>
                             </div>
-                            <div className="border border-solid border-black px-10 py-10">
-                                <div className=" text-black md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white px-10 py-10">
+                                <div className=" md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Legacy System Upgrades:
 
                                 </div>
                                 <p className="text-lg">Upgrading outdated or unsupported systems to newer versions for improved performance, security, and functionality.
                                 </p>
                             </div>
-                            <div className="border border-solid border-black px-10 py-10">
-                                <div className=" text-black md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  px-10 py-10">
+                                <div className=" md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Database Migration:
 
                                 </div>
                                 <p className="text-lg">Moving databases from one platform or architecture to another, ensuring data integrity and minimal downtime.
                                 </p>
                             </div>
-                            <div className="border border-solid border-black px-10 py-10">
-                                <div className=" text-black md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  px-10 py-10">
+                                <div className="  md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Platform Migration:
 
                                 </div>
                                 <p className="text-lg">Transitioning between different hardware or software platforms, such as migrating from physical servers to virtualized environments.
                                 </p>
                             </div>
-                            <div className="border border-solid border-black px-10 py-10">
-                                <div className=" text-black md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  px-10 py-10">
+                                <div className="  md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Infrastructure Migration:
 
                                 </div>
                                 <p className="text-lg">Moving entire IT infrastructures, including servers, networking equipment, and storage, to new locations or configurations.
                                 </p>
                             </div>
-                            <div className="border border-solid border-black px-10 py-10">
-                                <div className=" text-black md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  px-10 py-10">
+                                <div className=" md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Version Upgrades:
                                 </div>
                                 <p className="text-lg">Updating software applications or systems to newer versions while ensuring compatibility with existing data and workflows.
@@ -119,41 +120,43 @@ const Migration = () => {
                         </h1>
                     </div>
                     <p className="ml-8 md:ml-16 text-lg md:w-2/3 leading-snug"> Evaluating potential risks associated with migration and implementing strategies to minimize disruption and ensure a smooth transition.</p>
-                    <div className="ml-8 md:ml-16 md:mt-8 mt-10">
-                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                </section>
+                <section className="pr-10 md:pr-0 bg-black text-white">
+                    <div className="ml-8 md:ml-16 md:mt-16 pt-10 ">
+                        <h1 className=" md:text-3xl mb-6  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Business Benefits
                         </h1>
                     </div>
-                    <p className="ml-8 md:ml-16 text-lg md:w-2/3 leading-snug">"System migration drives enhanced scalability, cost efficiency, security, and agility, empowering businesses to adapt, innovate, and thrive in dynamic environments."</p>
+                    <p className="ml-8 md:ml-16 text-lg leading-snug">"System migration drives enhanced scalability, cost efficiency, security, and agility, empowering businesses to adapt, innovate, and thrive in dynamic environments."</p>
                 </section>
 
-                <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-4 ml-8 md:ml-16 mt-10 ">
-                    <div>
-                        <div className=" text-black md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <div className="bg-black text-white grid md:grid-cols-2 sm:grid-cols-1 md:pl-16 md:pr-16 pt-10 gap-5 pb-16">
+                    <div className="border border-solid border-white md:w-full w-full bg-black  py-10">
+                        <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Enhanced Scalability:
                         </div>
-                        <p className="w-96 text-lg"> System migration enables businesses to scale their infrastructure and resources according to evolving needs, facilitating growth and expansion without constraints.
+                        <p className=" px-10 w-96 text-lg">System migration enables businesses to scale their infrastructure and resources according to evolving needs, facilitating growth and expansion without constraints.
                         </p>
                     </div>
-                    <div>
-                        <div className=" text-black md:text-3xl mb-4  md:text-left  text-3xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="border border-solid border-white md:w-full  py-10">
+                        <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Improved Cost Efficiency:
                         </div>
-                        <p className="w-96 text-lg">Migration to newer systems often leads to cost savings through reduced maintenance expenses, improved resource utilization, and streamlined operations, ultimately boosting the bottom line.
+                        <p className="px-10 w-96 text-lg">Migration to newer systems often leads to cost savings through reduced maintenance expenses, improved resource utilization, and streamlined operations, ultimately boosting the bottom line.
                         </p>
                     </div>
-                    <div>
-                        <div className=" text-black md:text-3xl mb-4 md:mt-4   md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="border border-solid border-white md:w-full  py-10">
+                        <div className="px-10 md:text-3xl mb-4 md:mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Enhanced Security:
                         </div>
-                        <p className="w-96 text-lg">Upgrading to modern systems typically includes updated security features and protocols, reducing the risk of data breaches and cyber threats, thus safeguarding sensitive information and preserving business reputation.
+                        <p className=" px-10 w-96 text-lg">Upgrading to modern systems typically includes updated security features and protocols, reducing the risk of data breaches and cyber threats, thus safeguarding sensitive information and preserving business reputation.
                         </p>
                     </div>
-                    <div>
-                        <div className=" text-black md:text-3xl mb-4 md:mt-4   md:text-left  text-3xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="border border-solid border-white md:w-full  py-10">
+                        <div className="px-10  md:text-3xl mb-4 md:mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Increased Agility:
                         </div>
-                        <p className="w-96 text-lg">By migrating to more flexible and adaptable systems, businesses can respond swiftly to market changes and opportunities, fostering innovation, and maintaining a competitive edge in dynamic industries.
+                        <p className="px-10 w-96 text-lg">By migrating to more flexible and adaptable systems, businesses can respond swiftly to market changes and opportunities, fostering innovation, and maintaining a competitive edge in dynamic industries.
                         </p>
                     </div>
                 </div>
@@ -214,6 +217,7 @@ const Migration = () => {
                         </p>
                     </div>
                 </section>
+                <FormsPage />
             </main >
         </>
     );

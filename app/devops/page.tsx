@@ -1,4 +1,5 @@
 import Link from "next/link";
+import FormsPage from "../components/reusableComponents/formsPage";
 
 const devops = () => {
     return (
@@ -13,11 +14,11 @@ const devops = () => {
 
                         </p>
                         <div>
-                            <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+                            <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                         </div>
                     </div>
                 </section>
-                <section className="ml-8 md:ml-16  ">
+                <section className="ml-8 md:ml-16">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         "DevOps Services for Persistent Application Evolution"
                     </h1>
@@ -29,21 +30,21 @@ const devops = () => {
                     <p className="md:w-2/3 text-lg">  Our DevOps approach closes the gap between development and operations, speeding up product releases. DevOps enhances collaborative workflows, automates tasks, and accelerates innovation.</p>
                 </section>
                 <section>
-                    <div className=" ml-8 py-16  md:ml-16 ">
-                        <div className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="my-10 py-16  md:pl-16  bg-black text-white ">
+                        <div className="mx-6 md:mx-0 md:text-4xl mb-8  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             DevOps Services Offerings
                         </div>
                         <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6 md:mr-16">
-                            <div className="border border-solid border-black px-10 py-10">
-                                <div className=" text-black md:text-3xl mb-16  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white px-10 py-10">
+                                <div className=" md:text-3xl mb-16  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Consulting Services
                                 </div>
                                 <p className=" text-lg">Through the help of our DevOps consulting services, you may improve the caliber of software builds, foster an agile culture, and accelerate application releases. We apply continuous integration and development using cloud capabilities to help businesses achieve their objectives while cutting expenses.
                                 </p>
 
                             </div>
-                            <div className="border border-solid border-black px-10 py-10">
-                                <div className=" text-black md:text-3xl mb-4  md:text-left  text-4xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white px-10 py-10">
+                                <div className=" md:text-3xl mb-4  md:text-left  text-4xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Implementation &
                                     Containerization Services
                                 </div>
@@ -51,8 +52,8 @@ const devops = () => {
                                 </p>
 
                             </div>
-                            <div className="border border-solid border-black px-10 py-10">
-                                <div className=" text-black md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white px-10 py-10">
+                                <div className=" md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Continuous Integration &
                                     Continuous Delivery
                                 </div>
@@ -84,42 +85,42 @@ const devops = () => {
                         </div>
                     </div>
                 </section>
-                <section>
-                    <div className="ml-8 md:ml-16 md:mt-16 mt-10">
-                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className="pr-10 md:pr-0 bg-black text-white mt-4">
+                    <div className="ml-8 md:ml-16 md:mt-16 pt-10 ">
+                        <h1 className=" md:text-3xl mb-6  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Growth Engine
                         </h1>
                     </div>
-                    <p className="ml-8 md:ml-16 text-lg md:w-2/3 leading-snug">Businesses are able to focus on strategic projects, decision-making, and expansion by managing applications well.</p>
+                    <p className="ml-8 md:ml-16 text-lg leading-snug">Businesses are able to focus on strategic projects, decision-making, and expansion by managing applications well..</p>
                 </section>
 
-                <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-4 ml-8 md:ml-16 mt-10 ">
-                    <div>
-                        <div className=" text-black md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <div className="bg-black text-white grid md:grid-cols-2 sm:grid-cols-1 md:pl-16 md:pr-16 pt-10 gap-5 pb-16">
+                    <div className="border border-solid border-white md:w-full w-full bg-black  py-10">
+                        <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Faster Deployment
                         </div>
-                        <p className="w-96 text-lg">DevOps aims to reduce the duration of the software development life cycle, enabling companies to quickly release their products.
+                        <p className=" px-10 w-96 text-lg">DevOps aims to reduce the duration of the software development life cycle, enabling companies to quickly release their products.
                         </p>
                     </div>
-                    <div>
-                        <div className=" text-black md:text-3xl mb-4  md:text-left  text-3xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="border border-solid border-white md:w-full  py-10">
+                        <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Improved Collaboration
                         </div>
-                        <p className="w-96 text-lg">DevOps fosters an environment conducive to mutual communication and collaboration between development and operational teams.
+                        <p className="px-10 w-96 text-lg">DevOps fosters an environment conducive to mutual communication and collaboration between development and operational teams.
                         </p>
                     </div>
-                    <div>
-                        <div className=" text-black md:text-3xl mb-4 md:mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="border border-solid border-white md:w-full  py-10">
+                        <div className="px-10 md:text-3xl mb-4 md:mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Promotes Agility
                         </div>
-                        <p className="w-96 text-lg">The scalability needed to gain a competitive advantage in the market is made possible by DevOps.
+                        <p className=" px-10 w-96 text-lg">The scalability needed to gain a competitive advantage in the market is made possible by DevOps.
                         </p>
                     </div>
-                    <div>
-                        <div className=" text-black md:text-3xl mb-4 md:mt-4  md:text-left  text-3xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="border border-solid border-white md:w-full  py-10">
+                        <div className="px-10  md:text-3xl mb-4 md:mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Early Defect Detection
                         </div>
-                        <p className="w-96 text-lg">Early defect discovery is facilitated by the DevOps environment of continuous monitoring and testing.
+                        <p className="px-10 w-96 text-lg">Early defect discovery is facilitated by the DevOps environment of continuous monitoring and testing.
                         </p>
                     </div>
                 </div>
@@ -149,6 +150,7 @@ const devops = () => {
                         <p className="md:w-3/4 text-lg">Continuous integration (CI), continuous testing, continuous deployment, and continuous monitoring are all part of a regular workflow in a DevOps implementation. A DevOps maturity assessment also aids in understanding the requirements of the project and creating a plan in accordance with those demands.</p>
 
                     </div>
+                    <FormsPage />
                 </section>
             </main >
         </>

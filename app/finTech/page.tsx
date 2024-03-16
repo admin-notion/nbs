@@ -1,3 +1,5 @@
+import FormsPage from "../components/reusableComponents/formsPage";
+
 const FinTech = () => {
     return (
         <>
@@ -11,7 +13,7 @@ const FinTech = () => {
 
                         </p>
                         <div>
-                            <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+                            <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                         </div>
                     </div>
                 </section>
@@ -33,6 +35,7 @@ const FinTech = () => {
                     <p className="pb-4 md:w-3/4 text-lg"> By assisting fintech companies in obtaining affordable IT solutions, procurement services guarantee a competitive edge in the adoption of new technologies.</p>
                     <p className="pb-4 md:w-3/4 text-lg"> Fintech IT systems are evaluated by technology audits, which pinpoint any enhancement in efficiency and security.</p>
                 </section>
+                <FormsPage />
             </main>
         </>
     );

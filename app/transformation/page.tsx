@@ -1,4 +1,5 @@
 import Link from "next/link";
+import FormsPage from "../components/reusableComponents/formsPage";
 
 const Transformation = () => {
     return (
@@ -13,7 +14,7 @@ const Transformation = () => {
                     <p className="mb-16 text-lg">Digitize Your Legacy Software to Be Future-Ready
                     </p>
                     <div>
-                        <button className=" border border-black px-6 py-2 md:mr-10  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+                        <a href="#forms">      <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                         <Link href="/utilizeLegacy">     <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Explore</button></Link>
                     </div>
                 </section>
@@ -45,6 +46,7 @@ const Transformation = () => {
                         <li className="pt-4 "> Performance Optimization: Identify and address performance bottlenecks, ensuring that modernized applications deliver optimal speed and responsiveness.</li>
                     </ul>
                 </section>
+                <FormsPage />
             </main>
         </>
     );

@@ -1,64 +1,216 @@
-"use client";
+"use client"
 import Link from "next/link";
-import { useState } from "react";
-import img from "next/image";
-import Headroom from "react-headroom";
+import { useState, useEffect, useRef } from "react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeMenu, setActiveMenu] = useState<string | null>(null);
+  const submenuRef = useRef<HTMLDivElement>(null);
+  const hamburgerRef = useRef<HTMLButtonElement>(null);
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleMenuClick = (menu: string) => {
+    setActiveMenu((prevMenu) => (prevMenu === menu ? null : menu));
+  };
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (submenuRef.current && !submenuRef.current.contains(event.target as Node)) {
+        closeSubMenu();
+      }
+      if (hamburgerRef.current && !hamburgerRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+
+    window.addEventListener("click", handleClickOutside);
+
+    return () => {
+      window.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+
+  const closeSubMenu = () => {
+    setActiveMenu(null);
+  };
+
+  const renderSubMenu = (menu: string) => {
+    if (activeMenu === menu) {
+      let submenuContent: JSX.Element | null = null;
+
+
+
+      if (menu === "industries") {
+        submenuContent = (
+          <div className="fixed md:top-32 left-1/2 transform -translate-x-1/2 w-full md:max-w-6xl bg-black text-white z-50">
+            <div className="container mx-auto px-4 py-10">
+              <ul className="list-none">
+                <div className="grid md:grid-cols-8 sm:grid-cols-1 gap-2">
+                  <li className="text-4xl  text-center font-Oswald ">
+                    <Link href="/about-us">About Us</Link>
+                  </li>
+                  <li className="md:col-start-6  underline underline-offset-4 ">
+                    <Link href="/about">Overview</Link>
+                  </li>
+                  <li className="underline underline-offset-4 ">
+                    <Link href="/careers">Careers</Link>
+                  </li>
+                  <li className="underline underline-offset-4 ">
+                    <Link href="/policy-privacy">Privacy Policy</Link>
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        );
+      } else if (menu === "services") {
+        submenuContent = (
+          <div className="fixed md:top-32 left-1/2 transform -translate-x-1/2 w-full md:max-w-6xl bg-black text-white z-50">
+            <div className="container mx-auto px-4 py-10">
+              <ul>
+                <div className="grid md:grid-cols-6 sm:grid-cols-1 gap-2">
+                  <li className="text-4xl  text-center font-Oswald">
+                    <Link href="/services">Services</Link>
+                  </li>
+                  <li className="md:col-start-3  underline underline-offset-4 ">
+                    <Link href="/application-services">Application Services</Link>
+                  </li>
+                  <li className="underline underline-offset-4 ">
+                    <Link href="/devops">Dev Ops</Link>
+                  </li>
+                  <li className="underline underline-offset-4 ">
+                    <Link href="/it-staffing">IT Staffing</Link>
+                  </li>
+                  <li className="underline underline-offset-4 ">
+                    <Link href="/qa-testing">QA & Testing</Link>
+                  </li>
+                  <li className="underline underline-offset-4 md:col-start-3 ">
+                    <Link href="/product-engineering">Product Engineering</Link>
+                  </li>
+                  <li className="underline underline-offset-4 ">
+                    <Link href="/system-migration">System Migration</Link>
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        );
+      } else if (menu === "contact") {
+        submenuContent = (
+          <div className="fixed md:top-32 left-1/2 transform -translate-x-1/2 w-full md:max-w-6xl bg-black text-white z-50">
+            <div className="container mx-auto px-4 py-10">
+              <ul>
+                <div className="grid md:grid-cols-6 sm:grid-cols-1 gap-2">
+                  <li className="text-4xl  text-center font-Oswald">
+                    <Link href="/industries">Industries</Link>
+                  </li>
+                  <li className="md:col-start-3  underline underline-offset-4 ">
+                    <Link href="/start-up">Start up</Link>
+                  </li>
+                  <li className="underline underline-offset-4 ">
+                    <Link href="/retail-sector">Retail Sector</Link>
+                  </li>
+                  <li className="underline underline-offset-4 ">
+                    <Link href="/professional-services">Professional Services</Link>
+                  </li>
+                  <li className="underline underline-offset-4 ">
+                    <Link href="/not-for-profit">Not for Profit</Link>
+                  </li>
+                  <li className="underline underline-offset-4 md:col-start-3 ">
+                    <Link href="/manufacturing-and-distribution">Manufacturing and Distribution</Link>
+                  </li>
+                  <li className="underline underline-offset-4 ">
+                    <Link href="/health-care-and-life-science">Health Care and Life Science</Link>
+                  </li>
+                  <li className="underline underline-offset-4 ">
+                    <Link href="/food-and-beverage">Food and Beverage</Link>
+                  </li>
+                  <li className="underline underline-offset-4 ">
+                    <Link href="/fin-tech">Fin Tech</Link>
+                  </li>
+                  <li className="underline underline-offset-4 md:col-start-3">
+                    <Link href="/engineering">Engineering</Link>
+                  </li>
+                  <li className="underline underline-offset-4 ">
+                    <Link href="/energy">Energy</Link>
+                  </li>
+                  <li className="underline underline-offset-4 ">
+                    <Link href="/education">Education</Link>
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        );
+        // } else if (menu === "enquire") {
+        //   submenuContent = (
+        //     <div className="fixed md:top-32 left-1/2 transform -translate-x-1/2 w-full md:max-w-6xl bg-black text-white z-50">
+        //       <div className="container mx-auto px-4 py-10">
+        //         <ul>
+        //           <div className="grid md:grid-cols-8 sm:grid-cols-1 gap-2">
+        //             <li className="text-4xl  text-center font-Oswald">
+        //               <Link href="/contact-us">Contact Us</Link>
+        //             </li>
+
+        //           </div>
+        //         </ul>
+        //       </div>
+        //     </div>
+        //   );
+      }
+
+      return submenuContent;
+    }
+    return null;
+  };
+
   return (
-    <Headroom>
-      <nav className="bg-white text-black p-4 row slide slide--reset headroom--top top-0 w-full z-50 transition-transform duration-100 ease-in-out">
+    <main className="max-w-7xl mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
+      <nav className="max-w-7xl mx-auto bg-white text-black p-4 row top-0 z-50 transition-transform duration-100 ease-in-out relative">
         <div className="container mx-auto flex items-center justify-between">
-          {/* Logo on the left */}
-          {/* <a href="/" className="text-black text-lg font-semibold">
-        YourLogo
-      </a> */}
           <Link href="/">
             <img
-              className="md:h-7 ml-8 md:ml-12  "
-              src="/images/Logo.svg"
+              className="md:h-7 ml-8 md:ml-12"
+              src="/images/N_logo2.png"
               alt="Your Company"
               width="127"
               height="21"
-            ></img>
+            />
           </Link>
-
-          {/* Navigation links on the right for larger screens */}
-          <div className="hidden lg:flex lg:items-center">
-            <a
-              href="/services"
-              className="pr-11  text-black text-base font-normal font-['Work Sans'] hover:text-[#fe2712] ml-4"
+          <div ref={submenuRef} className="lg:flex lg:items-center hidden">
+            <li
+              className="list-none pr-11 text-black text-xl font-normal font-Oswald hover:text-orange-300 ml-4 relative group"
+              onClick={() => handleMenuClick("industries")}
             >
-              services
-            </a>
-            <a
-              href="/about"
-              className="pr-11 text-black text-base font-normal font-['Work Sans'] hover:text-[#fe2712] ml-4"
+              <a href="#">About Us</a>
+              {renderSubMenu("industries")}
+            </li>
+            <li
+              className="list-none pr-11 text-black text-xl font-normal font-Oswald hover:text-orange-300 ml-4 relative group"
+              onClick={() => handleMenuClick("services")}
             >
-              About
-            </a>
-            <a
-              href="/contact"
-              className="pr-11  text-black text-base font-normal font-['Work Sans'] hover:text-[#fe2712] ml-4"
+              <a href="#">Services</a>
+              {renderSubMenu("services")}
+            </li>
+            <li
+              className="list-none pr-11 text-black text-xl font-normal font-Oswald hover:text-orange-300 ml-4 relative group"
+              onClick={() => handleMenuClick("contact")}
             >
-              Contact
-            </a>
-            <a
-              href="/branding"
-              className="pr-11  text-black text-base font-normal font-['Work Sans'] hover:text-[#fe2712] ml-4"
+              <a href="#">Industries</a>
+              {renderSubMenu("contact")}
+            </li>
+            <li
+              className="list-none pr-11 text-black text-xl font-normal font-Oswald hover:text-orange-300 ml-4 relative group"
+              onClick={() => handleMenuClick("enquire")}
             >
-              Branding
-            </a>
+              <a href="/enquire">Contact Us</a>
+              {renderSubMenu("enquire")}
+            </li>
           </div>
-
-          {/* Hamburger icon on the right for small screens  */}
-          <div className="lg:hidden">
+          <div className="lg:hidden"  >
             <button
               onClick={toggleNavbar}
               className="text-black focus:outline-none focus:border-none"
@@ -95,47 +247,45 @@ const Header = () => {
                 </svg>
               )}
             </button>
-          </div>
-        </div>
+            <div
 
-        <div className={`lg:hidden ${isOpen ? "block" : "hidden"}`}>
-          <a
-            href="/about"
-            className="block mt-4 pl-8 text-5xl font-semibold text-black leading-normal font-['Urbanist'] hover:text-[#fe2712]"
-          >
-            About
-          </a>
-          <a
-            href="/services"
-            className="block mt-4 pl-8 text-5xl font-semibold text-black leading-normal font-['Urbanist']  hover:text-[#fe2712]"
-          >
-            Services
-          </a>
-          <a
-            href="/contact"
-            className="block mt-4 pl-8 text-5xl font-semibold text-black leading-normal font-['Urbanist'] hover:text-[#fe2712]"
-          >
-            Contact
-          </a>
-          <a
-            href="/branding"
-            className="block mt-4 pl-8 text-5xl font-semibold text-black leading-normal font-['Urbanist'] hover:text-[#fe2712]"
-          >
-            Branding
-          </a>
-          <div className="w-full pr-6 pt-16 pl-8 text-black text-2xl font-light font-['Urbanist'] leading-normal">
-            Ready To Achieve Digital Success? Let Us Assist You
+              className={`lg:hidden ${isOpen ? "block" : "hidden"} absolute left-0 right-0 top-full bg-white shadow-lg`}
+            >
+              <ul className="mt-4">
+                <li
+                  className="list-none pr-11 text-black md:text-xl text-2xl font-normal font-['Work Sans'] hover:text-orange-300 ml-4 relative group"
+                  onClick={() => handleMenuClick("industries")}
+                >
+                  <a href="#footers">About Us</a>
+                  {renderSubMenu("industries")}
+                </li>
+                <li
+                  className="list-none pr-11 text-black md:text-xl text-2xl font-normal font-['Work Sans'] hover:text-orange-300 ml-4 relative group"
+                  onClick={() => handleMenuClick("services")}
+                >
+                  <a href="#footers">Services</a>
+                  {renderSubMenu("services")}
+                </li>
+                <li
+                  className="list-none pr-11 text-black md:text-xl text-2xl font-normal font-['Work Sans'] hover:text-orange-300 ml-4 relative group"
+                  onClick={() => handleMenuClick("contact")}
+                >
+                  <a href="#footers">Industries</a>
+                  {renderSubMenu("contact")}
+                </li>
+                <li
+                  className="list-none pr-11 text-black md:text-xl text-2xl font-normal font-['Work Sans'] hover:text-orange-300 ml-4 relative group"
+                  onClick={() => handleMenuClick("enquire")}
+                >
+                  <a href="/enquire">Contact Us</a>
+                  {renderSubMenu("enquire")}
+                </li>
+              </ul>
+            </div>
           </div>
-          <button
-            type="button"
-            className=" bg-white rounded text-gray-800 text-base font-medium ml-8 mt-6 py-2 px-2 w-40 h-12 [font-family : 'Poppins'] hover:text-[#fe2712] leading-tight"
-          >
-            {" "}
-            GET IN TOUCH
-          </button>
         </div>
       </nav>
-    </Headroom>
+    </main>
   );
 };
 

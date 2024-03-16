@@ -13,7 +13,7 @@ const ApplicationServices = () => {
                         <p className="mb-16 text-lg">"Next-generation Enterprise Applications for Intelligent Business Operations."
                         </p>
                         <div>
-                            <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+                            <Link href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></Link>
                         </div>
                     </div>
                 </section>
@@ -31,43 +31,43 @@ const ApplicationServices = () => {
                 <section>
 
 
-                    <div className=" ml-8 py-16  md:ml-16 pr-10 md:pr-0">
-                        <div className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className=" md:my-16 py-8 bg-black text-white  md:pl-16 md:pr-16 ">
+                        <div className=" text-white bg-black md:text-4xl mb-4  md:text-left md:pt-10 ml-8 text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Application Services Offerings
                         </div>
-                        <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4 md:mr-16">
+                        <div className="bg-black grid md:grid-cols-3 sm:grid-cols-1 gap-4 px-6 ">
 
-                            <div className="border border-solid border-black pt-10">
-                                <div className="px-10 text-black md:text-3xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white pt-10 my-10 ">
+                                <div className="px-10 text-white md:text-3xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Development
                                 </div>
-                                <p className=" text-lg px-10">Transforming obsolete products into modular apps that are flexible and future-proof. Our services for cloud, mobile, and online applications enable businesses to reduce expenses, make changes, and increase productivity."
+                                <p className="text-white text-lg px-10">Transforming obsolete products into modular apps that are flexible and future-proof. Our services for cloud, mobile, and online applications enable businesses to reduce expenses, make changes, and increase productivity."
                                 </p>
                                 <div>
-                                    <Link href="/development">  <div className="md:mt-32 mt-5 text-right ">
-                                        <button className=" border border-black px-6 bg-black hover:bg-yellow-300 hover:text-black h-10 w-32  text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Explore</button>
+                                    <Link href="/development">  <div className="md:mt-44 mt-5 text-right ">
+                                        <div className="lg:ml-64 lg:mt-12"> <img className="" src="/images/Vector_black.svg" alt="" /></div>
                                     </div></Link>
                                 </div>
                             </div>
 
-                            <div className="border border-solid border-black  pt-10">
-                                <div className="px-10 text-black md:text-3xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  pt-10 my-10">
+                                <div className="px-10 text-white md:text-3xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Modernization
                                 </div>
-                                <p className=" text-lg px-10">Shifting to more contemporary, adaptable platforms will renew legacy environments. In order to deliver future-ready solutions with improved usability, security, and agility, we assess and test legacy systems while utilizing the best modernization strategies.""
+                                <p className="text-white text-lg px-10">Shifting to more contemporary, adaptable platforms will renew legacy environments. In order to deliver future-ready solutions with improved usability, security, and agility, we assess and test legacy systems while utilizing the best modernization strategies.""
                                 </p>
                                 <Link href="/modernization">  <div className="md:mt-16 mt-5  md:pt-2 text-right ">
-                                    <button className=" border border-black px-6  bg-black hover:bg-yellow-300 hover:text-black h-10 w-32  text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Explore</button>
+                                    <div className="lg:ml-64 lg:mt-12"> <img className="" src="/images/Vector_black.svg" alt="" /></div>
                                 </div></Link>
                             </div>
-                            <div className="border border-solid border-black pt-10">
-                                <div className="px-10 text-black md:text-3xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white pt-10 my-10 ">
+                                <div className="px-10 text-white md:text-3xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Management
                                 </div>
-                                <p className="text-lg px-10">"Combining a technological and strategic approach to optimize IT ecosystems over their whole lifecycle, including bug fixes, version upgrades, issue tracking, troubleshooting, performance monitoring, timely analysis of product features, and product complexity maximizing the efficiency in an environment of market orientation."
+                                <p className="text-white text-lg px-10">"Combining a technological and strategic approach to optimize IT ecosystems over their whole lifecycle, including bug fixes, version upgrades, issue tracking, troubleshooting, performance monitoring, timely analysis of product features, and product complexity maximizing the efficiency in an environment of market orientation."
                                 </p>
                                 <Link href="/management">   <div className="md:mt-4 mt-5  text-right ">
-                                    <button className=" border border-black px-6  bg-black hover:bg-yellow-300 hover:text-black h-10 w-32  text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Explore</button>
+                                    <div className="lg:ml-64 lg:mt-16"> <img className="" src="/images/Vector_black.svg" alt="" /></div>
                                 </div></Link>
                             </div>
                         </div>
@@ -87,49 +87,49 @@ const ApplicationServices = () => {
 
                     <div className="flex ml-8 md:ml-16 ">
                         <div >
-                            <button className=" border md:mr-10 border-black px-6 h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+                            <a href="#forms">   <button className=" border md:mr-10 border-black px-6 h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                         </div>
                         <div>
                             <Link href="/transformation">    <button className=" border border-black px-6  bg-black hover:bg-yellow-300 hover:text-black h-10 w-32  text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Explore</button></Link>
                         </div>
                     </div>
                 </section>
-                <section className="pr-10 md:pr-0">
-                    <div className="ml-8 md:ml-16 md:mt-16 mt-10 ">
-                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className="pr-10 md:pr-0 bg-black text-white mt-4">
+                    <div className="ml-8 md:ml-16 md:mt-16 pt-10 ">
+                        <h1 className=" md:text-3xl mb-6  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Growth Engine
                         </h1>
                     </div>
                     <p className="ml-8 md:ml-16 text-lg leading-snug">Businesses are able to focus on strategic projects, decision-making, and expansion by managing applications well.</p>
                 </section>
 
-                <div className="grid md:grid-cols-2 sm:grid-cols-1 ml-8 md:ml-16 mt-10  ">
-                    <div>
-                        <div className=" text-black md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <div className="bg-black text-white grid md:grid-cols-2 sm:grid-cols-1 md:pl-16 md:pr-16 pt-10 gap-5 pb-16">
+                    <div className="border border-solid border-white md:w-full w-full bg-black  py-10">
+                        <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Agility
                         </div>
-                        <p className="w-96 text-lg">Frameworks that are contemporary and adaptable, easily evolving to meet changing needs.
+                        <p className=" px-10 w-96 text-lg">Frameworks that are contemporary and adaptable, easily evolving to meet changing needs.
                         </p>
                     </div>
-                    <div>
-                        <div className=" text-black md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="border border-solid border-white md:w-full  py-10">
+                        <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Operational Cost
                         </div>
-                        <p className="w-96 text-lg">minimized maintenance costs and technical debts, which lead to lower expenditures.
+                        <p className="px-10 w-96 text-lg">minimized maintenance costs and technical debts, which lead to lower expenditures.
                         </p>
                     </div>
-                    <div>
-                        <div className=" text-black md:text-3xl mb-4 md:mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="border border-solid border-white md:w-full  py-10">
+                        <div className="px-10 md:text-3xl mb-4 md:mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Productivity
                         </div>
-                        <p className="w-96 text-lg">eliminated roadblocks and taking proactive measures to manage programs to enhance workflow.
+                        <p className=" px-10 w-96 text-lg">eliminated roadblocks and taking proactive measures to manage programs to enhance workflow.
                         </p>
                     </div>
-                    <div>
-                        <div className=" text-black md:text-3xl mb-4 md:mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="border border-solid border-white md:w-full  py-10">
+                        <div className="px-10  md:text-3xl mb-4 md:mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             New Opportunities
                         </div>
-                        <p className="w-96 text-lg">Access untapped markets and channels with an accelerated time to market for services.
+                        <p className="px-10 w-96 text-lg">Access untapped markets and channels with an accelerated time to market for services.
                         </p>
                     </div>
                 </div>

@@ -1,3 +1,5 @@
+import FormsPage from "../components/reusableComponents/formsPage";
+
 const Startup = () => {
     return (
         <>
@@ -11,7 +13,7 @@ const Startup = () => {
 
                         </p>
                         <div>
-                            <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+                            <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                         </div>
                     </div>
                 </section>
@@ -20,7 +22,7 @@ const Startup = () => {
                         To be competitive and meet the needs of a changing market, the retail industry needs reliable IT solutions and services in the contemporary digital world. Retailers who don't have the right technology run the danger of falling behind and losing business to competitors who are more creative and flexible.
                     </h1>
                     <p className="pb-4 md:mt-10 md:w-3/4 text-lg ">
-                    To be competitive and meet the needs of a changing market, the retail industry needs reliable IT solutions and services in the contemporary digital world. Retailers who don't have the right technology run the danger of falling behind and losing business to competitors who are more creative and flexible.
+                        To be competitive and meet the needs of a changing market, the retail industry needs reliable IT solutions and services in the contemporary digital world. Retailers who don't have the right technology run the danger of falling behind and losing business to competitors who are more creative and flexible.
                     </p >
                     <p className="pb-4 md:w-3/4 text-lg">IT consultant: An IT consultant helps companies reach their objectives by offering professional advice on how to use technology. This include providing continuing support and maintenance, installing new systems, and helping startups choose the right gear and software.</p>
                     <p className="pb-4 md:w-3/4 text-lg"> Digital Workplace Solutions: By permitting remote work, these devices and software improve output and teamwork. Online project management tools, virtual meeting platforms, and cloud-based productivity tools are a few examples.</p>
@@ -35,6 +37,7 @@ const Startup = () => {
 
 
                 </section>
+                <FormsPage />
             </main>
         </>
     );

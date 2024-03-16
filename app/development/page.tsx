@@ -12,7 +12,7 @@ const Development = () => {
                         through Enterprise Application Development
                     </p>
                     <div>
-                        <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+                        <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                     </div>
                 </section>
                 <section className="ml-8 md:ml-16  ">
@@ -63,31 +63,32 @@ const Development = () => {
                         <li className="text-lg">   API Transformation</li>
                     </ul>
                 </section >
-                <section className="ml-8 md:ml-16 md:mt-20 mt-10">
-                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+
+                <section className=" md:pl-16 md:pt-16 mt-10 bg-black text-white">
+                    <h1 className=" mx-6 md:mx-0 md:text-4xl mb-6 pt-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Why choose NBS for Enterprise Application Development Services?
                     </h1>
-                    <p className="pb-4 md:w-1/2 text-lg mr-4">
+                    <p className=" mx-6 md:mx-0 pb-4 md:w-1/2 text-lg mr-4 mb-4">
                         we provide full-cycle application development services leveraging
                         emerging technologies, frameworks, APIs, and databases to unlock your
                         business's potential.
 
                     </p >
 
-                    <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4 md:mr-16">
-                        <div className="border border-solid border-black px-10 py-10">
+                    <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4 md:mr-16  bg-black text-white">
+                        <div className="border border-solid border-white px-10 py-10">
                             <p className="text-lg "> Creative and innovative application development services in Java, JQuery, TypeScript, Swift, Angular, React, PHP,.Net, Python, and JavaScript.</p>
                         </div>
-                        <div className="border border-solid border-black px-10 py-10">
+                        <div className="border border-solid border-white px-10 py-10">
                             <p className="text-lg "> We utilize our proprietary framework – RAPADIT (Rapid Application Development with predefined time-tested frameworks) for delivering reliable web application development services..</p>
                         </div>
-                        <div className="border border-solid border-black px-10 py-10">
+                        <div className="border border-solid border-white px-10 py-10">
                             <p className="text-lg"> Strategically integrate
                                 emerging technologies
                                 such as Cloud, Data Analytics,
                                 AI, ML, Blockchain, and more.</p>
                         </div>
-                        <div className="border border-solid border-black px-10 py-10">
+                        <div className="border border-solid border-white px-10 py-10 md:mb-20">
                             <p className="text-lg "> Proficient in cross-industry implementations utilizing flexible engagement models.</p>
                         </div>
                     </div>

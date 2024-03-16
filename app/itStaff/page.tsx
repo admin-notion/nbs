@@ -1,3 +1,4 @@
+import FormsPage from "../components/reusableComponents/formsPage";
 
 const Itstaffing = () => {
     return (
@@ -11,7 +12,7 @@ const Itstaffing = () => {
                         <p className="mb-16 text-lg">“Addressing all your IT staffing challenges.”
                         </p>
                         <div>
-                            <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+                            <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                         </div>
                     </section>
 
@@ -54,6 +55,7 @@ const Itstaffing = () => {
                         </h1>
                         <p className="md:w-2/3 text-lg">Our technical staffing services offer a consistent flow of technical personnel that are in line with your business goals, such as project managers, QA specialists, and software developers. We are aware that finding applicants is only one aspect of technical recruitment. Our services cover every facet of the working relationship, making sure that the employer's and the employee's expectations are met.</p>
                     </section>
+                    <FormsPage />
                 </main >
             </div>
         </>

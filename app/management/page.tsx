@@ -1,3 +1,5 @@
+import FormsPage from "../components/reusableComponents/formsPage";
+
 const Management = () => {
     return (
         <>
@@ -9,7 +11,7 @@ const Management = () => {
                     <p className="mb-16 text-lg">Stay aligned with evolving business needs through Enterprise Application Management.
                     </p>
                     <div>
-                        <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+                        <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                     </div>
                 </section>
                 <section className="ml-8 md:ml-16  ">
@@ -66,23 +68,23 @@ const Management = () => {
                         <li className="text-lg">Vulnerability Reports</li>
                     </ul>
                 </section >
-                <section className="ml-8 md:ml-16 md:mt-20 mt-10">
-                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className="md:pl-16 md:pt-16 mt-10 bg-black text-white">
+                    <h1 className=" mx-6  md:mx-0 md:text-4xl mb-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         What is the importance of Enterprise Application Management?
                     </h1>
-                    <p className="pb-4 md:w-1/2 text-lg mr-4">
+                    <p className=" mx-6  md:mx-0 pb-6 md:w-1/2 text-lg mr-4">
                         Supplying the best possible combination of staff, processes, and technology to manage and control business applications.
 
                     </p >
 
-                    <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4 md:mr-16">
-                        <div className="border border-solid border-black px-10 py-10">
+                    <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4 pb-16 md:mr-16">
+                        <div className="border border-solid border-white px-10 py-10">
                             <p className="text-lg "> Experienced and certified specialists in both legacy and emerging technologies.</p>
                         </div>
-                        <div className="border border-solid border-black px-10 py-10">
+                        <div className="border border-solid border-whi px-10 py-10">
                             <p className="text-lg ">Guaranteeing application availability and reliability through application performance management services.</p>
                         </div>
-                        <div className="border border-solid border-black px-10 py-10">
+                        <div className="border border-solid border-whi px-10 py-10">
                             <p className="text-lg">Tailored service offerings supported by maintenance and support.</p>
                         </div>
 
@@ -114,12 +116,13 @@ const Management = () => {
                         <p className="md:w-2/3 text-lg">One of the main advantages of application management are:</p>
                         <ul className="list-decimal ml-6">
                             <li> Better User Experiences: creating customized interactions.</li>
-                                  <li>Rapid bug fixes and patces: constant upkeep and prompt response.</li>
+                            <li>Rapid bug fixes and patces: constant upkeep and prompt response.</li>
                             <li>Low downtime and controlled disruptions are hallmarks of smooth operations.</li>
                         </ul>
 
                     </div>
                 </section>
+                <FormsPage />
             </main >
         </>
     );

@@ -1,3 +1,5 @@
+import FormsPage from "../components/reusableComponents/formsPage";
+
 const Engineering = () => {
     return (
         <>
@@ -11,7 +13,7 @@ const Engineering = () => {
 
                         </p>
                         <div>
-                            <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+                            <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                         </div>
                     </div>
                 </section>
@@ -33,7 +35,9 @@ const Engineering = () => {
                     <p className="pb-4 md:w-3/4 text-lg"> In order to support engineering operations, procurement services help find the best goods and services, guaranteeing the best possible deals and resources.</p>
                     <p className="pb-4 md:w-3/4 text-lg"> Technology audits in the engineering sector assess how technology is used to find areas where it may be improved, increasing productivity and aligning with business objectives.</p>
                 </section>
+                <FormsPage />
             </main>
+
         </>
     );
 }

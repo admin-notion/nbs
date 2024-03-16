@@ -1,3 +1,5 @@
+import FormsPage from "../components/reusableComponents/formsPage";
+
 const NotForProfit = () => {
     return (
         <>
@@ -11,7 +13,7 @@ const NotForProfit = () => {
 
                         </p>
                         <div>
-                            <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+                            <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                         </div>
                     </div>
                 </section>
@@ -33,6 +35,7 @@ const NotForProfit = () => {
                     <p className="pb-4 md:w-3/4 text-lg"> Technology audits assess IT systems to find areas where they can be improved, increasing productivity and effectiveness while making the most use of available resources.</p>
 
                 </section>
+                <FormsPage />
             </main>
         </>
     );

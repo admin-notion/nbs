@@ -1,3 +1,5 @@
+import FormsPage from "../components/reusableComponents/formsPage";
+
 const UtilizeLegacy = () => {
     return (
         <>
@@ -32,6 +34,7 @@ const UtilizeLegacy = () => {
                         <p className="text-lg w-1/2 md:mt-20 mt-10 ">Businesses may future-proof the products they offer with a range of services by using cutting-edge technology stacks, cloud-based business models, and SaaS-based business models. These are a few potential services that NBS could deliver to stay on Edge.</p>
                     </div>
                 </section>
+                <FormsPage />
             </main>
         </>
     );

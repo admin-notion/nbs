@@ -1,3 +1,5 @@
+import FormsPage from "../components/reusableComponents/formsPage";
+
 const Food = () => {
     return (<>
         <main className="max-w-7xl mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
@@ -10,7 +12,7 @@ const Food = () => {
 
                     </p>
                     <div>
-                        <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+                        <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                     </div>
                 </div>
             </section>
@@ -28,6 +30,8 @@ const Food = () => {
                 <p className="pb-4 md:w-3/4 text-lg">Procurement services find the best deals for operational requirements by streamlining the sourcing process for goods and services. <br /> Technology audits evaluate how technology is used in the food and beverage industry to find areas for improvement and match tactics with corporate goals.
                 </p>
             </ section >
+
+            <FormsPage />
         </main>
     </>);
 }

@@ -6,7 +6,7 @@ const Transformation = () => {
         <>
             <main className=" max-w-7xl  mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
 
-                <section className=" ml-8 py-16  md:ml-16 ">
+                <section className=" ml-8 py-16  md:ml-16 text-black ">
                     <h1 className=" text-black md:text-4xl mb-4  md:text-left md:w-1/2 text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         &quot;Utilize Legacy Transformation to Transform
                         Conventional Portfolios.&quot;
@@ -18,7 +18,7 @@ const Transformation = () => {
                         <Link href="/utilizeLegacy">     <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Explore</button></Link>
                     </div>
                 </section>
-                <section className="ml-8 md:ml-16 ">
+                <section className="ml-8 md:ml-16 text-black">
                     <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Transformation for an Agile & Efficient Digital Future
                     </h1>
@@ -28,7 +28,7 @@ const Transformation = () => {
                         modernization strategies for relic systems that fulfill growing business
                         demands and reduce the risks associated with change. </p>
                 </section>
-                <section className="md:mt-20 mt-10 ml-8 md:ml-16">
+                <section className="md:mt-20 mt-10 ml-8 md:ml-16 text-black">
                     <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Streamlined App Modernization & Migration Services
                     </h1>

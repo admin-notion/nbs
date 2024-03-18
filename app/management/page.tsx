@@ -1,10 +1,37 @@
 import FormsPage from "../components/reusableComponents/formsPage";
-
+import Accordion from "../components/reusableComponents/accordion";
 const Management = () => {
+    const faqs = [
+        {
+            title: "What are the costs associated with application maintenance services?",
+            text: "The platform, complexity, and size of the application are some of the elements that affect the cost of maintenance and support for that program. To find out how much your application will cost, get in touch with our experts. To produce a thorough report on errors and problems that need to be fixed, we will evaluate and test a variety of parameters.",
+            active: false,
+        },
+        {
+            title: "What are the available hiring models for application maintenance services?",
+            text: "For application maintenance services, we offer two engagement models: time-based and fixed price. The one that best meets your demands can be chosen.",
+            active: false,
+        },
+        {
+            title: "What categories of application management services are available?",
+            text: "As part of our application performance management capabilities, we provide an extensive range of application maintenance and support services. Version updates, additions, error tracking, debugging, technical troubleshooting, offshore product maintenance, performance monitoring, performance testing, QA testing, and more are among them.",
+            active: false,
+        },
+        {
+            title: "What advantages can we expect from application management services?",
+            text: <ul className=" list-decimal">
+                <li> Better User Experiences: creating customized interactions.</li>
+                <li>Rapid bug fixes and patces: constant upkeep and prompt response.</li>
+                <li>Low downtime and controlled disruptions are hallmarks of smooth operations.</li>
+            </ul>,
+            active: false,
+        },
+
+    ]
     return (
         <>
             <main className=" max-w-7xl  mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
-                <section className=" ml-8 py-16  md:ml-16 ">
+                <section className=" ml-8 py-16  md:ml-16 text-black ">
                     <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Management Services
                     </h1>
@@ -14,7 +41,7 @@ const Management = () => {
                         <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                     </div>
                 </section>
-                <section className="ml-8 md:ml-16  ">
+                <section className="ml-8 md:ml-16  text-black">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Enhancing Application Agility, Efficiency, and Uptime through
                         Application Lifecycle Management.
@@ -25,7 +52,7 @@ const Management = () => {
                     </p >
                     <p className="md:w-1/2 text-lg">Performance monitoring, analysis, testing, incident and patch management configuration, and enhancements are all included in our application management services, which cover the full lifecycle of application maintenance and support. Businesses rely on our extensive knowledge in application maintenance and support, which is backed by our Center of Excellence, tried-and-true procedures, and cutting-edge frameworks. Our goal is to improve stability, operational efficiency, and agility while lowering expenses, risks, and total cost of ownership .</p>
                 </section>
-                <section className="ml-8 md:ml-16 md:mt-20 mt-10">
+                <section className="ml-8 md:ml-16 md:mt-20 mt-10 text-black">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Agile Application Management Services to Inspire Innovation and Change.
                     </h1>
@@ -91,34 +118,22 @@ const Management = () => {
                     </div>
                 </section>
                 <section>
-                    <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4">
+                    <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4 text-black">
                         <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             FAQs
                         </h1>
 
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            What are the costs associated with application maintenance services?
+                        <div className="divide-y divide-slate-200 text-black">
+                            {faqs.map((faq, index) => (
+                                <Accordion key={index} title={faq.title} id={`faqs-${index}`} active={faq.active}>
+                                    {faq.text}
+                                </Accordion>
+                            ))}
                         </div>
-                        <p className="md:w-2/3 text-lg">The platform, complexity, and size of the application are some of the elements that affect the cost of maintenance and support for that program. To find out how much your application will cost, get in touch with our experts. To produce a thorough report on errors and problems that need to be fixed, we will evaluate and test a variety of parameters.</p>
-
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            What are the available hiring models for application maintenance services?
-
-                        </div>
-                        <p className="md:w-2/3 text-lg">For application maintenance services, we offer two engagement models: time-based and fixed price. The one that best meets your demands can be chosen.</p>
-                        <div className=" text-black md:text-3xl mb-4 mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            What categories of application management services are available?
-                        </div>
-                        <p className="md:w-2/3 text-lg">As part of our application performance management capabilities, we provide an extensive range of application maintenance and support services. Version updates, additions, error tracking, debugging, technical troubleshooting, offshore product maintenance, performance monitoring, performance testing, QA testing, and more are among them.</p>
                         <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             What advantages can we expect from application management services?
                         </div>
                         <p className="md:w-2/3 text-lg">One of the main advantages of application management are:</p>
-                        <ul className="list-decimal ml-6">
-                            <li> Better User Experiences: creating customized interactions.</li>
-                            <li>Rapid bug fixes and patces: constant upkeep and prompt response.</li>
-                            <li>Low downtime and controlled disruptions are hallmarks of smooth operations.</li>
-                        </ul>
 
                     </div>
                 </section>

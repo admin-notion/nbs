@@ -59,7 +59,7 @@ const Header = () => {
                     <Link href="/careers">Careers</Link>
                   </li>
                   <li className="underline underline-offset-4 ">
-                    <Link href="/policy-privacy">Privacy Policy</Link>
+                    <Link href="/policyPrivacy">Privacy Policy</Link>
                   </li>
                 </div>
               </ul>
@@ -76,22 +76,22 @@ const Header = () => {
                     <Link href="/services">Services</Link>
                   </li>
                   <li className="md:col-start-3  underline underline-offset-4 ">
-                    <Link href="/application-services">Application Services</Link>
+                    <Link href="/applicationServices">Application Services</Link>
                   </li>
                   <li className="underline underline-offset-4 ">
                     <Link href="/devops">Dev Ops</Link>
                   </li>
                   <li className="underline underline-offset-4 ">
-                    <Link href="/it-staffing">IT Staffing</Link>
+                    <Link href="/itStaff">IT Staffing</Link>
                   </li>
                   <li className="underline underline-offset-4 ">
-                    <Link href="/qa-testing">QA & Testing</Link>
+                    <Link href="/testing">QA & Testing</Link>
                   </li>
                   <li className="underline underline-offset-4 md:col-start-3 ">
-                    <Link href="/product-engineering">Product Engineering</Link>
+                    <Link href="/product">Product Engineering</Link>
                   </li>
                   <li className="underline underline-offset-4 ">
-                    <Link href="/system-migration">System Migration</Link>
+                    <Link href="/migration">System Migration</Link>
                   </li>
                 </div>
               </ul>
@@ -108,28 +108,28 @@ const Header = () => {
                     <Link href="/industries">Industries</Link>
                   </li>
                   <li className="md:col-start-3  underline underline-offset-4 ">
-                    <Link href="/start-up">Start up</Link>
+                    <Link href="/startup">Start up</Link>
                   </li>
                   <li className="underline underline-offset-4 ">
-                    <Link href="/retail-sector">Retail Sector</Link>
+                    <Link href="/retailSector">Retail Sector</Link>
                   </li>
                   <li className="underline underline-offset-4 ">
-                    <Link href="/professional-services">Professional Services</Link>
+                    <Link href="/professional">Professional Services</Link>
                   </li>
                   <li className="underline underline-offset-4 ">
-                    <Link href="/not-for-profit">Not for Profit</Link>
+                    <Link href="/notForProfit">Not for Profit</Link>
                   </li>
                   <li className="underline underline-offset-4 md:col-start-3 ">
-                    <Link href="/manufacturing-and-distribution">Manufacturing and Distribution</Link>
+                    <Link href="/manufacturing">Manufacturing and Distribution</Link>
                   </li>
                   <li className="underline underline-offset-4 ">
-                    <Link href="/health-care-and-life-science">Health Care and Life Science</Link>
+                    <Link href="/healthCare">Health Care and Life Science</Link>
                   </li>
                   <li className="underline underline-offset-4 ">
-                    <Link href="/food-and-beverage">Food and Beverage</Link>
+                    <Link href="/food">Food and Beverage</Link>
                   </li>
                   <li className="underline underline-offset-4 ">
-                    <Link href="/fin-tech">Fin Tech</Link>
+                    <Link href="/finTech">Fin Tech</Link>
                   </li>
                   <li className="underline underline-offset-4 md:col-start-3">
                     <Link href="/engineering">Engineering</Link>
@@ -173,8 +173,8 @@ const Header = () => {
         <div className="container mx-auto flex items-center justify-between">
           <Link href="/">
             <img
-              className="md:h-7 ml-8 md:ml-12"
-              src="/images/N_logo2.png"
+              className="md:h-9 ml-8 md:ml-12"
+              src="/images/Notion_Logo-02.svg"
               alt="Your Company"
               width="127"
               height="21"

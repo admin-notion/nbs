@@ -1,10 +1,28 @@
 import FormsPage from "../components/reusableComponents/formsPage";
-
+import Accordion from "../components/reusableComponents/accordion";
 const Modernization = () => {
+    const faqs = [
+        {
+            title: "How much do services for modernizing outdated applications cost?",
+            text: "The pricing for legacy application modernization services varies based on factors such as existing infrastructure, technology stack, business objectives, project scope, and chosen engagement model. Our modernization experts evaluate the current portfolio across various parameters to determine the appropriate strategy and technology stack for revitalizing the application.",
+            active: false,
+        },
+        {
+            title: "How can I access top-notch application modernization services?",
+            text: "In order to deliver elite enterprise modernization services, our Division of Expertise develops a plan and timeline to direct work and distribute resources in an efficient and effective manner. Our experts create innovative applications using the best possible technological stack and tactics.",
+            active: false,
+        },
+        {
+            title: "What is the estimated timeline for completing the application modernization?",
+            text: "Various factors, such as the complexity of the current infrastructure, the cloud platform chosen for transfer, the number of man-hours required, and more, affect the schedule for application modernization through our software modernization services. On the other hand, we guarantee that the modernization process will be finished as quickly as possible.",
+            active: false,
+        },
+    ]
+
     return (
         <>
             <main className="max-w-7xl  mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
-                <section className=" ml-8 py-16  md:ml-16 ">
+                <section className=" ml-8 py-16  md:ml-16 text-black">
                     <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Modernization Services
                     </h1>
@@ -14,7 +32,7 @@ const Modernization = () => {
                         <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                     </div>
                 </section>
-                <section className="ml-8 md:ml-16  ">
+                <section className="ml-8 md:ml-16 text-black ">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Through the expertise of our enterprise application modernization
                         services, uncover true business value.
@@ -27,7 +45,7 @@ const Modernization = () => {
 
                     <p className="md:w-1/2 text-lg">Utilizing advancements in Cloud, Web, Mobility, Blockchain, and Analytics, our enterprise application modernization services facilitate swift innovation and effective scaling for enterprises, all while maintaining uninterrupted business operations.</p>
                 </section>
-                <section className="ml-8 md:ml-16 md:mt-20 mt-10">
+                <section className="ml-8 md:ml-16 md:mt-20 mt-10 text-black">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Empowering organizations to leverage the benefits of
                         innovation through our legacy application modernization services.
@@ -94,25 +112,18 @@ const Modernization = () => {
                     </div>
                 </section>
                 <section>
-                    <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4">
+                    <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4 text-black">
                         <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             FAQs
                         </h1>
 
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            How much do services for modernizing outdated applications cost?
+                        <div className="divide-y divide-slate-200 text-black">
+                            {faqs.map((faq, index) => (
+                                <Accordion key={index} title={faq.title} id={`faqs-${index}`} active={faq.active}>
+                                    {faq.text}
+                                </Accordion>
+                            ))}
                         </div>
-                        <p className="md:w-2/3 text-lg">The pricing for legacy application modernization services varies based on factors such as existing infrastructure, technology stack, business objectives, project scope, and chosen engagement model. Our modernization experts evaluate the current portfolio across various parameters to determine the appropriate strategy and technology stack for revitalizing the application.</p>
-
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            How can I access top-notch application modernization services?
-                        </div>
-                        <p className="md:w-2/3 text-lg">In order to deliver elite enterprise modernization services, our Division of Expertise develops a plan and timeline to direct work and distribute resources in an efficient and effective manner. Our experts create innovative applications using the best possible technological stack and tactics.</p>
-                        <div className=" text-black md:text-3xl mb-4 mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            What is the estimated timeline for completing the application modernization?
-                        </div>
-                        <p className="md:w-2/3 text-lg">Various factors, such as the complexity of the current infrastructure, the cloud platform chosen for transfer, the number of man-hours required, and more, affect the schedule for application modernization through our software modernization services. On the other hand, we guarantee that the modernization process will be finished as quickly as possible.</p>
-
 
                     </div>
                 </section>

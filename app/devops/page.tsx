@@ -1,11 +1,35 @@
 import Link from "next/link";
 import FormsPage from "../components/reusableComponents/formsPage";
-
+import Accordion from "../components/reusableComponents/accordion";
 const devops = () => {
+    const faqs = [
+        {
+            title: "What is DevOps? How to choose a DevOps service provider?",
+            text: "The goal of DevOps is to improve an organization's capacity to provide software, applications, and services quickly by combining tools and procedures. Give consideration to a DevOps service provider's track record and experience. ",
+            active: false,
+        },
+        {
+            title: "What tools do you use for DevOps?",
+            text: "At NBS, we use a wide range of DevOps tools, including Docker, Jenkins, Puppet, Chef, Bitbucket, Vagrant, Ansible, Datadog, and others, utilizing our experience as a top DevOps consulting company.",
+            active: false,
+        },
+        {
+            title: "In which industries do you provide your services?",
+            text: "They are not the same, no. Software development methodologies like Agile and DevOps are meant to make the software development life cycle (SDLC) more efficient. As a provider of DevOps services, NBS has experience with both Agile methodology and DevOps methods.",
+            active: false,
+        },
+        {
+            title: "What are the key components in DevOps implementation?",
+            text: "Continuous integration (CI), continuous testing, continuous deployment, and continuous monitoring are all part of a regular workflow in a DevOps implementation. A DevOps maturity assessment also aids in understanding the requirements of the project and creating a plan in accordance with those demands.",
+            active: false,
+        },
+
+    ]
+
     return (
         <>
             <main className="max-w-7xl mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
-                <section className=" firstContainer w-full md:py-10">
+                <section className=" firstContainer w-full md:py-10 text-black">
                     <div className=" ml-8 py-16  md:ml-16 ">
                         <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             DevOps Services
@@ -18,7 +42,7 @@ const devops = () => {
                         </div>
                     </div>
                 </section>
-                <section className="ml-8 md:ml-16">
+                <section className="ml-8 md:ml-16 text-black">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         &quot;DevOps Services for Persistent Application Evolution&quot;
                     </h1>
@@ -78,11 +102,9 @@ const devops = () => {
 
                     <div className="flex ml-8 md:ml-16 ">
                         <div >
-                            <button className=" border md:mr-10 border-black px-6 h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+                            <Link href="#forms">    <button className=" border md:mr-10 border-black px-6 h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></Link>
                         </div>
-                        <div>
-                            <Link href="/transformation">    <button className=" border border-black px-6  bg-black hover:bg-yellow-300 hover:text-black h-10 w-32  text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Explore</button></Link>
-                        </div>
+
                     </div>
                 </section>
                 <section className="pr-10 md:pr-0 bg-black text-white mt-4">
@@ -125,29 +147,18 @@ const devops = () => {
                     </div>
                 </div>
                 <section>
-                    <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4">
+                    <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4 text-black">
                         <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             FAQs
                         </h1>
 
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            What is DevOps? How to choose a DevOps service provider?
+                        <div className="divide-y divide-slate-200 text-black">
+                            {faqs.map((faq, index) => (
+                                <Accordion key={index} title={faq.title} id={`faqs-${index}`} active={faq.active}>
+                                    {faq.text}
+                                </Accordion>
+                            ))}
                         </div>
-                        <p className="md:w-3/4 text-lg">The goal of DevOps is to improve an organizatios capacity to provide software, applications, and services quickly by combining tools and procedures. Give consideration to a DevOps service providers track record and experience. </p>
-
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            What tools do you use for DevOps?
-
-                        </div>
-                        <p className="md:w-3/4 text-lg">At NBS, we use a wide range of DevOps tools, including Docker, Jenkins, Puppet, Chef, Bitbucket, Vagrant, Ansible, Datadog, and others, utilizing our experience as a top DevOps consulting company.</p>
-                        <div className=" text-black md:text-3xl mb-4 mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            In which industries do you provide your services?
-                        </div>
-                        <p className="md:w-3/4 text-lg">They are not the same, no. Software development methodologies like Agile and DevOps are meant to make the software development life cycle (SDLC) more efficient. As a provider of DevOps services, NBS has experience with both Agile methodology and DevOps methods.</p>
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            What are the key components in DevOps implementation?
-                        </div>
-                        <p className="md:w-3/4 text-lg">Continuous integration (CI), continuous testing, continuous deployment, and continuous monitoring are all part of a regular workflow in a DevOps implementation. A DevOps maturity assessment also aids in understanding the requirements of the project and creating a plan in accordance with those demands.</p>
 
                     </div>
                     <FormsPage />

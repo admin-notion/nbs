@@ -1,11 +1,32 @@
 import Link from "next/link";
 import FormsPage from "../components/reusableComponents/formsPage";
-
+import Accordion from "../components/reusableComponents/accordion";
 const Product = () => {
+    const faqs = [
+        {
+            title: "What sets software product engineering apart from custom software development?",
+            text: "Product engineers typically focus on developing digital items that are sold and have a revenue model, while custom software developers produce enterprise software that is primarily customized to meet the demands of certain businesses.",
+            active: false,
+        },
+        {
+            title: "What phases are usually involved in product engineering services?",
+            text: <ul className=" list-decimal"><p>The stages included in the typical product engineering workflow are as
+                follows:</p>
+                <li>Conceptualization</li>
+                <li>Product Planning and Feasibility Study </li>
+                <li>Design, Development, and Quality Control </li>
+                <li>Prototyping </li>
+                <li>Production or Manufacturing </li>
+                <li>Maintenance</li>
+            </ul>,
+            active: false,
+        },
+
+    ]
     return (
         <>
             <main className="max-w-7xl mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
-                <section className=" firstContainer w-full md:py-10">
+                <section className=" firstContainer w-full md:py-10 text-black">
                     <div className=" ml-8 py-16  md:ml-16 ">
                         <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Product Engineering Services
@@ -18,7 +39,7 @@ const Product = () => {
                         </div>
                     </div>
                 </section>
-                <section className="ml-8 md:ml-16  ">
+                <section className="ml-8 md:ml-16  text-black">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Create cutting-edge, commercially successful software applications more quickly.
                     </h1>
@@ -131,31 +152,17 @@ const Product = () => {
                     </div>
                 </div>
                 <section>
-                    <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4">
+                    <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4 text-black">
                         <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             FAQs
                         </h1>
 
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            What sets software product engineering apart from custom software development?
-                        </div>
-                        <p className="md:w-3/4 text-lg">Product engineers typically focus on developing digital items that are sold and have a revenue model, while custom software developers produce enterprise software that is primarily customized to meet the demands of certain businesses.</p>
-
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            What phases are usually involved in product engineering services?
-
-                        </div>
-                        <p className="md:w-3/4 text-lg mb-5">The stages included in the typical product engineering workflow are as
-                            follows:</p>
-                        <div>
-                            <ul className=" list-disc ml-5">
-                                <li>Conceptualization</li>
-                                <li>Product Planning and Feasibility Study </li>
-                                <li>Design, Development, and Quality Control </li>
-                                <li>Prototyping </li>
-                                <li>Production or Manufacturing </li>
-                                <li>Maintenance</li>
-                            </ul>
+                        <div className="divide-y divide-slate-200 text-black">
+                            {faqs.map((faq, index) => (
+                                <Accordion key={index} title={faq.title} id={`faqs-${index}`} active={faq.active}>
+                                    {faq.text}
+                                </Accordion>
+                            ))}
                         </div>
                     </div>
                 </section>

@@ -1,7 +1,35 @@
 import Link from "next/link";
 import FormsPage from "../components/reusableComponents/formsPage";
 import Image from "next/image";
+import Accordion from "../components/reusableComponents/accordion";
+
+
+
 const ApplicationServices = () => {
+    const faqs = [
+        {
+            title: "Which platforms are employed in your application development process?",
+            text: "Notion Business Solutions possesses robust proficiency and extensive experience across various application development platforms, such as iOS, Android, Xamarin, Ionic, HTML5, React Native, Flutter, and Cordova.",
+            active: false,
+        },
+        {
+            title: "I currently have a business application. Are you able to improve or upgrade it?",
+            text: "Certainly! Our team comprises seasoned professionals with extensive expertise in the modernization of existing business applications.",
+            active: false,
+        },
+        {
+            title: "In which industries do you provide your services?",
+            text: "We work in more than 25 different industries, including real estate, banking & finance, healthcare, eCommerce, and education.",
+            active: false,
+        },
+        {
+            title: "Are you open to signing a non-disclosure agreement (NDA)?",
+            text: "We do, after all, abide strictly by non-disclosure agreements (NDAs) with clients and team members. We promise to provide you with the best application services possible while maintaining the strictest confidentiality regarding your business idea.",
+            active: false,
+        },
+
+    ]
+
     return (
         <>
             <main className=" max-w-7xl  mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
@@ -10,7 +38,7 @@ const ApplicationServices = () => {
                         <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Application Services
                         </h1>
-                        <p className="mb-16 text-lg">&quot;Next-generation Enterprise Applications for Intelligent Business Operations.&quot;
+                        <p className="mb-16 text-lg text-black">&quot;Next-generation Enterprise Applications for Intelligent Business Operations.&quot;
                         </p>
                         <div>
                             <Link href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></Link>
@@ -23,10 +51,10 @@ const ApplicationServices = () => {
                         &quot;Transform Business Agility through
                         Custom build Application Services.&quot;
                     </h1>
-                    <p className="pb-4 md:w-2/3 text-lg mr-4">
+                    <p className="pb-4 md:w-2/3 text-lg mr-4 text-black">
                         Through enterprise application services, we enable businesses to transform their sectors by addressing the challenges of outdated applications. Our method helps businesses connect with changing concepts and customer expectations by leveraging modern technologies like cloud, artificial intelligence, mobility, and machine learning.
                     </p >
-                    <p className="md:w-2/3 text-lg">By combining creativity and agility, we offer solutions that are relevant and useful both now and in the future. NBS offers application services that include frameworks that have been proven in the market, industry solutions, and strategic alliances with international technology vendors.</p>
+                    <p className="md:w-2/3 text-black text-lg">By combining creativity and agility, we offer solutions that are relevant and useful both now and in the future. NBS offers application services that include frameworks that have been proven in the market, industry solutions, and strategic alliances with international technology vendors.</p>
                 </section>
                 <section>
 
@@ -139,24 +167,16 @@ const ApplicationServices = () => {
                             FAQs
                         </h1>
 
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            Which platforms are employed in your application development process?
+                        <div className="divide-y divide-slate-200 text-black">
+                            {faqs.map((faq, index) => (
+                                <Accordion key={index} title={faq.title} id={`faqs-${index}`} active={faq.active}>
+                                    {faq.text}
+                                </Accordion>
+                            ))}
                         </div>
-                        <p className="md:w-2/3 text-lg">Notion Business Solutions possesses robust proficiency and extensive experience across various application development platforms, such as iOS, Android, Xamarin, Ionic, HTML5, React Native, Flutter, and Cordova.</p>
 
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            I currently have a business application. Are you able to improve or upgrade it?
 
-                        </div>
-                        <p className="md:w-2/3 text-lg">Certainly! Our team comprises seasoned professionals with extensive expertise in the modernization of existing business applications.</p>
-                        <div className=" text-black md:text-3xl mb-4 mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            In which industries do you provide your services?
-                        </div>
-                        <p className="md:w-2/3 text-lg">We work in more than 25 different industries, including real estate, banking & finance, healthcare, eCommerce, and education.</p>
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            Are you open to signing a non-disclosure agreement (NDA)?
-                        </div>
-                        <p className="md:w-2/3 text-lg">We do, after all, abide strictly by non-disclosure agreements (NDAs) with clients and team members. We promise to provide you with the best application services possible while maintaining the strictest confidentiality regarding your business idea.</p>
+
 
                     </div>
                     <FormsPage />

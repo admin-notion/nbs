@@ -1,10 +1,34 @@
 import FormsPage from "../components/reusableComponents/formsPage";
+import Accordion from "../components/reusableComponents/accordion";
 
 const Development = () => {
+    const faqs = [
+        {
+            title: "Which technologies are used by your application development company to make unique apps?",
+            text: "The technologies used in the development of custom applications differ from project to project since they are based on the needs and desired features or functionalities of the customer. Because we are able to supply the proper blend of necessary technologies, using our application development services becomes a perfect alternative. We cover a wide stack of technologies, from legacy to upcoming ones.",
+            active: false,
+        },
+        {
+            title: "What is the pricing for custom application development outsourced from a web application development company?",
+            text: "The cost of developing a custom application depends on various factors such as the type of application, integration of third-party features, project scope, engagement model, technological stack, and other relevant aspects.",
+            active: false,
+        },
+        {
+            title: "What are the business benefits of enterprise application development?",
+            text: "Among the many advantages of creating an enterprise application for your company are better customer service, more efficiency, higher sales and return on investment, elevated brand awareness, and increased customer engagement. To build such solutions, a bespoke application development business offers an extensive array of services.",
+            active: false,
+        },
+        {
+            title: "Is it possible to request custom application development services for minor adjustments?",
+            text: "Of course, You can work with our skilled developers if you already have an application and need professional help with small changes. Using our professional services, we assess the functionality as it exists now and the expectations of our clients to create a roadmap, which is then carefully designed at our center of competence.",
+            active: false,
+        },
+
+    ]
     return (
         <>
             <main className=" max-w-7xl  mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
-                <section className=" ml-8 py-16  md:ml-16 ">
+                <section className=" ml-8 py-16  md:ml-16 text-black ">
                     <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Application Development
                     </h1>
@@ -15,7 +39,7 @@ const Development = () => {
                         <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                     </div>
                 </section>
-                <section className="ml-8 md:ml-16  ">
+                <section className="ml-8 md:ml-16 text-black ">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Delivering Efficient Results with Flexible, Secure, and Scalable Solutions
                     </h1>
@@ -24,7 +48,7 @@ const Development = () => {
                     </p >
                     <p className="md:w-1/2 text-lg">Scalable software system and application design and development are made easier by NBS Application Development services. We get best results by doing a thorough assessment of our clients&apos; technology environment and business requirements. Every application goes through a rigorous process that includes requirement collecting, MVP design, coding, quality assurance, implementation, and debugging..</p>
                 </section>
-                <section className="ml-8 md:ml-16 md:mt-20 mt-10">
+                <section className="ml-8 md:ml-16 md:mt-20 mt-10 text-black">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Creating forward-looking Customer, Enterprise, Mobile, and Cloud Applications
                     </h1>
@@ -94,30 +118,18 @@ const Development = () => {
                     </div>
                 </section>
                 <section>
-                    <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4">
+                    <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4 text-black">
                         <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             FAQs
                         </h1>
 
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            Which technologies are used by your application development company to
-                            make unique apps?
+                        <div className="divide-y divide-slate-200 text-black">
+                            {faqs.map((faq, index) => (
+                                <Accordion key={index} title={faq.title} id={`faqs-${index}`} active={faq.active}>
+                                    {faq.text}
+                                </Accordion>
+                            ))}
                         </div>
-                        <p className="md:w-2/3 text-lg">The technologies used in the development of custom applications differ from project to project since they are based on the needs and desired features or functionalities of the customer. Because we are able to supply the proper blend of necessary technologies, using our application development services becomes a perfect alternative. We cover a wide stack of technologies, from legacy to upcoming ones.</p>
-
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            What is the pricing for custom application development outsourced from a web application development company?
-
-                        </div>
-                        <p className="md:w-2/3 text-lg">The cost of developing a custom application depends on various factors such as the type of application, integration of third-party features, project scope, engagement model, technological stack, and other relevant aspects.</p>
-                        <div className=" text-black md:text-3xl mb-4 mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            What are the business benefits of enterprise application development?
-                        </div>
-                        <p className="md:w-2/3 text-lg">Among the many advantages of creating an enterprise application for your company are better customer service, more efficiency, higher sales and return on investment, elevated brand awareness, and increased customer engagement. To build such solutions, a bespoke application development business offers an extensive array of services.</p>
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            Is it possible to request custom application development services for minor adjustments?
-                        </div>
-                        <p className="md:w-2/3 text-lg">Of course, You can work with our skilled developers if you already have an application and need professional help with small changes. Using our professional services, we assess the functionality as it exists now and the expectations of our clients to create a roadmap, which is then carefully designed at our center of competence.</p>
 
                     </div>
                     <FormsPage />

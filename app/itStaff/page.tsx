@@ -4,7 +4,7 @@ const Itstaffing = () => {
     return (
         <>
             <div>
-                <main className=" max-w-7xl  mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
+                <main className=" max-w-7xl  mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white text-black">
                     <section className=" ml-8 py-16  md:ml-16 ">
                         <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             IT Staffing Services
@@ -16,7 +16,7 @@ const Itstaffing = () => {
                         </div>
                     </section>
 
-                    <section className="ml-8 md:ml-16  ">
+                    <section className="ml-8 md:ml-16  text-black">
                         <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             All-inclusive Managed Staffing Options for IT Organizations
                         </h1>

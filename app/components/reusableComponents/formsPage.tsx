@@ -73,9 +73,9 @@ const FormsPage = () => {
                                 className="ml-4 border-b border-black md:w-96 w-80  outline-none   text-lg font-normal font-['Poppins'] leading-loose" required
                                 type="tel"
                                 name="tel"
-                                id="tel"
+                                id="phone"
                                 autoComplete="tel"
-                                placeholder=" "
+                                placeholder="987654321"
                             />
                         </div>
 
@@ -111,7 +111,7 @@ const FormsPage = () => {
                             <div className="flex items-center h-5">
                                 <input id="remember" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
                             </div>
-                            <label htmlFor="remember" className="ms-2 text-lg font-medium text-gray-900 dark:text-gray-300">Get strategy guides, industry insights, trend reports, and more delivered straight to your email by subscribing to our resources!</label>
+                            <label htmlFor="remember" className="ms-2 text-lg font-medium text-black">Get strategy guides, industry insights, trend reports, and more delivered straight to your email by subscribing to our resources!</label>
                         </div>
                         <button
                             type="submit"

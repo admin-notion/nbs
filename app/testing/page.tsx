@@ -1,11 +1,39 @@
 import Link from "next/link";
 import FormsPage from "../components/reusableComponents/formsPage";
-
+import Accordion from "../components/reusableComponents/accordion";
 const Testing = () => {
+    const faqs = [
+        {
+            title: "Do we need QA software testing?",
+            text: "Indeed, QA software testing provides the confidence to launch your product into the market securely. Without meticulous QA, the software's chances of success may diminish.",
+            active: false,
+        },
+        {
+            title: "Can you ensure that the software will be entirely free of bugs after release through QA software testing?",
+            text: "Because user behavior is unpredictable and total test coverage is impractical, achieving 100% bug-free software is a fantasy. However, we promise to produce software that is nearly bug-free thanks to thorough QA testing.",
+            active: false,
+        },
+        {
+            title: "What types of software testing does a software testing company offer?",
+            text: "we offers an extensive range of services, including functional testing, black box testing, usability testing, performance testing, and more.",
+            active: false,
+        },
+        {
+            title: "When is the appropriate time to instruct the software testing services company to cease testing my software?",
+            text: "Working with a software testing services provider is advantageous since software testing is a continuous process. Consistent testing guarantees a flawless user experience. You can temporarily halt testing once test cases are finished, bug rates drop, and beta/alpha testing is over.",
+            active: false,
+        },
+        {
+            title: "Can I hire QA specialists full-time through software testing outsourcing as I don't have an internal software testing department?",
+            text: "Yes, outsourcing software testing is an option. We have seasoned QA specialists with a ton of software testing experience that are hiring full-time.",
+            active: false,
+        },
+
+    ]
     return (
         <>
             <main className="max-w-7xl mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
-                <section className=" firstContainer w-full md:py-10">
+                <section className=" firstContainer w-full md:py-10 text-black">
                     <div className=" ml-8 py-16  md:ml-16 ">
                         <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Software Testing Services
@@ -19,7 +47,7 @@ const Testing = () => {
                     </div>
                 </section>
 
-                <section className="ml-8 md:ml-16  ">
+                <section className="ml-8 md:ml-16  text-black">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Use software testing and quality assurance to provide a fast time
                         to market and an outstanding user experience.
@@ -117,34 +145,18 @@ const Testing = () => {
                     </div>
                 </div>
                 <section>
-                    <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4">
+                    <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4 text-black">
                         <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             FAQs
                         </h1>
 
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            Do we need QA software testing?
+                        <div className="divide-y divide-slate-200 text-black">
+                            {faqs.map((faq, index) => (
+                                <Accordion key={index} title={faq.title} id={`faqs-${index}`} active={faq.active}>
+                                    {faq.text}
+                                </Accordion>
+                            ))}
                         </div>
-                        <p className="md:w-3/4 text-lg">Indeed, QA software testing provides the confidence to launch your product into the market securely. Without meticulous QA, the softwares chances of success may diminish. </p>
-
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            Can you ensure that the software will be entirely free of bugs after release through QA software testing?
-
-                        </div>
-                        <p className="md:w-3/4 text-lg">Because user behavior is unpredictable and total test coverage is impractical, achieving 100% bug-free software is a fantasy. However, we promise to produce software that is nearly bug-free thanks to thorough QA testing.</p>
-                        <div className=" text-black md:text-3xl mb-4 mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            What types of software testing does a software testing company offer?
-                        </div>
-                        <p className="md:w-3/4 text-lg">we offers an extensive range of services, including functional testing, black box testing, usability testing, performance testing, and more.</p>
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            When is the appropriate time to instruct the software testing services company to cease testing my software?
-                        </div>
-                        <p className="md:w-3/4 text-lg">Working with a software testing services provider is advantageous since software testing is a continuous process. Consistent testing guarantees a flawless user experience. You can temporarily halt testing once test cases are finished, bug rates drop, and beta/alpha testing is over.</p>
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            Can I hire QA specialists full-time through software testing outsourcing as I dont have an internal software testing department?
-                        </div>
-                        <p className="md:w-3/4 text-lg">Yes, outsourcing software testing is an option. We have seasoned QA specialists with a ton of software testing experience that are hiring full-time.</p>
-
                     </div>
                 </section>
                 <FormsPage />

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className=" max-w-7xl  mx-auto px-4 pt-8 md:px-6 lg:px-8 xl:px-10 bg-white">
       <section className=" firstContainer w-full md:z-40 md:sticky md:bottom-0 md:py-10 bg-white ">
-        <div className=" pt-36 ml-8 py-16 md:pt-72 md:ml-16 md:mr-28  md:mb-64 mb-10">
+        <div className=" pt-36 ml-8 py-16  md:ml-16 md:mr-28  md:mb-64 mb-10 justify-center  align-middle">
           <div className=" text-black md:text-5xl mb-4 pb-3 md:text-left  text-4xl w-80 md:w-1/2  font-light font-['Urbanist']leading-normal md:leading-snug  ">
             Evolving
           </div>

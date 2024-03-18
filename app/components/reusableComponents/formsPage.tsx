@@ -59,7 +59,7 @@ const FormsPage = () => {
                         <div className=" text-lg font-medium leading-relaxed pt-3 text-black"> Email :
                             <input value={mail}
                                 onChange={(e) => setMail(e.target.value)}
-                                className="ml-4 border-b border-black md:w-96 w-80  outline-none   text-lg font-normal font-['Poppins'] leading-loose"
+                                className="ml-4 border-b border-black md:w-96 w-80  outline-none   text-lg font-normal font-['Poppins'] leading-loose" required
                                 type="email"
                                 name="email"
                                 id="email"
@@ -70,7 +70,7 @@ const FormsPage = () => {
                         <div className=" text-lg font-medium leading-relaxed pt-3 text-black">Mobile :
                             <input value={mobile}
                                 onChange={(e) => setMobile(e.target.value)}
-                                className="ml-4 border-b border-black md:w-96 w-80  outline-none   text-lg font-normal font-['Poppins'] leading-loose"
+                                className="ml-4 border-b border-black md:w-96 w-80  outline-none   text-lg font-normal font-['Poppins'] leading-loose" required
                                 type="tel"
                                 name="tel"
                                 id="tel"
@@ -103,21 +103,16 @@ const FormsPage = () => {
                                     type="text"
                                     id="about"
                                     name="about"
-                                    className=" block md:w-96 w-80 md:h-28   rounded-sm  px-1.5  text-black border border-black outline-none sm:text-sm sm:leading-relaxed"
+                                    className=" block md:w-96 w-80 md:h-28 h-24 ml-4 md:ml-0 rounded-sm  px-1.5  text-black border border-black outline-none sm:text-sm sm:leading-relaxed"
                                 ></input>
                             </div>
                         </div>
-                        <div className="relative flex gap-x-3 mt-10">
-                            <div className="flex h-6 items-center">
-                                <input id="comments" name="comments" type="checkbox" className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600" />
+                        <div className="flex items-start mb-6 mt-6">
+                            <div className="flex items-center h-5">
+                                <input id="remember" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
                             </div>
-                            <div className="text-sm leading-6">
-                                <label htmlFor="comments" className="font-medium text-gray-900">Get strategy guides, industry insights, trend reports, and more delivered straight to your email by subscribing to our resources!</label>
-
-                            </div>
+                            <label htmlFor="remember" className="ms-2 text-lg font-medium text-gray-900 dark:text-gray-300">Get strategy guides, industry insights, trend reports, and more delivered straight to your email by subscribing to our resources!</label>
                         </div>
-
-
                         <button
                             type="submit"
                             className=" mt-10 rounded-sm bg-gray-300  text-black text-center text-base font-medium font-['Poppins'] leading-tight px-2.5 py-1.5 shadow-sm  hover:text-[#fe2712] md:w-44 md:h-12 w-32 h-11 "

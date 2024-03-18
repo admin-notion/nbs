@@ -10,7 +10,7 @@ const devops = () => {
                         <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             DevOps Services
                         </h1>
-                        <p className="mb-16 text-lg">"Accelerated Application Lifecycle Development and Operations Integrated"
+                        <p className="mb-16 text-lg">&quot;Accelerated Application Lifecycle Development and Operations Integrated&quot;
 
                         </p>
                         <div>
@@ -20,7 +20,7 @@ const devops = () => {
                 </section>
                 <section className="ml-8 md:ml-16">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        "DevOps Services for Persistent Application Evolution"
+                        &quot;DevOps Services for Persistent Application Evolution&quot;
                     </h1>
                     <p className="pb-4 md:w-2/3 text-lg mr-4">
                         Streamline delivery pipelines, eliminate inefficiencies, and save costs with quick adoption of continuous delivery and integration. NBS Solutions enables full pipeline visibility, distributes responsibilities, and aligns goals.
@@ -68,8 +68,8 @@ const devops = () => {
                 <section>
                     <div className="ml-8 md:ml-16 ">
                         <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-3/4 font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            "Eliminate silos while establishing a stable operating
-                            environment through DevOps Implementation."
+                            &quot;Eliminate silos while establishing a stable operating
+                            environment through DevOps Implementation.&quot;
                         </h1>
 
                         <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-3xl w-80 md:w-3/4  font-light font-['Urbanist'] leading-normal md:leading-snug  ">To Future-Proof Your Portfolio, Adopt Cloud, SaaS-based Business Models, and Cutting-Edge Technology Stacks.
@@ -133,7 +133,7 @@ const devops = () => {
                         <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             What is DevOps? How to choose a DevOps service provider?
                         </div>
-                        <p className="md:w-3/4 text-lg">The goal of DevOps is to improve an organization's capacity to provide software, applications, and services quickly by combining tools and procedures. Give consideration to a DevOps service provider's track record and experience. </p>
+                        <p className="md:w-3/4 text-lg">The goal of DevOps is to improve an organizatios capacity to provide software, applications, and services quickly by combining tools and procedures. Give consideration to a DevOps service providers track record and experience. </p>
 
                         <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             What tools do you use for DevOps?

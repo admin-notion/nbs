@@ -105,7 +105,7 @@ const Testing = () => {
                         <div className="px-10 md:text-3xl mb-4 md:mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Improves CSAT
                         </div>
-                        <p className=" px-10 w-96 text-lg">Enhance customer satisfaction scores (CSAT) by providing intuitive software tailored to the target audience's needs.
+                        <p className=" px-10 w-96 text-lg">Enhance customer satisfaction scores (CSAT) by providing intuitive software tailored to the target audience&apos;s needs.
                         </p>
                     </div>
                     <div className="border border-solid border-white md:w-full  py-10">
@@ -125,7 +125,7 @@ const Testing = () => {
                         <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Do we need QA software testing?
                         </div>
-                        <p className="md:w-3/4 text-lg">Indeed, QA software testing provides the confidence to launch your product into the market securely. Without meticulous QA, the software's chances of success may diminish. </p>
+                        <p className="md:w-3/4 text-lg">Indeed, QA software testing provides the confidence to launch your product into the market securely. Without meticulous QA, the softwares chances of success may diminish. </p>
 
                         <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Can you ensure that the software will be entirely free of bugs after release through QA software testing?
@@ -141,7 +141,7 @@ const Testing = () => {
                         </div>
                         <p className="md:w-3/4 text-lg">Working with a software testing services provider is advantageous since software testing is a continuous process. Consistent testing guarantees a flawless user experience. You can temporarily halt testing once test cases are finished, bug rates drop, and beta/alpha testing is over.</p>
                         <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            Can I hire QA specialists full-time through software testing outsourcing as I don't have an internal software testing department?
+                            Can I hire QA specialists full-time through software testing outsourcing as I dont have an internal software testing department?
                         </div>
                         <p className="md:w-3/4 text-lg">Yes, outsourcing software testing is an option. We have seasoned QA specialists with a ton of software testing experience that are hiring full-time.</p>
 

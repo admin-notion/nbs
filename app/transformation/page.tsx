@@ -8,8 +8,8 @@ const Transformation = () => {
 
                 <section className=" ml-8 py-16  md:ml-16 ">
                     <h1 className=" text-black md:text-4xl mb-4  md:text-left md:w-1/2 text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        "Utilize Legacy Transformation to Transform
-                        Conventional Portfolios."
+                        &quot;Utilize Legacy Transformation to Transform
+                        Conventional Portfolios.&quot;
                     </h1>
                     <p className="mb-16 text-lg">Digitize Your Legacy Software to Be Future-Ready
                     </p>
@@ -32,7 +32,7 @@ const Transformation = () => {
                     <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Streamlined App Modernization & Migration Services
                     </h1>
-                    <p className="text-lg md:w-1/2">Don't replace, reimagine. NBS unlocks the hidden potential of your legacy apps, transforming and infusing them with cutting-edge digital superpowers.</p>
+                    <p className="text-lg md:w-1/2">Don&quot;t replace, reimagine. NBS unlocks the hidden potential of your legacy apps, transforming and infusing them with cutting-edge digital superpowers.</p>
 
                     <ul className="list-decimal md:w-1/2 ml-5">
                         <li className="pt-4 ">Legacy System Assessment: Evaluate existing applications and infrastructure to identify outdated components and determine the scope of modernization. </li>

@@ -22,7 +22,7 @@ const Development = () => {
                     <p className="pb-4 md:w-1/2 text-lg mr-4">
                         Utilize the potential of cutting-edge technology, cloud computing, and UX techniques to equip your company with innovative apps that are designed to satisfy market and business needs and promote growth.
                     </p >
-                    <p className="md:w-1/2 text-lg">Scalable software system and application design and development are made easier by NBS Application Development services. We get best results by doing a thorough assessment of our clients' technology environment and business requirements. Every application goes through a rigorous process that includes requirement collecting, MVP design, coding, quality assurance, implementation, and debugging..</p>
+                    <p className="md:w-1/2 text-lg">Scalable software system and application design and development are made easier by NBS Application Development services. We get best results by doing a thorough assessment of our clients&apos; technology environment and business requirements. Every application goes through a rigorous process that includes requirement collecting, MVP design, coding, quality assurance, implementation, and debugging..</p>
                 </section>
                 <section className="ml-8 md:ml-16 md:mt-20 mt-10">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
@@ -71,7 +71,7 @@ const Development = () => {
                     <p className=" mx-6 md:mx-0 pb-4 md:w-1/2 text-lg mr-4 mb-4">
                         we provide full-cycle application development services leveraging
                         emerging technologies, frameworks, APIs, and databases to unlock your
-                        business's potential.
+                        business&apos;s potential.
 
                     </p >
 

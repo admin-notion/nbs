@@ -1,6 +1,6 @@
 import Link from "next/link";
 import FormsPage from "../components/reusableComponents/formsPage";
-
+import Image from "next/image";
 const ApplicationServices = () => {
     return (
         <>
@@ -10,7 +10,7 @@ const ApplicationServices = () => {
                         <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Application Services
                         </h1>
-                        <p className="mb-16 text-lg">"Next-generation Enterprise Applications for Intelligent Business Operations."
+                        <p className="mb-16 text-lg">&quot;Next-generation Enterprise Applications for Intelligent Business Operations.&quot;
                         </p>
                         <div>
                             <Link href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></Link>
@@ -20,8 +20,8 @@ const ApplicationServices = () => {
 
                 <section className="ml-8 md:ml-16  ">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        "Transform Business Agility through
-                        Custom build Application Services."
+                        &quot;Transform Business Agility through
+                        Custom build Application Services.&quot;
                     </h1>
                     <p className="pb-4 md:w-2/3 text-lg mr-4">
                         Through enterprise application services, we enable businesses to transform their sectors by addressing the challenges of outdated applications. Our method helps businesses connect with changing concepts and customer expectations by leveraging modern technologies like cloud, artificial intelligence, mobility, and machine learning.
@@ -41,11 +41,11 @@ const ApplicationServices = () => {
                                 <div className="px-10 text-white md:text-3xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Development
                                 </div>
-                                <p className="text-white text-lg px-10">Transforming obsolete products into modular apps that are flexible and future-proof. Our services for cloud, mobile, and online applications enable businesses to reduce expenses, make changes, and increase productivity."
+                                <p className="text-white text-lg px-10">Transforming obsolete products into modular apps that are flexible and future-proof. Our services for cloud, mobile, and online applications enable businesses to reduce expenses, make changes, and increase productivity.`&quot;
                                 </p>
                                 <div>
                                     <Link href="/development">  <div className="md:mt-44 mt-5 text-right ">
-                                        <div className="lg:ml-64 lg:mt-12"> <img className="" src="/images/Vector_black.svg" alt="" /></div>
+                                        <div className="lg:ml-64 lg:mt-12"> <img className=" " src="/images/Vector_black.svg" alt="" /></div>
                                     </div></Link>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ const ApplicationServices = () => {
                                 <div className="px-10 text-white md:text-3xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Modernization
                                 </div>
-                                <p className="text-white text-lg px-10">Shifting to more contemporary, adaptable platforms will renew legacy environments. In order to deliver future-ready solutions with improved usability, security, and agility, we assess and test legacy systems while utilizing the best modernization strategies.""
+                                <p className="text-white text-lg px-10">Shifting to more contemporary, adaptable platforms will renew legacy environments. In order to deliver future-ready solutions with improved usability, security, and agility, we assess and test legacy systems while utilizing the best modernization strategies.
                                 </p>
                                 <Link href="/modernization">  <div className="md:mt-16 mt-5  md:pt-2 text-right ">
                                     <div className="lg:ml-64 lg:mt-12"> <img className="" src="/images/Vector_black.svg" alt="" /></div>
@@ -64,7 +64,7 @@ const ApplicationServices = () => {
                                 <div className="px-10 text-white md:text-3xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Management
                                 </div>
-                                <p className="text-white text-lg px-10">"Combining a technological and strategic approach to optimize IT ecosystems over their whole lifecycle, including bug fixes, version upgrades, issue tracking, troubleshooting, performance monitoring, timely analysis of product features, and product complexity maximizing the efficiency in an environment of market orientation."
+                                <p className="text-white text-lg px-10">Combining a technological and strategic approach to optimize IT ecosystems over their whole lifecycle, including bug fixes, version upgrades, issue tracking, troubleshooting, performance monitoring, timely analysis of product features, and product complexity maximizing the efficiency in an environment of market orientation.
                                 </p>
                                 <Link href="/management">   <div className="md:mt-4 mt-5  text-right ">
                                     <div className="lg:ml-64 lg:mt-16"> <img className="" src="/images/Vector_black.svg" alt="" /></div>
@@ -77,8 +77,8 @@ const ApplicationServices = () => {
                 <section>
                     <div className="ml-8 md:ml-16 ">
                         <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            "Utilize Legacy Transformation to Transform
-                            Conventional Portfolios."
+                            &quot;Utilize Legacy Transformation to Transform
+                            Conventional Portfolios.&quot;
                         </h1>
 
                         <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-3xl w-80 md:w-1/2  font-light font-['Urbanist'] leading-normal md:leading-snug  ">To Future-Proof Your Portfolio, Adopt Cloud, SaaS-based Business Models, and Cutting-Edge Technology Stacks.
@@ -87,7 +87,7 @@ const ApplicationServices = () => {
 
                     <div className="flex ml-8 md:ml-16 ">
                         <div >
-                            <a href="#forms">   <button className=" border md:mr-10 border-black px-6 h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
+                            <a href="#forms">   <button className=" border md:mr-10 border-black px-6 mr-2 h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                         </div>
                         <div>
                             <Link href="/transformation">    <button className=" border border-black px-6  bg-black hover:bg-yellow-300 hover:text-black h-10 w-32  text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Explore</button></Link>

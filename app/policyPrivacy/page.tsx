@@ -22,7 +22,7 @@ const Policy = () => {
                     <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Our utilization of information
                     </div>
-                    <p className="md:w-3/4 text-lg">We don't share your information with outside parties unless it's necessary to complete a transaction; we only use it for that purpose. We do not utilize your information for our own benefit. Email addresses are kept private and are only used for correspondence. You can choose to receive updates and newsletters. Your personal data is kept private.</p>
+                    <p className="md:w-3/4 text-lg">We dont share your information with outside parties unless its necessary to complete a transaction; we only use it for that purpose. We do not utilize your information for our own benefit. Email addresses are kept private and are only used for correspondence. You can choose to receive updates and newsletters. Your personal data is kept private.</p>
                     <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Our Dedication to Ensuring Data Security
                     </div>

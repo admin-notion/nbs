@@ -20,7 +20,7 @@ const Migration = () => {
                 </section>
                 <section className="ml-8 md:ml-16  ">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        "Unlocking Seamless Transitions: A Guide to System Migration Services"
+                        &quot;Unlocking Seamless Transitions: A Guide to System Migration Services&quot;
                     </h1>
                     <p className="pb-4 md:w-2/3 text-lg mr-4">
                         System Migration Services involve transferring or moving data, applications, and other components from one computing environment to another. This could include migrating from one operating system to another, moving from on-premises servers to cloud-based platforms, or upgrading legacy systems to newer versions. The goal is to ensure a smooth transition while minimizing disruption to business operations and maximizing the benefits of the new environment.
@@ -30,9 +30,9 @@ const Migration = () => {
                 <section>
                     <div className=" py-16 my-10 md:pl-16  md:pr-16 bg-black text-white">
                         <div className=" mx-6 md:mx-0 md:text-4xl mb-10  md:text-left  text-4xl w-80 md:w-full  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            Offerings <br /> <span>"System Migration Services encompass data, application, OS, cloud, legacy
+                            Offerings <br /> <span>&quot;System Migration Services encompass data, application, OS, cloud, legacy
                                 system upgrades, database, platform, infrastructure migrations, version upgrades,
-                                and risk assessment."</span>
+                                and risk assessment.&quot;</span>
                         </div>
                         <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6">
                             <div className="border border-solid border-white px-10 py-10">
@@ -127,7 +127,7 @@ const Migration = () => {
                             Business Benefits
                         </h1>
                     </div>
-                    <p className="ml-8 md:ml-16 text-lg leading-snug">"System migration drives enhanced scalability, cost efficiency, security, and agility, empowering businesses to adapt, innovate, and thrive in dynamic environments."</p>
+                    <p className="ml-8 md:ml-16 text-lg leading-snug">&quot;System migration drives enhanced scalability, cost efficiency, security, and agility, empowering businesses to adapt, innovate, and thrive in dynamic environments.&quot;</p>
                 </section>
 
                 <div className="bg-black text-white grid md:grid-cols-2 sm:grid-cols-1 md:pl-16 md:pr-16 pt-10 gap-5 pb-16">

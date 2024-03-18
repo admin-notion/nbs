@@ -17,7 +17,7 @@ const Brand_identity = () => {
             </div>
             <div className="flex pr-4 pb-6 md:w-[741px] text-white text-2xl md:text-[32px] font-light font-['Urbanist'] leading-[46.08px] md:pb-10">
               <p>
-                Develop a strong brand identity that reflects the startup's
+                Develop a strong brand identity that reflects the startup&apos;s
                 values, mission, and unique value proposition. <br />
                 <br />
                 This includes designing a compelling logo, selecting brand
@@ -60,12 +60,12 @@ const Brand_identity = () => {
                   </li>
                   <br />
                   <li>
-                    Identify your brand's unique value proposition and key
+                    Identify your brand&apos;s unique value proposition and key
                     differentiators.
                   </li>
                   <br />
                   <li>
-                    Analyze your brand's strengths, weaknesses, opportunities,
+                    Analyze your brand&apos; strengths, weaknesses, opportunities,
                     and threats (SWOT analysis).
                   </li>
                   <br />
@@ -90,11 +90,11 @@ const Brand_identity = () => {
               <div className="md:w-[450px] text-white text-lg font-semibold font-['Urbanist'] leading-[29.34px]">
                 <ul className="list-disc">
                   <li>
-                    Clearly define your brand's mission, vision, and core
+                    Clearly define your brand&apos;s mission, vision, and core
                     values.
                   </li>
                   <br />
-                  <li>Determine your brand's personality and tone of voice.</li>
+                  <li>Determine your brand&apos;s personality and tone of voice.</li>
                   <br />
                   <li>
                     Identify your target audience and understand their needs,
@@ -123,7 +123,7 @@ const Brand_identity = () => {
                 <ul className="list-disc">
                   <li>
                     Create a visually distinctive and memorable logo that
-                    represents your brand's identity.
+                    represents your brands identity.
                   </li>{" "}
                   <br />
                   <li>
@@ -160,7 +160,7 @@ const Brand_identity = () => {
                   <br />
                   <li>
                     Select color palettes, typography, and graphic elements that
-                    align with your brand's personality and values.
+                    align with your brand&apos;s personality and values.
                   </li>{" "}
                   <br />
                   <li>
@@ -186,12 +186,12 @@ const Brand_identity = () => {
                 <ul className="list-disc">
                   <li>
                     Craft compelling brand messaging that communicates your
-                    brand's value proposition, story, and key messages.
+                    brand&apos;s value proposition, story, and key messages.
                   </li>
                   <br />
                   <li>
                     Develop a brand voice and tone that resonates with your
-                    target audience and reflects your brand's personality.
+                    target audience and reflects your brand&apos;s personality.
                   </li>
                   <br />
                   <li>
@@ -241,7 +241,7 @@ const Brand_identity = () => {
               <div className="md:w-[450px] text-white text-lg font-semibold font-['Urbanist'] leading-[29.34px]">
                 <ul className="list-disc">
                   <li>
-                    Create a website that embodies your brand's visual identity
+                    Create a website that embodies your brand&apos;s visual identity
                     and effectively communicates your brand story, offerings,
                     and values.
                   </li>
@@ -254,7 +254,7 @@ const Brand_identity = () => {
                   <br />
                   <li>
                     Consider the user experience and ensure your online presence
-                    reflects your brand's values and provides a seamless
+                    reflects your brand&apos;s values and provides a seamless
                     experience for users.
                   </li>
                   <br />
@@ -351,7 +351,7 @@ const Brand_identity = () => {
         <section className=" md:flex-wrap">
           <div>
             <Contact />
-            {}
+            { }
           </div>
         </section>
       </section>

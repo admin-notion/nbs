@@ -22,7 +22,7 @@ const FinTech = () => {
                         In the quick-paced world of finance, where transactions happen quickly and consumer expectations change all the time, fintech companies need IT solutions and services to be competitive and provide excellent user experiences. Fintech companies run the danger of falling behind in an industry that values efficiency and innovation if they lack a strong IT infrastructure and support.
                     </h1>
                     <p className="pb-4 md:mt-10 md:w-3/4 text-lg ">
-                        Technology plays a major role in the food and beverage industry's consumer relations, distribution, and production processes. Thus, for effective operations in this industry, IT consulting, digital workplace solutions, IT managed services, business continuity, cloud services, cybersecurity, procurement services, and technology audits are essential.
+                        Technology plays a major role in the food and beverage industry&apos;s consumer relations, distribution, and production processes. Thus, for effective operations in this industry, IT consulting, digital workplace solutions, IT managed services, business continuity, cloud services, cybersecurity, procurement services, and technology audits are essential.
                     </p >
                     <p className="pb-4 md:w-3/4 text-lg">In fintech companies, where technology plays a major role in customer service and financial transactions, IT consulting is essential.</p>
                     <p className="pb-4 md:w-3/4 text-lg"> Consultants assist in the identification and implementation of customized IT solutions, including managed services, cloud computing, cybersecurity, digital workplaces, and business continuity.</p>

@@ -19,10 +19,10 @@ const Startup = () => {
                 </section>
                 <section className="mx-8 md:ml-16  md:mr-16">
                     <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-full  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        To be competitive and meet the needs of a changing market, the retail industry needs reliable IT solutions and services in the contemporary digital world. Retailers who don't have the right technology run the danger of falling behind and losing business to competitors who are more creative and flexible.
+                        To be competitive and meet the needs of a changing market, the retail industry needs reliable IT solutions and services in the contemporary digital world. Retailers who dont have the right technology run the danger of falling behind and losing business to competitors who are more creative and flexible.
                     </h1>
                     <p className="pb-4 md:mt-10 md:w-3/4 text-lg ">
-                        To be competitive and meet the needs of a changing market, the retail industry needs reliable IT solutions and services in the contemporary digital world. Retailers who don't have the right technology run the danger of falling behind and losing business to competitors who are more creative and flexible.
+                        To be competitive and meet the needs of a changing market, the retail industry needs reliable IT solutions and services in the contemporary digital world. Retailers who dont have the right technology run the danger of falling behind and losing business to competitors who are more creative and flexible.
                     </p >
                     <p className="pb-4 md:w-3/4 text-lg">IT consultant: An IT consultant helps companies reach their objectives by offering professional advice on how to use technology. This include providing continuing support and maintenance, installing new systems, and helping startups choose the right gear and software.</p>
                     <p className="pb-4 md:w-3/4 text-lg"> Digital Workplace Solutions: By permitting remote work, these devices and software improve output and teamwork. Online project management tools, virtual meeting platforms, and cloud-based productivity tools are a few examples.</p>
@@ -33,7 +33,7 @@ const Startup = () => {
                     </p>
                     <p className="pb-4 md:w-3/4 text-lg">  Cybersecurity: In the face of an increase in cyberattacks, safeguarding computers, networks, and data from online dangers is essential for preserving assets, goodwill, and consumer confidence.</p>
                     <p className="pb-4 md:w-3/4 text-lg">   Procurement services: controlling the entire process of acquiring suppliers, making payments, and arranging delivery; minimizing expenses and guaranteeing value for money.</p>
-                    <p className="pb-4 md:w-3/4 text-lg"> Technology auditing is the act of assessing a company's IT systems and procedures in order to find areas for improvement and make suggestions for modifications that would increase productivity and cut costs.</p>
+                    <p className="pb-4 md:w-3/4 text-lg"> Technology auditing is the act of assessing a company IT systems and procedures in order to find areas for improvement and make suggestions for modifications that would increase productivity and cut costs.</p>
 
 
                 </section>

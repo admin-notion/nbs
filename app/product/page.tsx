@@ -40,7 +40,7 @@ const Product = () => {
                                     Product Engineering
                                     Consulting
                                 </div>
-                                <p className=" text-lg">evaluating product architecture and modernization options as part of a thorough technological stack evaluation, with the help of our team, in order to create a strategic plan. We give end-to-end assessments for setting up innovation centers according to our clients' needs and offer advice on cutting-edge technologies like machine learning and the Internet of Things.
+                                <p className=" text-lg">evaluating product architecture and modernization options as part of a thorough technological stack evaluation, with the help of our team, in order to create a strategic plan. We give end-to-end assessments for setting up innovation centers according to our clients needs and offer advice on cutting-edge technologies like machine learning and the Internet of Things.
                                 </p>
 
                             </div>

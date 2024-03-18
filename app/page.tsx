@@ -30,7 +30,7 @@ export default function Home() {
               Adjusting to the one constant—change. It is relevant
               to challenge conventions. At NBS, we redefine company
               possibility by fusing modern technology, enterprise, and
-              subject experience. We've changed the face of enterprise
+              subject experience. We&apos;ve changed the face of enterprise
               web services throughout time by constantly going above
               and beyond expectations and exceeding boundaries.
               And this is just the beginnings.
@@ -106,7 +106,7 @@ export default function Home() {
 
       <section className="bg-black md:max-w-7xl md:pb-20 ">
         <div className="md:mx-14  mb-8 md:pt-20 mt-8 mx-8 ">
-          <h1 className="justify-center text-center text-white md:text-4xl md:text-left md:w-3/4  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug ">We serve a wide range of sectors. Our customized solutions tackle particular problems in each industry, guaranteeing our clients' continued success in a variety of fields and improved operations.</h1>
+          <h1 className="justify-center text-center text-white md:text-4xl md:text-left md:w-3/4  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug ">We serve a wide range of sectors. Our customized solutions tackle particular problems in each industry, guaranteeing our clients continued success in a variety of fields and improved operations.</h1>
         </div>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 md:mx-14 mx-8 mb-10">
@@ -196,13 +196,13 @@ export default function Home() {
               width="32"
               height="32"
             /></Link>
-            <img
+            <Link href="https://www.instagram.com/rajesh.mylahalli/">   <img
               className="mr-2 md:mr-2.5 hover:ease-in duration-300   hover:scale-125"
               src="/footer/Vector.svg"
               alt=""
               width="32"
               height="32"
-            />
+            /></Link>
             <Link href="https://www.youtube.com/channel/UCHBGnzbRP_FyqWDUQRwZcpQ"> <img
               className="mr-2 md:mr-2.5 hover:ease-in duration-300   hover:scale-125"
               src="/footer/Group-273.svg"
@@ -230,19 +230,19 @@ export default function Home() {
             <h1 className="md:mt-0 mt-6 text-black md:text-xl  text-center  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
               PHONE
             </h1>
-            <h1 className=" text-black md:text-xl  text-center  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+            <Link href="tel:+918884208188">   <h1 className=" hover:underline text-black md:text-xl  text-center  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
 
               +91 888 420 8188
-            </h1>
+            </h1></Link>
           </div>
           <div>
             <h1 className="md:mt-0 mt-6 text-black md:text-xl  text-center  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
               EMAIL
 
             </h1>
-            <h1 className=" text-black md:text-xl text-center  text-2xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+            <Link href="mailto:people@notion.business"> <h1 className=" hover:underline text-black md:text-xl text-center  text-2xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
               people@notion.business
-            </h1>
+            </h1></Link>
           </div>
         </div>
       </section>

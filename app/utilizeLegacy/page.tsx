@@ -7,8 +7,8 @@ const UtilizeLegacy = () => {
 
                 <section className=" max-w-7xl  mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
                     <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        "Utilize Legacy Transformation to Transform
-                        Conventional Portfolios."
+                        &quot;Utilize Legacy Transformation to Transform
+                        Conventional Portfolios.&quot;
                     </h1>
                     <p className="mb-16 text-lg">To Future-Proof Your Portfolio, Adopt Cloud, SaaS-based Business Models, and Cutting-Edge Technology Stacks.
                     </p>

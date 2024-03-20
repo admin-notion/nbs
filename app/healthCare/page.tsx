@@ -9,7 +9,7 @@ const healthCare = () => {
                         <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Health Care and Life Science
                         </h1>
-                        <p className="mb-16 text-lg">Enhancing Patient Care and Ensuring Data Security: The Critical Role of IT Solutions in the Healthcare and Life Sciences Sector
+                        <p className="mb-16 md:w-3/4  text-lg">Enhancing Patient Care and Ensuring Data Security: The Critical Role of IT Solutions in the Healthcare and Life Sciences Sector
 
                         </p>
                         <div>
@@ -17,8 +17,8 @@ const healthCare = () => {
                         </div>
                     </div>
                 </section>
-                <section className="mx-8 md:ml-16  md:mr-16">
-                    <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-full  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className="mx-8 md:ml-16  md:mt-28">
+                    <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         For the life sciences and healthcare to deliver high-quality patient care and advance scientific research, IT solutions and services are essential. It would be difficult to keep up with the changing needs of the healthcare industry and the rapidly advancing scientific field without utilizing technology.
                     </h1>
                     <p className="pb-4 md:mt-10 md:w-3/4 text-lg ">

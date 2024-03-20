@@ -39,7 +39,7 @@ const Product = () => {
                         </div>
                     </div>
                 </section>
-                <section className="ml-8 md:ml-16  text-black">
+                <section className="ml-8 md:ml-16  text-black  md:mt-28 ">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Create cutting-edge, commercially successful software applications more quickly.
                     </h1>
@@ -112,47 +112,47 @@ const Product = () => {
                     </div>
                 </section>
 
-                <section className="pr-10 md:pr-0 bg-black text-white">
-                    <div className="ml-8 md:ml-16 md:mt-16 pt-10 ">
+                <section className="pr-10 md:pr-0 bg-white text-text">
+                    <div className="ml-8 md:ml-16 md:mt-16  ">
                         <h1 className=" md:text-3xl mb-6  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Business Benefits
                         </h1>
                     </div>
-                    <p className="ml-8 md:ml-16 text-lg leading-snug">Product engineering services give companies a competitive edge by helping them match their portfolios with emerging trends.</p>
+                    <p className="ml-8 md:ml-16 md:w-3/4 text-lg leading-snug">Product engineering services give companies a competitive edge by helping them match their portfolios with emerging trends.</p>
                 </section>
 
-                <div className="bg-black text-white grid md:grid-cols-2 sm:grid-cols-1 md:pl-16 md:pr-16 pt-10 gap-5 pb-16">
-                    <div className="border border-solid border-white md:w-full w-full bg-black  py-10">
-                        <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <div className=" text-white grid md:grid-cols-2 sm:grid-cols-1 md:pl-16 md:pr-16 pt-10 gap-5 pb-16">
+                    <div className="border border-solid border-black md:w-full w-full   py-10">
+                        <div className="px-10  text-black  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Accelerated time to market
                         </div>
-                        <p className=" px-10 w-96 text-lg">Rapidly launch products with fresh features and functionalities into the market.
+                        <p className=" text-black  px-10 w-96 text-lg">Rapidly launch products with fresh features and functionalities into the market.
                         </p>
                     </div>
-                    <div className="border border-solid border-white md:w-full  py-10">
-                        <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="border border-solid border-black md:w-full  py-10">
+                        <div className="px-10  text-black  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Enhanced Productivity
                         </div>
-                        <p className="px-10 w-96 text-lg">Attain heightened automation in business operations, resulting in enhanced efficiency.
+                        <p className="px-10  text-black  w-96 text-lg">Attain heightened automation in business operations, resulting in enhanced efficiency.
                         </p>
                     </div>
-                    <div className="border border-solid border-white md:w-full  py-10">
-                        <div className="px-10 md:text-3xl mb-4 md:mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="border border-solid border-black md:w-full  py-10">
+                        <div className="px-10 text-black  md:text-3xl mb-4 md:mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Cost-effectiveness
                         </div>
-                        <p className=" px-10 w-96 text-lg">Portfolio upgrades without the need to upgrade the internal engineering team.
+                        <p className=" px-10  text-black w-96 text-lg">Portfolio upgrades without the need to upgrade the internal engineering team.
                         </p>
                     </div>
-                    <div className="border border-solid border-white md:w-full  py-10">
-                        <div className="px-10  md:text-3xl mb-4 md:mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="border border-solid border-black md:w-full  py-10">
+                        <div className="px-10  text-black  md:text-3xl mb-4 md:mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Access to New Opportunities
                         </div>
-                        <p className="px-10 w-96 text-lg">Take advantage of new developments in technology and trends to open up new possibilities.
+                        <p className="px-10 text-black  w-96 text-lg">Take advantage of new developments in technology and trends to open up new possibilities.
                         </p>
                     </div>
                 </div>
                 <section>
-                    <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4 text-black">
+                    <div className="ml-8 md:ml-16 md:mt-0 mt-10 mr-4 text-black">
                         <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             FAQs
                         </h1>

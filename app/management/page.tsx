@@ -35,7 +35,7 @@ const Management = () => {
                     <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Management Services
                     </h1>
-                    <p className="mb-16 text-lg">Stay aligned with evolving business needs through Enterprise Application Management.
+                    <p className="mb-16 text-lg md:w-3/4">Stay aligned with evolving business needs through Enterprise Application Management.
                     </p>
                     <div>
                         <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
@@ -52,51 +52,59 @@ const Management = () => {
                     </p >
                     <p className="md:w-1/2 text-lg">Performance monitoring, analysis, testing, incident and patch management configuration, and enhancements are all included in our application management services, which cover the full lifecycle of application maintenance and support. Businesses rely on our extensive knowledge in application maintenance and support, which is backed by our Center of Excellence, tried-and-true procedures, and cutting-edge frameworks. Our goal is to improve stability, operational efficiency, and agility while lowering expenses, risks, and total cost of ownership .</p>
                 </section>
-                <section className="ml-8 md:ml-16 md:mt-20 mt-10 text-black">
-                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className=" md:ml-16 md:mt-20 mt-10 text-black">
+                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl  font-semibold md:w-3/4 font-['Urbanist'] leading-normal md:leading-snug  ">
                         Agile Application Management Services to Inspire Innovation and Change.
                     </h1>
-                    <div className=" text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        Application Maintenance and Support
+                    <div className="grid md:grid-cols-2 sm:grid-cols-1 md:pr-16 pt-10 gap-5 pb-16">
+                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                Application Maintenance and Support
+                            </div>
+                            <ul className="px-10 list-decimal ml-6  ">
+                                <li className="text-lg">Application Troubleshooting & Tuning</li>
+                                <li className="text-lg"> Performance Testing & Monitoring</li>
+                                <li className="text-lg">Version Upgrades & Enhancements</li>
+                            </ul>
+                        </div>
+                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                QA & Testing
+                            </div>
+                            <ul className="px-10 list-decimal ml-6  ">
+                                <li className="text-lg">Functional Testing</li>
+                                <li className="text-lg">    Unit, API, & UI Testing</li>
+                                <li className="text-lg">    Manual & Automation Testing</li>
+                                <li className="text-lg">  Regression Testing</li>
+                            </ul>
+                        </div>
+                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                Enhancements and Optimization
+                            </div>
+                            <ul className=" px-10 list-decimal ml-6  ">
+                                <li className="text-lg">New Feature Development and Integration
+                                </li>
+                                <li className="text-lg">Tool Configuration for Application Testing</li>
+                                <li className="text-lg">Issue and Slowdown Detection and Solution</li>
+                                <li className="text-lg">Software Integration and Application Re-Architecture</li>
+                            </ul>
+                        </div>
+                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                Application Security Management
+                            </div>
+                            <ul className="px-10 list-decimal ml-6  ">
+                                <li className="text-lg">Penetration Testing</li>
+                                <li className="text-lg">    24×7 Monitoring</li>
+                                <li className="text-lg">Misconfiguration and Vulnerability Testing</li>
+                                <li className="text-lg">Vulnerability Reports</li>
+                            </ul>
+                        </div>
                     </div>
-                    <ul className=" list-decimal ml-6  ">
-                        <li className="text-lg">Application Troubleshooting & Tuning
-                        </li>
-                        <li className="text-lg"> Performance Testing & Monitoring</li>
-                        <li className="text-lg">Version Upgrades & Enhancements</li>
-                    </ul>
-
-                    <div className=" text-black md:text-3xl mb-2 mt-4  md:text-left  text-3xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        QA & Testing
-                    </div>
-                    <ul className=" list-decimal ml-6  ">
-                        <li className="text-lg">Functional Testing</li>
-                        <li className="text-lg">    Unit, API, & UI Testing</li>
-                        <li className="text-lg">    Manual & Automation Testing</li>
-                        <li className="text-lg">  Regression Testing</li>
-                    </ul>
-                    <div className=" text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        Enhancements and Optimization
-                    </div>
-                    <ul className=" list-decimal ml-6  ">
-                        <li className="text-lg">New Feature Development and Integration
-                        </li>
-                        <li className="text-lg">Tool Configuration for Application Testing</li>
-                        <li className="text-lg">Issue and Slowdown Detection and Solution</li>
-                        <li className="text-lg">Software Integration and Application Re-Architecture</li>
-                    </ul>
-                    <div className=" text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        Application Security Management
-                    </div>
-                    <ul className=" list-decimal ml-6  ">
-                        <li className="text-lg">Penetration Testing</li>
-                        <li className="text-lg">    24×7 Monitoring</li>
-                        <li className="text-lg">Misconfiguration and Vulnerability Testing</li>
-                        <li className="text-lg">Vulnerability Reports</li>
-                    </ul>
                 </section >
                 <section className="md:pl-16 md:pt-16 mt-10 bg-black text-white">
-                    <h1 className=" mx-6  md:mx-0 md:text-4xl mb-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <h1 className=" mx-6  md:mx-0 md:text-4xl mb-6  md:text-left  text-3xl md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         What is the importance of Enterprise Application Management?
                     </h1>
                     <p className=" mx-6  md:mx-0 pb-6 md:w-1/2 text-lg mr-4">
@@ -130,10 +138,7 @@ const Management = () => {
                                 </Accordion>
                             ))}
                         </div>
-                        <div className=" text-black md:text-3xl mb-4 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            What advantages can we expect from application management services?
-                        </div>
-                        <p className="md:w-2/3 text-lg">One of the main advantages of application management are:</p>
+
 
                     </div>
                 </section>

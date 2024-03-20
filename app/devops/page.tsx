@@ -42,7 +42,7 @@ const devops = () => {
                         </div>
                     </div>
                 </section>
-                <section className="ml-8 md:ml-16 text-black">
+                <section className="ml-8 md:ml-16 text-black  md:mt-28 ">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         &quot;DevOps Services for Persistent Application Evolution&quot;
                     </h1>
@@ -89,7 +89,7 @@ const devops = () => {
 
                     </div>
                 </section>
-                <section>
+                <section className="border border-black md:mt-16 md:py-28 py-6">
                     <div className="ml-8 md:ml-16 ">
                         <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-3/4 font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             &quot;Eliminate silos while establishing a stable operating
@@ -113,7 +113,7 @@ const devops = () => {
                             Growth Engine
                         </h1>
                     </div>
-                    <p className="ml-8 md:ml-16 text-lg leading-snug">Businesses are able to focus on strategic projects, decision-making, and expansion by managing applications well..</p>
+                    <p className="ml-8 md:ml-16 md:w-3/4 text-lg leading-snug">Businesses are able to focus on strategic projects, decision-making, and expansion by managing applications well..</p>
                 </section>
 
                 <div className="bg-black text-white grid md:grid-cols-2 sm:grid-cols-1 md:pl-16 md:pr-16 pt-10 gap-5 pb-16">

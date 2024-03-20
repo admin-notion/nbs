@@ -16,8 +16,8 @@ const Itstaffing = () => {
                         </div>
                     </section>
 
-                    <section className="ml-8 md:ml-16  text-black">
-                        <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <section className="ml-8 md:ml-16  text-black  md:mt-28 ">
+                        <h1 className=" text-black md:text-4xl mb-6 md:w-3/4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             All-inclusive Managed Staffing Options for IT Organizations
                         </h1>
                         <p className="pb-4 md:w-2/3 text-lg mr-4">Agility is essential in the changing corporate environment of today. we place a high value on getting to know our clients&apos; needs and each person&apos;s career goals in order to provide a distinctive viewpoint on the nexus between talent and business. Being a top IT staffing company, we enable you to maximize the vital element of business success, which is identifying the appropriate individuals with the appropriate abilities, aptitudes, and dispositions.</p >
@@ -25,7 +25,7 @@ const Itstaffing = () => {
                         <p className="md:w-2/3 pb-4 text-lg">We provide a wide range of temporary staffing services, including IT staff augmentation, temporary staffing, as one of the most respected IT staffing firms.</p>
                     </section>
                     <section className="ml-8 md:ml-16  mt-10 ">
-                        <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className=" text-black md:text-4xl mb-6 md:w-3/4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             As an IT staffing services and recruiting company, we set ourselves
                             apart due to several key factors:
                         </h1>

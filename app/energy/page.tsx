@@ -17,8 +17,8 @@ const Energy = () => {
                         </div>
                     </div>
                 </section>
-                <section className="mx-8 md:ml-16  md:mr-16">
-                    <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-full  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className="mx-8 md:ml-16  md:mt-28">
+                    <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl md:w-3/4   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         In our fast-paced world, the energy sector must embrace technological innovation to remain competitive. IT solutions and services optimize processes and efficiency, ensuring relevance.
                     </h1>
                     <p className="pb-4 md:mt-10 md:w-3/4 text-lg ">

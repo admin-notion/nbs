@@ -47,7 +47,7 @@ const Testing = () => {
                     </div>
                 </section>
 
-                <section className="ml-8 md:ml-16  text-black">
+                <section className="ml-8 md:ml-16  text-black  md:mt-28 ">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Use software testing and quality assurance to provide a fast time
                         to market and an outstanding user experience.
@@ -59,8 +59,8 @@ const Testing = () => {
                 </section>
                 <section>
                     <div className="my-10 py-16  md:pl-16  bg-black text-white ">
-                        <div className="mx-6 md:mx-0 md:text-4xl mb-8  md:text-left  text-4xl w-80 md:w-full  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            Services Offerings <br /> Ensuring superior quality and accelerating time-to-market with QA testing services.
+                        <div className="mx-6 md:mx-0 md:text-4xl mb-8  md:text-left  text-4xl w-80 md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            Services Offerings <br /><span className="md:w-3/4"> Ensuring superior quality and accelerating time-to-market with QA testing services.</span>
                         </div>
                         <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6 md:mr-16">
                             <div className="border border-solid border-white px-10 py-10">
@@ -92,8 +92,8 @@ const Testing = () => {
 
                     </div>
                 </section>
-                <section>
-                    <div className="ml-8 md:ml-16 ">
+                <section className="border border-black md:py-28  py-6 mb-10">
+                    <div className=" ml-8 md:ml-16 ">
                         <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-3/4 font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Improved customer satisfaction, shorter time-to-market, better product
                             quality, and more operational efficiency are some of the business advantages

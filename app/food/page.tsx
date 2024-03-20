@@ -8,7 +8,7 @@ const Food = () => {
                     <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Food and Beverage
                     </h1>
-                    <p className="mb-16 text-lg">Harnessing Technology for Success: The Impact of IT Solutions in the Food & Beverage Industry
+                    <p className="mb-16 md:w-3/4  text-lg">Harnessing Technology for Success: The Impact of IT Solutions in the Food & Beverage Industry
 
                     </p>
                     <div>
@@ -16,8 +16,8 @@ const Food = () => {
                     </div>
                 </div>
             </section>
-            <section className="mx-8 md:ml-16  md:mr-16">
-                <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-full  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+            <section className="mx-8 md:ml-16  md:mt-28">
+                <h1 className=" text-black md:text-4xl  mb-6 pr-6 md:text-left  text-2xl md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                     Reliability and efficiency in IT solutions and services are critical in today&apos;s competitive and fast changing food and beverage industry. Whether it&apos;s improving customer service, streamlining inventory control, or increasing production, choosing the right technology can make all the difference in building a successful and profitable business.
                 </h1>
                 <p className="pb-4 md:mt-10 md:w-3/4 text-lg ">

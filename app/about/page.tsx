@@ -4,10 +4,10 @@ const About = () => {
   return (
     <>
       <main className="max-w-7xl  mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
-        <h1 className="ml-8  md:ml-16 md:mt-20 text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+        <h1 className="ml-8  md:ml-16 md:mt-20 text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-3/4   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
           &quot;A proactive team that believes in taking action.&quot;
         </h1>
-        <p className="ml-8 text-black md:ml-16  md:w-3/4 text-lg">&quot;Our mission at Notion Business Solutions is to empower our clients to achieve their business and strategic goals by providing them with the best information technology solutions available. Our team of seasoned professionals constantly goes above and beyond what our clients expect from us. <br />
+        <p className="ml-8 text-black md:ml-16  md:w-3/4  text-lg">&quot;Our mission at Notion Business Solutions is to empower our clients to achieve their business and strategic goals by providing them with the best information technology solutions available. Our team of seasoned professionals constantly goes above and beyond what our clients expect from us. <br />
           In addition, we have a strong commitment to provide first-rate service, making sure that our customers get the best possible assistance and direction during their partnership with us. <br />
           We truly think that a combination of technical expertise, client-focused service, and a constant commitment to quality is what makes a business successful. We are prepared to help clients achieve their objectives and navigate the ever-changing IT landscape thanks to our skilled team.&quot;
         </p>

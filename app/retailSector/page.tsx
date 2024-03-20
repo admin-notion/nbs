@@ -17,8 +17,8 @@ const Startup = () => {
                         </div>
                     </div>
                 </section>
-                <section className="mx-8 md:ml-16  md:mr-16">
-                    <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-full  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className="mx-8 md:ml-16   md:mt-28">
+                    <h1 className=" text-black  md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-3/4   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         To be competitive and meet the needs of a changing market, the retail industry needs reliable IT solutions and services in the contemporary digital world. Retailers who dont have the right technology run the danger of falling behind and losing business to competitors who are more creative and flexible.
                     </h1>
                     <p className="pb-4 md:mt-10 md:w-3/4 text-lg ">

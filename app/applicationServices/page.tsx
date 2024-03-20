@@ -46,7 +46,7 @@ const ApplicationServices = () => {
                     </div>
                 </section>
 
-                <section className="ml-8 md:ml-16  ">
+                <section className="ml-8 md:ml-16 md:mt-28 ">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         &quot;Transform Business Agility through
                         Custom build Application Services.&quot;
@@ -102,9 +102,9 @@ const ApplicationServices = () => {
 
                     </div>
                 </section>
-                <section>
+                <section className="border border-black md:py-28 mt-10 mb-10">
                     <div className="ml-8 md:ml-16 ">
-                        <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className="mt-6 text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             &quot;Utilize Legacy Transformation to Transform
                             Conventional Portfolios.&quot;
                         </h1>
@@ -113,12 +113,12 @@ const ApplicationServices = () => {
                         </h1>
                     </div>
 
-                    <div className="flex ml-8 md:ml-16 ">
+                    <div className="flex ml-8 md:ml-16 mb-6">
                         <div >
-                            <a href="#forms">   <button className=" border md:mr-10 border-black px-6 mr-2 h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
+                            <a href="#forms">   <button className=" border md:mr-2 border-black px-6 mr-2 h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                         </div>
-                        <div>
-                            <Link href="/transformation">    <button className=" border border-black px-6  bg-black hover:bg-yellow-300 hover:text-black h-10 w-32  text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Explore</button></Link>
+                        <div >
+                            <Link href="/transformation">    <button className=" border border-black px-6  bg-gray-500 hover:bg-yellow-300 hover:text-black h-10 w-32  text-white md:text-2xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Explore</button></Link>
                         </div>
                     </div>
                 </section>
@@ -128,7 +128,7 @@ const ApplicationServices = () => {
                             Growth Engine
                         </h1>
                     </div>
-                    <p className="ml-8 md:ml-16 text-lg leading-snug">Businesses are able to focus on strategic projects, decision-making, and expansion by managing applications well.</p>
+                    <p className="ml-8 md:ml-16 text-lg leading-snug md:w-3/4">Businesses are able to focus on strategic projects, decision-making, and expansion by managing applications well.</p>
                 </section>
 
                 <div className="bg-black text-white grid md:grid-cols-2 sm:grid-cols-1 md:pl-16 md:pr-16 pt-10 gap-5 pb-16">

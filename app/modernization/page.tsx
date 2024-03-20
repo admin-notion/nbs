@@ -45,49 +45,60 @@ const Modernization = () => {
 
                     <p className="md:w-1/2 text-lg">Utilizing advancements in Cloud, Web, Mobility, Blockchain, and Analytics, our enterprise application modernization services facilitate swift innovation and effective scaling for enterprises, all while maintaining uninterrupted business operations.</p>
                 </section>
-                <section className="ml-8 md:ml-16 md:mt-20 mt-10 text-black">
+                <section className=" md:ml-16 md:mt-20 mt-10 text-black">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Empowering organizations to leverage the benefits of
                         innovation through our legacy application modernization services.
                     </h1>
-                    <div className=" text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        Consulting
-                    </div>
-                    <ul className=" list-decimal ml-6  ">
-                        <li className="text-lg">Application Assessment</li>
-                        <li className="text-lg">      Platform Upgradation or Migration Consultation</li>
-                        <li className="text-lg">    Migration and Adoption Strategies</li>
-                        <li className="text-lg">  Application Re-Architecture Consultation</li>
-                    </ul>
+                    <div className="grid md:grid-cols-2 sm:grid-cols-1 md:pr-16 pt-10 gap-5 pb-16">
+                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                Consulting
+                            </div>
 
-                    <div className=" text-black md:text-3xl mb-2 mt-4  md:text-left  text-3xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        Technology Modernization
-                    </div>
-                    <ul className=" list-decimal ml-6  ">
-                        <li className="text-lg">Feature and Module Modernization</li>
-                        <li className="text-lg">    Legacy Application Modernization</li>
-                        <li className="text-lg">    Cloud Migration</li>
-                        <li className="text-lg"> Application Re-Platforming</li>
-                    </ul>
-                    <div className=" text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        Architecture Modernization
-                    </div>
-                    <ul className=" list-decimal ml-6  ">
-                        <li className="text-lg">Microservices API Model Creation</li>
-                        <li className="text-lg">      Service Orchestration</li>
-                        <li className="text-lg">    Cloud-based Architecture for Platform Neutrality and Flexibility</li>
-                        <li className="text-lg">    Service Aggregation and Consolidation</li>
-                    </ul>
-                    <div className=" text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        UI/UX Modernization
-                    </div>
-                    <ul className=" list-decimal ml-6  ">
-                        <li className="text-lg">Design Personalization</li>
+                            <ul className="px-10 list-decimal ml-6  ">
+                                <li className="text-lg">Application Assessment</li>
+                                <li className="text-lg">      Platform Upgradation or Migration Consultation</li>
+                                <li className="text-lg">    Migration and Adoption Strategies</li>
+                                <li className="text-lg">  Application Re-Architecture Consultation</li>
+                            </ul>
 
-                        <li className="text-lg">   User and Device Aware Layout</li>
-                        <li className="text-lg">    Content Contextualization</li>
-                        <li className="text-lg">   GUI Modernization</li>
-                    </ul>
+                        </div>
+                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                Technology Modernization
+                            </div>
+                            <ul className="px-10 list-decimal ml-6  ">
+                                <li className="text-lg">Feature and Module Modernization</li>
+                                <li className="text-lg">    Legacy Application Modernization</li>
+                                <li className="text-lg">    Cloud Migration</li>
+                                <li className="text-lg"> Application Re-Platforming</li>
+                            </ul>
+                        </div>
+                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                Architecture Modernization
+                            </div>
+                            <ul className="px-10 list-decimal ml-6  ">
+                                <li className="text-lg">Microservices API Model Creation</li>
+                                <li className="text-lg">      Service Orchestration</li>
+                                <li className="text-lg">    Cloud-based Architecture for Platform Neutrality and Flexibility</li>
+                                <li className="text-lg">    Service Aggregation and Consolidation</li>
+                            </ul>
+                        </div>
+                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                UI/UX Modernization
+                            </div>
+                            <ul className="px-10 list-decimal ml-6  ">
+                                <li className="text-lg">Design Personalization</li>
+
+                                <li className="text-lg">   User and Device Aware Layout</li>
+                                <li className="text-lg">    Content Contextualization</li>
+                                <li className="text-lg">   GUI Modernization</li>
+                            </ul>
+                        </div>
+                    </div>
                 </section >
                 <section className=" md:pl-16 md:pt-16 mt-10 bg-black text-white">
                     <h1 className=" md:text-4xl mb-6 mx-6 md:mx-0 pt-6 md:pt-0 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">

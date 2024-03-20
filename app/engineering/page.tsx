@@ -17,8 +17,8 @@ const Engineering = () => {
                         </div>
                     </div>
                 </section>
-                <section className="mx-8 md:ml-16  md:mr-16">
-                    <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-full  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className="mx-8 md:ml-16  md:mt-28">
+                    <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl md:w-3/4   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         In the dynamic realm of technology, the engineering sector must prioritize IT solutions and services. These tools, spanning design, simulation, project management, and communication, are indispensable for enhancing efficiency, boosting productivity, and maintaining competitiveness.
                     </h1>
                     <p className="pb-4 md:mt-10 md:w-3/4 text-lg ">

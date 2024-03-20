@@ -6,11 +6,11 @@ const UtilizeLegacy = () => {
             <main className="">
 
                 <section className=" max-w-7xl  mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white text-black">
-                    <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <h1 className=" text-black md:text-4xl mb-4 md:w-3/4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         &quot;Utilize Legacy Transformation to Transform
                         Conventional Portfolios.&quot;
                     </h1>
-                    <p className="mb-16 text-lg">To Future-Proof Your Portfolio, Adopt Cloud, SaaS-based Business Models, and Cutting-Edge Technology Stacks.
+                    <p className="mb-16 md:w-3/4  text-lg">To Future-Proof Your Portfolio, Adopt Cloud, SaaS-based Business Models, and Cutting-Edge Technology Stacks.
                     </p>
 
                     <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6">
@@ -33,8 +33,9 @@ const UtilizeLegacy = () => {
                     <div className="justify-center items-center flex">
                         <p className="text-lg w-1/2 md:mt-20 mt-10 ">Businesses may future-proof the products they offer with a range of services by using cutting-edge technology stacks, cloud-based business models, and SaaS-based business models. These are a few potential services that NBS could deliver to stay on Edge.</p>
                     </div>
+                    <FormsPage />
                 </section>
-                <FormsPage />
+
             </main>
         </>
     );

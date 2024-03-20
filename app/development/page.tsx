@@ -39,57 +39,68 @@ const Development = () => {
                         <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                     </div>
                 </section>
-                <section className="ml-8 md:ml-16 text-black ">
-                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className="ml-8 md:ml-16 text-black md:mt-28 ">
+                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Delivering Efficient Results with Flexible, Secure, and Scalable Solutions
                     </h1>
                     <p className="pb-4 md:w-1/2 text-lg mr-4">
                         Utilize the potential of cutting-edge technology, cloud computing, and UX techniques to equip your company with innovative apps that are designed to satisfy market and business needs and promote growth.
                     </p >
-                    <p className="md:w-1/2 text-lg">Scalable software system and application design and development are made easier by NBS Application Development services. We get best results by doing a thorough assessment of our clients&apos; technology environment and business requirements. Every application goes through a rigorous process that includes requirement collecting, MVP design, coding, quality assurance, implementation, and debugging..</p>
+                    <p className="md:w-1/2 text-lg md:mb-20">Scalable software system and application design and development are made easier by NBS Application Development services. We get best results by doing a thorough assessment of our clients&apos; technology environment and business requirements. Every application goes through a rigorous process that includes requirement collecting, MVP design, coding, quality assurance, implementation, and debugging..</p>
                 </section>
-                <section className="ml-8 md:ml-16 md:mt-20 mt-10 text-black">
-                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+
+
+                <section className=" md:ml-16 md:mt-16 mt-6 text-black">
+                    <h1 className=" text-black md:text-4xl mb-6  md:text-left md:w-3/4 text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Creating forward-looking Customer, Enterprise, Mobile, and Cloud Applications
                     </h1>
-                    <div className=" text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        Technology Consulting
+                    <div className="grid md:grid-cols-2 sm:grid-cols-1 md:pr-16 pt-10 gap-5 pb-16">
+                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
+                            <div className=" px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                Technology Consulting
+                            </div>
+                            <ul className=" px-10 list-decimal ml-6  ">
+                                <li className="text-lg">Application Development Consulting</li>
+                                <li className="text-lg">   Architectural Consulting</li>
+                                <li className="text-lg">  Cloud Consulting</li>
+                            </ul>
+                        </div>
+                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4  md:text-left  text-3xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                Application Design
+                            </div>
+                            <ul className="px-10 list-decimal ml-6  ">
+                                <li className="text-lg">UI/UX Design</li>
+                                <li className="text-lg">   Responsive Web Design</li>
+                                <li className="text-lg">   Mobile Design</li>
+                            </ul>
+                        </div>
+                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                Application Design
+                            </div>
+                            <ul className="px-10 list-decimal ml-6  ">
+                                <li className="text-lg">Custom Web Application Development</li>
+                                <li className="text-lg">Cloud Application Development</li>
+                                <li className="text-lg">Mobile Application Development</li>
+                                <li className="text-lg">CMS Development</li>
+                            </ul>
+                        </div>
+                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                API Integrations
+                            </div>
+                            <ul className="px-10 list-decimal ml-6  ">
+                                <li className="text-lg">Custom API Development and Integration</li>
+                                <li className="text-lg">   3rd Party API integration</li>
+                                <li className="text-lg">   API Transformation</li>
+                            </ul>
+                        </div>
                     </div>
-                    <ul className=" list-decimal ml-6  ">
-                        <li className="text-lg">Application Development Consulting</li>
-                        <li className="text-lg">   Architectural Consulting</li>
-                        <li className="text-lg">  Cloud Consulting</li>
-                    </ul>
-
-                    <div className=" text-black md:text-3xl mb-2 mt-4  md:text-left  text-3xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        Application Design
-                    </div>
-                    <ul className=" list-decimal ml-6  ">
-                        <li className="text-lg">UI/UX Design</li>
-                        <li className="text-lg">   Responsive Web Design</li>
-                        <li className="text-lg">   Mobile Design</li>
-                    </ul>
-                    <div className=" text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        Application Design
-                    </div>
-                    <ul className=" list-decimal ml-6  ">
-                        <li className="text-lg">Custom Web Application Development</li>
-                        <li className="text-lg">Cloud Application Development</li>
-                        <li className="text-lg">Mobile Application Development</li>
-                        <li className="text-lg">CMS Development</li>
-                    </ul>
-                    <div className=" text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        API Integrations
-                    </div>
-                    <ul className=" list-decimal ml-6  ">
-                        <li className="text-lg">Custom API Development and Integration</li>
-                        <li className="text-lg">   3rd Party API integration</li>
-                        <li className="text-lg">   API Transformation</li>
-                    </ul>
                 </section >
 
                 <section className=" md:pl-16 md:pt-16 mt-10 bg-black text-white">
-                    <h1 className=" mx-6 md:mx-0 md:text-4xl mb-6 pt-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <h1 className=" mx-6 md:mx-0 md:text-4xl mb-6 pt-6  md:text-left  text-3xl md:w-3/4 font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Why choose NBS for Enterprise Application Development Services?
                     </h1>
                     <p className=" mx-6 md:mx-0 pb-4 md:w-1/2 text-lg mr-4 mb-4">

@@ -9,7 +9,7 @@ const Manufacturing = () => {
                         <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Manufacturing and Distribution
                         </h1>
-                        <p className="mb-16 text-lg">Optimizing Efficiency and Fostering Innovation in Manufacturing and Distribution through IT Solutions
+                        <p className="mb-16 md:w-3/4  text-lg">Optimizing Efficiency and Fostering Innovation in Manufacturing and Distribution through IT Solutions
 
                         </p>
                         <div>
@@ -18,8 +18,8 @@ const Manufacturing = () => {
                     </div>
                 </section>
 
-                <section className="mx-8 md:ml-16  md:mr-16">
-                    <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-full  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className="mx-8 md:ml-16  md:mt-28">
+                    <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-3/4   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         It is imperative for manufacturing sectors to integrate IT solutions and services to maintain global competitiveness, optimize operations, and increase productivity. In an industry that is always changing, businesses run the risk of falling behind if they don&apos;t use new technologies.
                     </h1>
                     <p className="pb-4 md:mt-10 md:w-3/4 text-lg ">

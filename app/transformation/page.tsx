@@ -14,12 +14,12 @@ const Transformation = () => {
                     <p className="mb-16 text-lg">Digitize Your Legacy Software to Be Future-Ready
                     </p>
                     <div>
-                        <a href="#forms">      <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
-                        <Link href="/utilizeLegacy">     <button className=" border border-black px-6 py-2  bg-black hover:bg-yellow-300 hover:text-black   text-white md:text-3xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Explore</button></Link>
+                        <a href="#forms">      <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
+                        <Link href="/utilizeLegacy"> <button className=" border border-black text-center justify-center h-10 w-40 bg-gray-500 hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Explore</button></Link>
                     </div>
                 </section>
                 <section className="ml-8 md:ml-16 text-black">
-                    <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <h1 className=" text-black md:text-4xl mb-4 md:w-3/4   md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Transformation for an Agile & Efficient Digital Future
                     </h1>
                     <p className="text-lg md:w-1/2">Businesses are forced to modernize their legacy systems due to a number of factors, including market disruptions, customer expectations, a competitive landscape that is becoming more complicated, and the necessity of digitization. Organizations can get agility and flexibility by transforming their IT infrastructure, which makes it easier to supply cutting-edge goods and services quickly and effectively. Our experience includes a wide range of contemporary technologies, applications, security, and industry sectors. We provide full modernization services including enterprise security, digital engineering, cloud enablement, infrastructure services, application stack management, and core application redesign.
@@ -29,7 +29,7 @@ const Transformation = () => {
                         demands and reduce the risks associated with change. </p>
                 </section>
                 <section className="md:mt-20 mt-10 ml-8 md:ml-16 text-black">
-                    <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <h1 className=" text-black md:text-4xl mb-4 md:w-3/4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Streamlined App Modernization & Migration Services
                     </h1>
                     <p className="text-lg md:w-1/2">Don&quot;t replace, reimagine. NBS unlocks the hidden potential of your legacy apps, transforming and infusing them with cutting-edge digital superpowers.</p>

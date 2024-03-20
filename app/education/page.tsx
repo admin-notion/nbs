@@ -17,8 +17,8 @@ const Education = () => {
                         </div>
                     </div>
                 </section>
-                <section className="mx-8 md:ml-16  md:mr-16">
-                    <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-full  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className="mx-8 md:ml-16  md:mt-28">
+                    <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-3/4   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         To improve learning outcomes, boost productivity, and stay up to date with emerging technologies, the education sector needs IT services and solutions. Without these resources, educational establishments run the risk of falling behind in the digital age and giving their pupils a poor education.
                     </h1>
                     <p className="pb-4 md:mt-10 md:w-3/4 text-lg ">

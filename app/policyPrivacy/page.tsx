@@ -11,7 +11,7 @@ const Policy = () => {
                     <p className=" md:w-2/3 text-lg">We prioritize the protection of your privacy.
                     </p>
 
-                    <p className=" md:w-2/3 text-lg md:mt-16">We respect your right to privacy. We provide this notice outlining our online information practices and your options about data collection and usage in order to better protect it. On our homepage and anytime personally identifiable information is asked, this notice is easily accessible.
+                    <p className="md:w-3/4  text-lg md:mt-16">We respect your right to privacy. We provide this notice outlining our online information practices and your options about data collection and usage in order to better protect it. On our homepage and anytime personally identifiable information is asked, this notice is easily accessible.
                     </p>
 
                     <div className=" text-black md:text-3xl mb-4 md:mt-16 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">

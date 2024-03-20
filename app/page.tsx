@@ -6,7 +6,7 @@ export default function Home() {
     <main className=" max-w-7xl  mx-auto px-4 pt-8 md:px-6 lg:px-8 xl:px-10 bg-white">
       <section className=" firstContainer w-full md:z-40 md:sticky md:bottom-0 md:py-10 bg-white ">
         <div className=" pt-36 ml-8 py-16  md:ml-16 md:mr-28  md:mb-64 mb-10 justify-center  align-middle">
-          <div className=" text-black md:text-5xl mb-4 pb-3 md:text-left  text-4xl w-80 md:w-1/2  font-light font-['Urbanist']leading-normal md:leading-snug  ">
+          <div className=" text-black md:text-5xl mb-4 pb-3 md:text-left  text-4xl w-80 md:w-1/2  font-bold font-['Urbanist']leading-normal md:leading-snug  ">
             Evolving
           </div>
           <div className="flex mb-12  text-black md:text-xl md:text-left  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug  ">
@@ -42,9 +42,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className=" thirdContainer z-40 md:sticky  pb-10 md:pb-28 md:pt-16 sm:w-full border border-white  bg-black ">
+      <section className=" thirdContainer z-40 md:sticky  pb-10 md:pb-28  sm:w-full border border-white  bg-black ">
         <div className="pt-6 mb-6 md:mb-10 mx-8  ">
-          <div className="md:ml-6 text-white  md:text-4xl text-3xl md:w-2/3 md:pt-10 pt-16 font-semibold font-['Urbanist'] md:leading-snug ">
+          <div className="md:ml-6 text-white  md:text-4xl text-3xl md:w-2/3 md:pt-16  font-semibold font-['Urbanist'] md:leading-snug ">
             Discover the potential of innovation through our comprehensive range of integrated services.
           </div>
         </div>
@@ -106,7 +106,7 @@ export default function Home() {
 
       <section className="bg-black md:max-w-7xl md:pb-20 ">
         <div className="md:mx-14  mb-8 md:pt-20 mt-8 mx-8 ">
-          <h1 className="justify-center text-center text-white md:text-4xl md:text-left md:w-3/4  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug ">We serve a wide range of sectors. Our customized solutions tackle particular problems in each industry, guaranteeing our clients continued success in a variety of fields and improved operations.</h1>
+          <h1 className=" pt-6 justify-center text-center text-white md:text-4xl md:text-left md:w-3/4  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug ">We serve a wide range of sectors. Our customized solutions tackle particular problems in each industry, guaranteeing our clients continued success in a variety of fields and improved operations.</h1>
         </div>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 md:mx-14 mx-8 mb-10">
@@ -173,15 +173,17 @@ export default function Home() {
           </div> */}
         </div>
       </section>
-      <section className="bg-white w-full md:pb-20">
-        <div className="md:mx-14  mb-8 md:mt-20 mt-8 mx-8 text-black ">
-          <h1 className="justify-center text-center  md:text-3xl md:text-left md:w-3/4  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug ">Is your business prepared to take a leap into the future?
-            <br />
-            <br />
-            We offer a complete range of services that seamlessly integrate IT solutions, captivating design and reliable cloud services to enhance your organisations.</h1>
-        </div>
-        <div className="md:ml-14">
-          <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+      <section className="bg-white w-full md:pb-20 border border-black md:mt-20">
+        <div className="md:py-20 ">
+          <div className="md:mx-14  mb-8 md:mt-20 mt-8 mx-8 text-black ">
+            <h1 className="justify-center text-center  md:text-3xl md:text-left md:w-3/4  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug ">Is your business prepared to take a leap into the future?
+              <br />
+              <br />
+              We offer a complete range of services that seamlessly integrate IT solutions, captivating design and reliable cloud services to enhance your organisations.</h1>
+          </div>
+          <div className="md:ml-14 mb-10 md:mb-0 text-center flex justify-center items-center md:text-left md:justify-start">
+            <button className=" border border-black text-center flex justify-center items-center  h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+          </div>
         </div>
       </section>
 
@@ -240,7 +242,7 @@ export default function Home() {
               EMAIL
 
             </h1>
-            <Link href="mailto:people@notion.business"> <h1 className=" hover:underline text-black md:text-xl text-center  text-2xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+            <Link href="mailto:people@notion.business"> <h1 className="mb-10 md:mb-0 hover:underline text-black md:text-xl text-center  text-2xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
               people@notion.business
             </h1></Link>
           </div>

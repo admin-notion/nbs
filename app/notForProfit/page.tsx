@@ -17,8 +17,8 @@ const NotForProfit = () => {
                         </div>
                     </div>
                 </section>
-                <section className="mx-8 md:ml-16  md:mr-16">
-                    <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-full  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className="mx-8 md:ml-16  md:mt-28">
+                    <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-3/4   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         In order to effectively serve communities and achieve their goals, non-profit organizations in the modern digital era need to embrace technology and IT solutions. They run the risk of falling behind and being unable to compete without these tools. In order to maintain their relevance and mission effectiveness, non-profits must invest in IT services and solutions.
                     </h1>
                     <p className="pb-4 md:mt-10 md:w-3/4 text-lg ">

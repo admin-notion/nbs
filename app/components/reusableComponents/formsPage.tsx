@@ -98,7 +98,7 @@ const FormsPage = () => {
               </div>
               <label
                 htmlFor="remember"
-                className="ms-2 text-lg font-medium text-gray-900 dark:text-gray-300"
+                className="ms-2 text-lg font-medium text-gray-900 dark:text-gray-300 md:w-3/4"
               >
                 Get strategy guides, industry insights, trend reports, and more
                 delivered straight to your email by subscribing to our

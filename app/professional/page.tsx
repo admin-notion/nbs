@@ -17,8 +17,8 @@ const Professional = () => {
                         </div>
                     </div>
                 </section>
-                <section className="mx-8 md:ml-16  md:mr-16">
-                    <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-full  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className="mx-8 md:ml-16  md:mt-28">
+                    <h1 className=" text-black md:text-4xl mb-6 pr-6 md:text-left  text-2xl  md:w-3/4   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Professional services organizations need to give access to trustworthy IT solutions and services top priority in the modern world. Businesses run the danger of falling behind rivals and losing the trust of their customers without these tools. In addition to being necessary, investing in IT solutions gives businesses a competitive edge in the digital era.
                     </h1>
                     <p className="pb-4 md:mt-10 md:w-3/4 text-lg ">

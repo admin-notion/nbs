@@ -22,28 +22,28 @@ const Modernization = () => {
     return (
         <>
             <main className="max-w-7xl  mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
-                <section className=" ml-8 py-16  md:ml-16 text-black">
+                <section className=" ml-8 md:py-28 py-16 mb-10  md:ml-16 text-black">
                     <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Modernization Services
                     </h1>
-                    <p className="mb-16 text-lg">Enhance and rejuvenate existing portfolios for optimal performance.
+                    <p className="mb-8 text-lg">Enhance and rejuvenate existing portfolios for optimal performance.
                     </p>
                     <div>
                         <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                     </div>
                 </section>
-                <section className="ml-8 md:ml-16 text-black ">
-                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className=" border border-black md:py-28 py-10 mb-10 px-10 md:pl-16">
+                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Through the expertise of our enterprise application modernization
                         services, uncover true business value.
                     </h1>
-                    <p className="pb-4 md:w-1/2 text-lg mr-4">
+                    <p className="  text-black pb-4 md:w-3/4 text-lg mr-4">
                         To improve present portfolios, embrace strategies, efforts, and technology that look forward. Reducing business application legacy significantly lowers risks, improves agility, and yields better user experiences.
 
                     </p >
-                    <p className="pb-4 md:w-1/2 text-lg">At NBS, we enable companies to add features that are ready for the future and modernize their portfolios to unlock true commercial value. Our Center of Excellence develops application modernization plans and roadmaps via thorough portfolio reviews.</p>
+                    <p className="  text-black pb-4 md:w-3/4 text-lg">At NBS, we enable companies to add features that are ready for the future and modernize their portfolios to unlock true commercial value. Our Center of Excellence develops application modernization plans and roadmaps via thorough portfolio reviews.</p>
 
-                    <p className="md:w-1/2 text-lg">Utilizing advancements in Cloud, Web, Mobility, Blockchain, and Analytics, our enterprise application modernization services facilitate swift innovation and effective scaling for enterprises, all while maintaining uninterrupted business operations.</p>
+                    <p className=" text-black md:w-3/4 text-lg">Utilizing advancements in Cloud, Web, Mobility, Blockchain, and Analytics, our enterprise application modernization services facilitate swift innovation and effective scaling for enterprises, all while maintaining uninterrupted business operations.</p>
                 </section>
                 <section className=" md:ml-16 md:mt-20 mt-10 text-black">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
@@ -124,7 +124,7 @@ const Modernization = () => {
                 </section>
                 <section>
                     <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4 text-black">
-                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             FAQs
                         </h1>
 

@@ -53,12 +53,12 @@ const Migration = () => {
     return (
         <>
             <main className="max-w-7xl mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
-                <section className=" firstContainer w-full md:py-10 text-black">
+                <section className=" firstContainer w-full md:py-28 mb-10 text-black">
                     <div className=" ml-8 py-16  md:ml-16 ">
-                        <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             System Migration Services
                         </h1>
-                        <p className="mb-16 md:w-3/4 text-lg">Seamlessly transition data and applications between computing environments with System Migration Services.
+                        <p className="mb-8 md:w-3/4 text-lg">Seamlessly transition data and applications between computing environments with System Migration Services.
 
                         </p>
                         <div>
@@ -66,18 +66,18 @@ const Migration = () => {
                         </div>
                     </div>
                 </section>
-                <section className="ml-8 md:ml-16 text-black md:mt-28 ">
-                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className=" border border-black md:py-28 py-10 mb-10 px-10 md:pl-16">
+                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         &quot;Unlocking Seamless Transitions: A Guide to System Migration Services&quot;
                     </h1>
-                    <p className="pb-4 md:w-2/3 text-lg mr-4 ">
+                    <p className=" text-black pb-4 md:w-3/4 text-lg mr-4 ">
                         System Migration Services involve transferring or moving data, applications, and other components from one computing environment to another. This could include migrating from one operating system to another, moving from on-premises servers to cloud-based platforms, or upgrading legacy systems to newer versions. The goal is to ensure a smooth transition while minimizing disruption to business operations and maximizing the benefits of the new environment.
                     </p >
 
                 </section>
                 <section>
-                    <div className=" py-16 my-10 md:pl-16  md:pr-16 bg-black text-white">
-                        <div className=" mx-6 md:mx-0 md:text-4xl mb-10  md:text-left  text-4xl w-80 md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className=" py-16 my-10 md:pl-16 md:mt-16  md:pr-16 bg-black text-white">
+                        <div className=" mx-6 md:mx-0 md:text-4xl mb-10  md:text-left  text-4xl  md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Offerings <br /> <span>&quot;System Migration Services encompass data, application, OS, cloud, legacy
                                 system upgrades, database, platform, infrastructure migrations, version upgrades,
                                 and risk assessment.&quot;</span>
@@ -162,8 +162,8 @@ const Migration = () => {
                 </section>
 
                 <section>
-                    <div className="ml-8 md:ml-16 md:mt-8 mt-10 ">
-                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="ml-8 md:ml-16 md:mt-28 mt-10 ">
+                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl  md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Risk Assessment and Mitigation:
                         </h1>
                     </div>
@@ -183,34 +183,34 @@ const Migration = () => {
                         <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Enhanced Scalability:
                         </div>
-                        <p className=" px-10 w-96 text-lg">System migration enables businesses to scale their infrastructure and resources according to evolving needs, facilitating growth and expansion without constraints.
+                        <p className=" px-10  text-lg">System migration enables businesses to scale their infrastructure and resources according to evolving needs, facilitating growth and expansion without constraints.
                         </p>
                     </div>
                     <div className="border border-solid border-black  md:w-full  py-10">
                         <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Improved Cost Efficiency:
                         </div>
-                        <p className="px-10 w-96 text-lg">Migration to newer systems often leads to cost savings through reduced maintenance expenses, improved resource utilization, and streamlined operations, ultimately boosting the bottom line.
+                        <p className="px-10 text-lg">Migration to newer systems often leads to cost savings through reduced maintenance expenses, improved resource utilization, and streamlined operations, ultimately boosting the bottom line.
                         </p>
                     </div>
                     <div className="border border-solid border-black  md:w-full  py-10">
                         <div className="px-10 md:text-3xl mb-4 md:mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Enhanced Security:
                         </div>
-                        <p className=" px-10 w-96 text-lg">Upgrading to modern systems typically includes updated security features and protocols, reducing the risk of data breaches and cyber threats, thus safeguarding sensitive information and preserving business reputation.
+                        <p className=" px-10  text-lg">Upgrading to modern systems typically includes updated security features and protocols, reducing the risk of data breaches and cyber threats, thus safeguarding sensitive information and preserving business reputation.
                         </p>
                     </div>
                     <div className="border border-solid border-black  md:w-full  py-10">
                         <div className="px-10  md:text-3xl mb-4 md:mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Increased Agility:
                         </div>
-                        <p className="px-10 w-96 text-lg">By migrating to more flexible and adaptable systems, businesses can respond swiftly to market changes and opportunities, fostering innovation, and maintaining a competitive edge in dynamic industries.
+                        <p className="px-10 text-lg">By migrating to more flexible and adaptable systems, businesses can respond swiftly to market changes and opportunities, fostering innovation, and maintaining a competitive edge in dynamic industries.
                         </p>
                     </div>
                 </div>
                 <section>
                     <div className="ml-8 md:ml-16 md:mt-0 mt-10 mr-4 text-black">
-                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             FAQs
                         </h1>
 

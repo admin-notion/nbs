@@ -5,7 +5,7 @@ const Policy = () => {
         <>
             <main className=" max-w-7xl  mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white text-black">
                 <div className="pt-16  md:ml-16 ">
-                    <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl  md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Policy Privacy
                     </h1>
                     <p className=" md:w-2/3 text-lg">We prioritize the protection of your privacy.

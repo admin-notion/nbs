@@ -24,7 +24,7 @@ const FormsPage = () => {
             <div className=" text-lg font-medium leading-relaxed pt-3 text-black">
               Hola! I am :
               <input
-                className="ml-4 border-b border-black md:w-96 w-80 outline-none  text-lg font-normal font-['Poppins'] leading-loose"
+                className="ml-4 border-b border-black md:w-96 w-72 outline-none  text-lg font-normal font-['Poppins'] leading-loose"
                 type="text"
                 name="firstName"
                 id="first-name"
@@ -37,7 +37,7 @@ const FormsPage = () => {
               {" "}
               Email :
               <input
-                className="ml-4 border-b border-black md:w-96 w-80  outline-none   text-lg font-normal font-['Poppins'] leading-loose"
+                className="ml-4 border-b border-black md:w-96 w-72  outline-none   text-lg font-normal font-['Poppins'] leading-loose"
                 required
                 type="email"
                 name="email"
@@ -49,7 +49,7 @@ const FormsPage = () => {
             <div className=" text-lg font-medium leading-relaxed pt-3 text-black">
               Mobile :
               <input
-                className="ml-4 border-b border-black md:w-96 w-80  outline-none   text-lg font-normal font-['Poppins'] leading-loose"
+                className="ml-4 border-b border-black md:w-96 w-72  outline-none   text-lg font-normal font-['Poppins'] leading-loose"
                 required
                 type="tel"
                 name="tel"
@@ -62,7 +62,7 @@ const FormsPage = () => {
             <div className=" text-lg font-medium leading-relaxed pt-3  text-black">
               Company :
               <input
-                className="ml-4 border-b border-black md:w-96 w-80  outline-none  text-lg font-normal font-['Poppins'] leading-loose"
+                className="ml-4 border-b border-black md:w-96 w-72  outline-none  text-lg font-normal font-['Poppins'] leading-loose"
                 type="text"
                 name="company"
                 id="text"
@@ -82,7 +82,7 @@ const FormsPage = () => {
                   type="text"
                   id="about"
                   name="message"
-                  className=" block md:w-96 w-80 md:h-28 h-24 ml-4 md:ml-0 rounded-sm  px-1.5  text-black border border-black outline-none sm:text-sm sm:leading-relaxed"
+                  className=" block md:w-96 w-72 md:h-28 h-24 ml-4 md:ml-0 rounded-sm  px-1.5  text-black border border-black outline-none sm:text-sm sm:leading-relaxed"
                 ></input>
               </div>
             </div>
@@ -107,7 +107,7 @@ const FormsPage = () => {
             </div>
             <button
               type="submit"
-              className=" mt-10 rounded-sm bg-gray-300  text-black text-center text-base font-medium font-['Poppins'] leading-tight px-2.5 py-1.5 shadow-sm  hover:text-[#fe2712] md:w-44 md:h-12 w-32 h-11 "
+              className=" mt-10 rounded-sm bg-gray-300  text-black text-center text-base font-medium font-['Urbanist'] leading-tight px-2.5 py-1.5 shadow-sm  md:text-xl hover:text-[#fe2712] md:w-40 md:h-10 w-32 h-11 "
             >
               SUBMIT
             </button>

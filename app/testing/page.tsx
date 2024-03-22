@@ -33,12 +33,12 @@ const Testing = () => {
     return (
         <>
             <main className="max-w-7xl mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
-                <section className=" firstContainer w-full md:py-10 text-black">
+                <section className=" firstContainer w-full md:py-28  text-black">
                     <div className=" ml-8 py-16  md:ml-16 ">
-                        <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Software Testing Services
                         </h1>
-                        <p className="mb-16 text-lg">Ensure Unmatched Quality. Elevate Customer Experience.
+                        <p className="mb-8 text-lg">Ensure Unmatched Quality. Elevate Customer Experience.
 
                         </p>
                         <div>
@@ -47,19 +47,19 @@ const Testing = () => {
                     </div>
                 </section>
 
-                <section className="ml-8 md:ml-16  text-black  md:mt-28 ">
-                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className=" border border-black md:py-28 py-10 mb-10 px-10 md:pl-16">
+                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Use software testing and quality assurance to provide a fast time
                         to market and an outstanding user experience.
                     </h1>
-                    <p className="pb-4 md:w-2/3 text-lg mr-4">
+                    <p className=" text-black pb-4 md:w-3/4 text-lg mr-4">
                         Debugging with competence is necessary to ensure a perfect user experience without sacrificing performance or scalability. Potential failures are recognized and managed by insight-driven quality assurance. To translate organizational efforts into error-free solutions, selecting the appropriate QA and testing partner is essential.
                     </p >
-                    <p className="md:w-2/3 text-lg">As a software testing business, we assist clients in customizing their development cycles to ensure smooth operations and functional assurance. Our licensed professionals carry out thorough testing to get rid of mistakes and defects that could interfere with the functionality of the software. In order to provide error-free solutions, we tailor techniques based on business requirements. These strategies include strategic AI-based testing, non-functional and functional testing, and a DevOps methodology.</p>
+                    <p className=" text-black md:w-3/4 text-lg">As a software testing business, we assist clients in customizing their development cycles to ensure smooth operations and functional assurance. Our licensed professionals carry out thorough testing to get rid of mistakes and defects that could interfere with the functionality of the software. In order to provide error-free solutions, we tailor techniques based on business requirements. These strategies include strategic AI-based testing, non-functional and functional testing, and a DevOps methodology.</p>
                 </section>
                 <section>
-                    <div className="my-10 py-16  md:pl-16  bg-black text-white ">
-                        <div className="mx-6 md:mx-0 md:text-4xl mb-8  md:text-left  text-4xl w-80 md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="my-10 py-16 md:mt-16 md:pl-16  bg-black text-white ">
+                        <div className="mx-6 md:mx-0 md:text-4xl mb-8  md:text-left  text-4xl md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Services Offerings <br /><span className="md:w-3/4"> Ensuring superior quality and accelerating time-to-market with QA testing services.</span>
                         </div>
                         <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6 md:mr-16">
@@ -94,7 +94,7 @@ const Testing = () => {
                 </section>
                 <section className="border border-black md:py-28  py-6 mb-10">
                     <div className=" ml-8 md:ml-16 ">
-                        <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-3/4 font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className=" text-black md:text-4xl pr-6 mb-6  md:text-left  text-4xl md:w-3/4 font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Improved customer satisfaction, shorter time-to-market, better product
                             quality, and more operational efficiency are some of the business advantages
                             of QA and testing.
@@ -119,34 +119,34 @@ const Testing = () => {
                         <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Cost Saving
                         </div>
-                        <p className=" px-10 w-96 text-lg">Businesses may find and fix defects early in the development process by employing QA and software testing, which will pay off in the long run.
+                        <p className=" px-10 text-lg">Businesses may find and fix defects early in the development process by employing QA and software testing, which will pay off in the long run.
                         </p>
                     </div>
                     <div className="border border-solid border-white md:w-full  py-10">
                         <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Accelerated Delivery
                         </div>
-                        <p className="px-10 w-96 text-lg">Achieving quicker software deployment while maintaining high standards of code quality.
+                        <p className="px-10  text-lg">Achieving quicker software deployment while maintaining high standards of code quality.
                         </p>
                     </div>
                     <div className="border border-solid border-white md:w-full  py-10">
                         <div className="px-10 md:text-3xl mb-4 md:mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Improves CSAT
                         </div>
-                        <p className=" px-10 w-96 text-lg">Enhance customer satisfaction scores (CSAT) by providing intuitive software tailored to the target audience&apos;s needs.
+                        <p className=" px-10  text-lg">Enhance customer satisfaction scores (CSAT) by providing intuitive software tailored to the target audience&apos;s needs.
                         </p>
                     </div>
                     <div className="border border-solid border-white md:w-full  py-10">
                         <div className="px-10  md:text-3xl mb-4 md:mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Regulation Friendly
                         </div>
-                        <p className="px-10 w-96 text-lg">Conduct thorough testing to ensure compliance with various regulations while maintaining standardized accessibility.
+                        <p className="px-10  text-lg">Conduct thorough testing to ensure compliance with various regulations while maintaining standardized accessibility.
                         </p>
                     </div>
                 </div>
                 <section>
                     <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4 text-black">
-                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             FAQs
                         </h1>
 

@@ -30,11 +30,11 @@ const devops = () => {
         <>
             <main className="max-w-7xl mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
                 <section className=" firstContainer w-full md:py-10 text-black">
-                    <div className=" ml-8 py-16  md:ml-16 ">
-                        <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className=" ml-8 py-16 md:py-28 mb-10 md:ml-16 ">
+                        <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl  md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             DevOps Services
                         </h1>
-                        <p className="mb-16 text-lg">&quot;Accelerated Application Lifecycle Development and Operations Integrated&quot;
+                        <p className="mb-8 text-lg">&quot;Accelerated Application Lifecycle Development and Operations Integrated&quot;
 
                         </p>
                         <div>
@@ -42,20 +42,20 @@ const devops = () => {
                         </div>
                     </div>
                 </section>
-                <section className="ml-8 md:ml-16 text-black  md:mt-28 ">
-                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className=" border border-black md:py-28 py-10 mb-10 px-10 md:pl-16">
+                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         &quot;DevOps Services for Persistent Application Evolution&quot;
                     </h1>
-                    <p className="pb-4 md:w-2/3 text-lg mr-4">
+                    <p className=" text-black pb-4 md:w-2/3 text-lg mr-4">
                         Streamline delivery pipelines, eliminate inefficiencies, and save costs with quick adoption of continuous delivery and integration. NBS Solutions enables full pipeline visibility, distributes responsibilities, and aligns goals.
 
 
                     </p >
-                    <p className="md:w-2/3 text-lg">  Our DevOps approach closes the gap between development and operations, speeding up product releases. DevOps enhances collaborative workflows, automates tasks, and accelerates innovation.</p>
+                    <p className=" text-black md:w-2/3 text-lg">  Our DevOps approach closes the gap between development and operations, speeding up product releases. DevOps enhances collaborative workflows, automates tasks, and accelerates innovation.</p>
                 </section>
                 <section>
-                    <div className="my-10 py-16  md:pl-16  bg-black text-white ">
-                        <div className="mx-6 md:mx-0 md:text-4xl mb-8  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="my-10 py-16 md:mt-16  md:pl-16  bg-black text-white ">
+                        <div className="mx-6 md:mx-0 md:text-4xl mb-8  md:text-left  text-4xl  md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             DevOps Services Offerings
                         </div>
                         <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6 md:mr-16">
@@ -91,12 +91,12 @@ const devops = () => {
                 </section>
                 <section className="border border-black md:mt-16 md:py-28 py-6">
                     <div className="ml-8 md:ml-16 ">
-                        <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-3/4 font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl  md:w-3/4 font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             &quot;Eliminate silos while establishing a stable operating
                             environment through DevOps Implementation.&quot;
                         </h1>
 
-                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-3xl w-80 md:w-3/4  font-light font-['Urbanist'] leading-normal md:leading-snug  ">To Future-Proof Your Portfolio, Adopt Cloud, SaaS-based Business Models, and Cutting-Edge Technology Stacks.
+                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-3xl  md:w-3/4  font-light font-['Urbanist'] leading-normal md:leading-snug  ">To Future-Proof Your Portfolio, Adopt Cloud, SaaS-based Business Models, and Cutting-Edge Technology Stacks.
                         </h1>
                     </div>
 
@@ -121,34 +121,34 @@ const devops = () => {
                         <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Faster Deployment
                         </div>
-                        <p className=" px-10 w-96 text-lg">DevOps aims to reduce the duration of the software development life cycle, enabling companies to quickly release their products.
+                        <p className=" px-10  text-lg">DevOps aims to reduce the duration of the software development life cycle, enabling companies to quickly release their products.
                         </p>
                     </div>
                     <div className="border border-solid border-white md:w-full  py-10">
                         <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Improved Collaboration
                         </div>
-                        <p className="px-10 w-96 text-lg">DevOps fosters an environment conducive to mutual communication and collaboration between development and operational teams.
+                        <p className="px-10 text-lg">DevOps fosters an environment conducive to mutual communication and collaboration between development and operational teams.
                         </p>
                     </div>
                     <div className="border border-solid border-white md:w-full  py-10">
                         <div className="px-10 md:text-3xl mb-4 md:mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Promotes Agility
                         </div>
-                        <p className=" px-10 w-96 text-lg">The scalability needed to gain a competitive advantage in the market is made possible by DevOps.
+                        <p className=" px-10  text-lg">The scalability needed to gain a competitive advantage in the market is made possible by DevOps.
                         </p>
                     </div>
                     <div className="border border-solid border-white md:w-full  py-10">
                         <div className="px-10  md:text-3xl mb-4 md:mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Early Defect Detection
                         </div>
-                        <p className="px-10 w-96 text-lg">Early defect discovery is facilitated by the DevOps environment of continuous monitoring and testing.
+                        <p className="px-10  text-lg">Early defect discovery is facilitated by the DevOps environment of continuous monitoring and testing.
                         </p>
                     </div>
                 </div>
                 <section>
                     <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4 text-black">
-                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             FAQs
                         </h1>
 

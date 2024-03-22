@@ -26,12 +26,12 @@ const Product = () => {
     return (
         <>
             <main className="max-w-7xl mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
-                <section className=" firstContainer w-full md:py-10 text-black">
+                <section className=" firstContainer w-full md:py-28 mb-10 text-black">
                     <div className=" ml-8 py-16  md:ml-16 ">
-                        <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl w-96 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Product Engineering Services
                         </h1>
-                        <p className="mb-16 text-lg">Complete software product creation, administration, and modernization services.
+                        <p className="mb-8 text-lg">Complete software product creation, administration, and modernization services.
 
                         </p>
                         <div>
@@ -39,20 +39,20 @@ const Product = () => {
                         </div>
                     </div>
                 </section>
-                <section className="ml-8 md:ml-16  text-black  md:mt-28 ">
-                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl w-80 md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className=" border border-black md:py-28 py-10 mb-10 px-10 md:pl-16">
+                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl  md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Create cutting-edge, commercially successful software applications more quickly.
                     </h1>
-                    <p className="pb-4 md:w-2/3 text-lg mr-4">
+                    <p className=" text-black pb-4 md:w-3/4 text-lg mr-4">
                         Companies that provide software products need to adapt to the changing needs of their customers in the quickly changing market of today. To prepare for future trends and shifting needs, this means that their ecosystem and portfolio must be updated on a regular basis. Maintaining competitiveness and future-proofing their firm requires incorporating state-of-the-art technology into their products.
 
 
                     </p >
-                    <p className="md:w-2/3 text-lg">Our product engineering services help companies reach this objective by encouraging creativity, accelerating the creation of new products, and facilitating the expansion of their markets at a lower cost. We serve companies, independent software vendor, and product startups, enabling them to use our Agile, Comprehensive, and Accelerated Cloud Transformation Methodology to adjust to changing market conditions. This guarantees that businesses across all sectors and sizes can efficiently respond to changing consumer demands and market trends while making the most use of their resources.</p>
+                    <p className=" text-black md:w-3/4 text-lg">Our product engineering services help companies reach this objective by encouraging creativity, accelerating the creation of new products, and facilitating the expansion of their markets at a lower cost. We serve companies, independent software vendor, and product startups, enabling them to use our Agile, Comprehensive, and Accelerated Cloud Transformation Methodology to adjust to changing market conditions. This guarantees that businesses across all sectors and sizes can efficiently respond to changing consumer demands and market trends while making the most use of their resources.</p>
                 </section>
                 <section>
-                    <div className=" py-16 my-10  md:pl-16 bg-black text-white">
-                        <div className="mx-6 md:mx-0  md:text-4xl mb-8 md:text-left  text-4xl w-80 md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className=" py-16 my-10 md:mt-16 md:pl-16 bg-black text-white">
+                        <div className="mx-6 md:mx-0  md:text-4xl mb-8 md:text-left  text-4xl  md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Offerings <br /> <span >Evolving Software Portfolios With Our Solutions for Product Engineering</span>
                         </div>
                         <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6 md:mr-16">
@@ -126,34 +126,34 @@ const Product = () => {
                         <div className="px-10  text-black  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Accelerated time to market
                         </div>
-                        <p className=" text-black  px-10 w-96 text-lg">Rapidly launch products with fresh features and functionalities into the market.
+                        <p className=" text-black  px-10  text-lg">Rapidly launch products with fresh features and functionalities into the market.
                         </p>
                     </div>
                     <div className="border border-solid border-black md:w-full  py-10">
                         <div className="px-10  text-black  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Enhanced Productivity
                         </div>
-                        <p className="px-10  text-black  w-96 text-lg">Attain heightened automation in business operations, resulting in enhanced efficiency.
+                        <p className="px-10  text-black   text-lg">Attain heightened automation in business operations, resulting in enhanced efficiency.
                         </p>
                     </div>
                     <div className="border border-solid border-black md:w-full  py-10">
                         <div className="px-10 text-black  md:text-3xl mb-4 md:mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Cost-effectiveness
                         </div>
-                        <p className=" px-10  text-black w-96 text-lg">Portfolio upgrades without the need to upgrade the internal engineering team.
+                        <p className=" px-10  text-black text-lg">Portfolio upgrades without the need to upgrade the internal engineering team.
                         </p>
                     </div>
                     <div className="border border-solid border-black md:w-full  py-10">
                         <div className="px-10  text-black  md:text-3xl mb-4 md:mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Access to New Opportunities
                         </div>
-                        <p className="px-10 text-black  w-96 text-lg">Take advantage of new developments in technology and trends to open up new possibilities.
+                        <p className="px-10 text-black  text-lg">Take advantage of new developments in technology and trends to open up new possibilities.
                         </p>
                     </div>
                 </div>
                 <section>
                     <div className="ml-8 md:ml-16 md:mt-0 mt-10 mr-4 text-black">
-                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl  md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             FAQs
                         </h1>
 

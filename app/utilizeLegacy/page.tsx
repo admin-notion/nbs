@@ -6,13 +6,14 @@ const UtilizeLegacy = () => {
             <main className="">
 
                 <section className=" max-w-7xl  mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white text-black">
-                    <h1 className=" text-black md:text-4xl mb-4 md:w-3/4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                        &quot;Utilize Legacy Transformation to Transform
-                        Conventional Portfolios.&quot;
-                    </h1>
-                    <p className="mb-16 md:w-3/4  text-lg">To Future-Proof Your Portfolio, Adopt Cloud, SaaS-based Business Models, and Cutting-Edge Technology Stacks.
-                    </p>
-
+                    <div className="md:py-28 mb-10">
+                        <h1 className=" text-black md:text-4xl mb-4 md:w-3/4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            &quot;Utilize Legacy Transformation to Transform
+                            Conventional Portfolios.&quot;
+                        </h1>
+                        <p className=" md:w-3/4  text-lg">To Future-Proof Your Portfolio, Adopt Cloud, SaaS-based Business Models, and Cutting-Edge Technology Stacks.
+                        </p>
+                    </div>
                     <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6">
                         <p className=" text-lg border border-solid border-black px-10 py-10">To future-proof their product lines, businesses must implement services like the cloud, SaaS-based business models, and cutting-edge technology stacks for a number of compelling reasons.
                         </p>

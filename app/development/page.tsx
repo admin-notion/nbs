@@ -28,25 +28,25 @@ const Development = () => {
     return (
         <>
             <main className=" max-w-7xl  mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
-                <section className=" ml-8 py-16  md:ml-16 text-black ">
+                <section className=" ml-8 py-16  md:ml-16 text-black md:py-28 mb-10">
                     <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Application Development
                     </h1>
-                    <p className="mb-16 text-lg">Enhance Operational Efficiency and Redefine Processes
+                    <p className="mb-8 text-lg">Enhance Operational Efficiency and Redefine Processes
                         through Enterprise Application Development
                     </p>
                     <div>
                         <a href="#forms" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></a>
                     </div>
                 </section>
-                <section className="ml-8 md:ml-16 text-black md:mt-28 ">
+                <section className=" border border-black md:py-28 py-10 mb-10 px-10 md:pl-16">
                     <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Delivering Efficient Results with Flexible, Secure, and Scalable Solutions
                     </h1>
-                    <p className="pb-4 md:w-1/2 text-lg mr-4">
+                    <p className="  text-black pb-4 md:w-3/4 text-lg mr-4">
                         Utilize the potential of cutting-edge technology, cloud computing, and UX techniques to equip your company with innovative apps that are designed to satisfy market and business needs and promote growth.
                     </p >
-                    <p className="md:w-1/2 text-lg md:mb-20">Scalable software system and application design and development are made easier by NBS Application Development services. We get best results by doing a thorough assessment of our clients&apos; technology environment and business requirements. Every application goes through a rigorous process that includes requirement collecting, MVP design, coding, quality assurance, implementation, and debugging..</p>
+                    <p className="md:w-3/4 text-lg  text-black">Scalable software system and application design and development are made easier by NBS Application Development services. We get best results by doing a thorough assessment of our clients&apos; technology environment and business requirements. Every application goes through a rigorous process that includes requirement collecting, MVP design, coding, quality assurance, implementation, and debugging..</p>
                 </section>
 
 
@@ -130,7 +130,7 @@ const Development = () => {
                 </section>
                 <section>
                     <div className="ml-8 md:ml-16 md:mt-20 mt-10 mr-4 text-black">
-                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl w-80 md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             FAQs
                         </h1>
 

@@ -63,53 +63,39 @@ const ApplicationServices = () => {
                         <div className=" text-white bg-black md:text-4xl mb-4  md:text-left md:pt-10 ml-8 text-4xl pr-2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Application Services Offerings
                         </div>
-                        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 ">
+                        <div className=" grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 col-span-2  text-white mt-10 mb-10">
 
-                            <div className="border border-solid border-white pt-10 my-10 relative">
-                                <div className="px-10 text-white md:text-3xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                                    Development
-                                </div>
-                                <p className="text-white text-lg px-10 md:mb-20 mb-24">Transforming obsolete products into modular apps that are flexible and future-proof. Our services for cloud, mobile, and online applications enable businesses to reduce expenses, make changes, and increase productivity.`&quot;
-                                </p>
-                                <div>
-                                    <Link href="/development">
-                                        <div className="absolute bottom-0 right-0"> <img className=" " src="/images/Vector_black.svg" alt="" /></div>
-                                    </Link>
-                                </div>
-                            </div>
-
-                            <div className="border border-solid border-white  pt-10 my-10 relative">
-                                <div className="px-10 text-white md:text-3xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                                    Modernization
-                                </div>
-                                <p className="text-white text-lg px-10 md:mb-20 mb-24">Shifting to more contemporary, adaptable platforms will renew legacy environments. In order to deliver future-ready solutions with improved usability, security, and agility, we assess and test legacy systems while utilizing the best modernization strategies.
-                                </p>
-                                <Link href="/modernization">
-                                    <div className="absolute bottom-0 right-0"> <img className="" src="/images/Vector_black.svg" alt="" /></div>
+                            <div className="  pt-10 border border-white relative">
+                                <h1 className="md:px-10 px-8 text-2xl md:text-3xl font-semibold  font-['Urbanist'] leading-snug pb-3">Development</h1>
+                                <p className=" px-10 text-lg md:mb-20 mb-24">Transforming obsolete products into modular apps that are flexible and future-proof. Our services for cloud, mobile, and online applications enable businesses to reduce expenses, make changes, and increase productivity.</p>
+                                <Link href="/development" >    <div className="absolute bottom-0 right-0"><img className="" src="/images/Vector_black.svg" alt="" /></div>
                                 </Link>
                             </div>
-                            <div className="border border-solid border-white pt-10 my-10 relative">
-                                <div className="px-10 text-white md:text-3xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                                    Management
-                                </div>
-                                <p className="text-white text-lg px-10 md:mb-20 mb-24">Combining a technological and strategic approach to optimize IT ecosystems over their whole lifecycle, including bug fixes, version upgrades, issue tracking, troubleshooting, performance monitoring, timely analysis of product features, and product complexity maximizing the efficiency in an environment of market orientation.
-                                </p>
-                                <Link href="/management">
-                                    <div className="absolute bottom-0 right-0"> <img className="" src="/images/Vector_black.svg" alt="" /></div>
+
+                            <div className="  pt-10 border border-white relative">
+                                <h1 className="md:px-10 px-8 text-2xl md:text-3xl font-semibold  font-['Urbanist'] leading-snug pb-3">Modernization</h1>
+                                <p className=" px-10 text-lg md:mb-20 mb-24">Shifting to more contemporary, adaptable platforms will renew legacy environments. In order to deliver future-ready solutions with improved usability, security, and agility, we assess and test legacy systems while utilizing the best modernization strategies.</p>
+                                <Link href="/development" >    <div className="absolute bottom-0 right-0"><img className="" src="/images/Vector_black.svg" alt="" /></div>
                                 </Link>
                             </div>
+                            <div className="  pt-10 border border-white relative">
+                                <h1 className="md:px-10 px-8 text-2xl md:text-3xl font-semibold  font-['Urbanist'] leading-snug pb-3">Management</h1>
+                                <p className=" px-10 text-lg md:mb-20 mb-24">Combining a technological and strategic approach to optimize IT ecosystems over their whole lifecycle, including bug fixes, version upgrades, issue tracking, troubleshooting, performance monitoring, timely analysis of product features, and product complexity maximizing the efficiency in an environment of market orientation.</p>
+                                <Link href="/development" >    <div className="absolute bottom-0 right-0"><img className="" src="/images/Vector_black.svg" alt="" /></div>
+                                </Link>
+                            </div>
+
                         </div>
-
                     </div>
                 </section>
                 <section className="border border-black md:py-28 mt-10 mb-10">
                     <div className="ml-8 md:ml-16 ">
-                        <h1 className="mt-6 text-black md:text-4xl mb-6  md:text-left  text-4xl md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className="mt-6 text-black md:text-4xl mb-6  md:text-left  text-3xl md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             &quot;Utilize Legacy Transformation to Transform
                             Conventional Portfolios.&quot;
                         </h1>
 
-                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-3xl md:w-1/2  font-light font-['Urbanist'] leading-normal md:leading-snug  ">To Future-Proof Your Portfolio, Adopt Cloud, SaaS-based Business Models, and Cutting-Edge Technology Stacks.
+                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-3xl md:w-3/4  font-light font-['Urbanist'] leading-normal md:leading-snug  ">To Future-Proof Your Portfolio, Adopt Cloud, SaaS-based Business Models, and Cutting-Edge Technology Stacks.
                         </h1>
                     </div>
 

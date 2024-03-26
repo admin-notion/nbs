@@ -58,17 +58,17 @@ const devops = () => {
                         <div className="mx-6 md:mx-0 md:text-4xl mb-8  md:text-left  text-4xl  md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             DevOps Services Offerings
                         </div>
-                        <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6 md:mr-16">
-                            <div className="border border-solid border-white px-10 py-10">
-                                <div className=" md:text-3xl mb-16  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6 md:mr-16 ">
+                            <div className="border border-solid border-white  px-10 py-10">
+                                <div className=" md:text-3xl mb-16  md:text-left  text-3xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Consulting Services
                                 </div>
                                 <p className=" text-lg">Through the help of our DevOps consulting services, you may improve the caliber of software builds, foster an agile culture, and accelerate application releases. We apply continuous integration and development using cloud capabilities to help businesses achieve their objectives while cutting expenses.
                                 </p>
 
                             </div>
-                            <div className="border border-solid border-white px-10 py-10">
-                                <div className=" md:text-3xl mb-4  md:text-left  text-4xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white px-10  py-10">
+                                <div className=" md:text-3xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Implementation &
                                     Containerization Services
                                 </div>
@@ -77,7 +77,7 @@ const devops = () => {
 
                             </div>
                             <div className="border border-solid border-white px-10 py-10">
-                                <div className=" md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                <div className=" md:text-3xl mb-4  md:text-left  text-3xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Continuous Integration &
                                     Continuous Delivery
                                 </div>
@@ -91,7 +91,7 @@ const devops = () => {
                 </section>
                 <section className="border border-black md:mt-16 md:py-28 py-6">
                     <div className="ml-8 md:ml-16 ">
-                        <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl  md:w-3/4 font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl  md:w-3/4 font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             &quot;Eliminate silos while establishing a stable operating
                             environment through DevOps Implementation.&quot;
                         </h1>

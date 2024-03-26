@@ -37,7 +37,8 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Press+Start+2P&display=swap" rel="stylesheet" />
 
       </head>
-      <body className={inter.className}>
+      <body className={inter.className} style={{ width: "100%" }}>
+
         <Header />
         {children}
         <Footer />

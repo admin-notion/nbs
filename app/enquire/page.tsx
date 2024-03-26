@@ -16,9 +16,9 @@ const Enquire = () => {
                         <div className=" text-black md:text-3xl mb-4 md:mt-16 mt-4 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             We&apos;re here to assist you!
                         </div>
-                        <p className="md:w-3/4 text-lg">we can help you accelerate your business goals if you work
+                        <p className="md:w-3/4 text-lg">We can help you accelerate your business goals, if you work
                             in software development or use technology in your company
-                            to solve business problems. </p>
+                            to solve business problems.</p>
                     </section>
 
                 </div>

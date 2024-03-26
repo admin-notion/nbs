@@ -24,7 +24,7 @@ const FormsPage = () => {
             <div className=" text-lg font-medium leading-relaxed pt-3 text-black">
               Hola! I am :
               <input
-                className="ml-4 border-b border-black md:w-96 w-72 outline-none  text-lg font-normal font-['Poppins'] leading-loose"
+                className="ml-4 border-b border-black md:w-96  outline-none  text-lg font-normal font-['Poppins'] leading-loose"
                 type="text"
                 name="firstName"
                 id="first-name"
@@ -37,7 +37,7 @@ const FormsPage = () => {
               {" "}
               Email :
               <input
-                className="ml-4 border-b border-black md:w-96 w-72  outline-none   text-lg font-normal font-['Poppins'] leading-loose"
+                className="ml-4 border-b border-black md:w-96  outline-none   text-lg font-normal font-['Poppins'] leading-loose"
                 required
                 type="email"
                 name="email"
@@ -49,7 +49,7 @@ const FormsPage = () => {
             <div className=" text-lg font-medium leading-relaxed pt-3 text-black">
               Mobile :
               <input
-                className="ml-4 border-b border-black md:w-96 w-72  outline-none   text-lg font-normal font-['Poppins'] leading-loose"
+                className="ml-4 border-b border-black md:w-96   outline-none   text-lg font-normal font-['Poppins'] leading-loose"
                 required
                 type="tel"
                 name="tel"
@@ -62,7 +62,7 @@ const FormsPage = () => {
             <div className=" text-lg font-medium leading-relaxed pt-3  text-black">
               Company :
               <input
-                className="ml-4 border-b border-black md:w-96 w-72  outline-none  text-lg font-normal font-['Poppins'] leading-loose"
+                className="ml-4 border-b border-black md:w-96   outline-none  text-lg font-normal font-['Poppins'] leading-loose"
                 type="text"
                 name="company"
                 id="text"
@@ -82,7 +82,7 @@ const FormsPage = () => {
                   type="text"
                   id="about"
                   name="message"
-                  className=" block md:w-96 w-72 md:h-28 h-24 ml-4 md:ml-0 rounded-sm  px-1.5  text-black border border-black outline-none sm:text-sm sm:leading-relaxed"
+                  className=" pt-0 md:w-96  md:h-28 h-24 ml-4 md:ml-0 rounded-sm  px-1.5  text-black border border-black outline-none sm:text-sm sm:leading-relaxed"
                 ></input>
               </div>
             </div>
@@ -100,9 +100,7 @@ const FormsPage = () => {
                 htmlFor="remember"
                 className="ms-2 text-lg font-medium text-gray-900 dark:text-gray-300 md:w-3/4"
               >
-                Get strategy guides, industry insights, trend reports, and more
-                delivered straight to your email by subscribing to our
-                resources!
+                Get Strategy Guides, Industry Insights, Trend Reports And Many More Delivered Straight To Your Email By Subscribing To Our Resources!
               </label>
             </div>
             <button

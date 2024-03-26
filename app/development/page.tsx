@@ -115,7 +115,7 @@ const Development = () => {
                             <p className="text-lg "> Creative and innovative application development services in Java, JQuery, TypeScript, Swift, Angular, React, PHP,.Net, Python, and JavaScript.</p>
                         </div>
                         <div className="border border-solid border-white px-10 py-10">
-                            <p className="text-lg "> We utilize our proprietary framework – RAPADIT (Rapid Application Development with predefined time-tested frameworks) for delivering reliable web application development services..</p>
+                            <p className="text-lg "> We utilize our proprietary framework - RAPADIT (Rapid Application Development with predefined time-tested frameworks) for delivering reliable web application development services..</p>
                         </div>
                         <div className="border border-solid border-white px-10 py-10">
                             <p className="text-lg"> Strategically integrate

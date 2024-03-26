@@ -59,44 +59,44 @@ const ApplicationServices = () => {
                 <section>
 
 
-                    <div className=" md:my-16 py-8 bg-black text-white  md:pl-16 md:pr-16 ">
+                    <div className=" md:my-16 py-8 bg-black text-white  md:px-14  ">
                         <div className=" text-white bg-black md:text-4xl mb-4  md:text-left md:pt-10 ml-8 text-4xl pr-2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Application Services Offerings
                         </div>
-                        <div className="bg-black grid md:grid-cols-3 sm:grid-cols-1 gap-4 ">
+                        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 ">
 
-                            <div className="border border-solid border-white pt-10 my-10 ">
+                            <div className="border border-solid border-white pt-10 my-10 relative">
                                 <div className="px-10 text-white md:text-3xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Development
                                 </div>
-                                <p className="text-white text-lg px-10">Transforming obsolete products into modular apps that are flexible and future-proof. Our services for cloud, mobile, and online applications enable businesses to reduce expenses, make changes, and increase productivity.`&quot;
+                                <p className="text-white text-lg px-10 md:mb-20 mb-24">Transforming obsolete products into modular apps that are flexible and future-proof. Our services for cloud, mobile, and online applications enable businesses to reduce expenses, make changes, and increase productivity.`&quot;
                                 </p>
                                 <div>
-                                    <Link href="/development">  <div className="md:mt-44 mt-5 text-right ">
-                                        <div className="lg:ml-64 lg:mt-12"> <img className=" " src="/images/Vector_black.svg" alt="" /></div>
-                                    </div></Link>
+                                    <Link href="/development">
+                                        <div className="absolute bottom-0 right-0"> <img className=" " src="/images/Vector_black.svg" alt="" /></div>
+                                    </Link>
                                 </div>
                             </div>
 
-                            <div className="border border-solid border-white  pt-10 my-10">
+                            <div className="border border-solid border-white  pt-10 my-10 relative">
                                 <div className="px-10 text-white md:text-3xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Modernization
                                 </div>
-                                <p className="text-white text-lg px-10">Shifting to more contemporary, adaptable platforms will renew legacy environments. In order to deliver future-ready solutions with improved usability, security, and agility, we assess and test legacy systems while utilizing the best modernization strategies.
+                                <p className="text-white text-lg px-10 md:mb-20 mb-24">Shifting to more contemporary, adaptable platforms will renew legacy environments. In order to deliver future-ready solutions with improved usability, security, and agility, we assess and test legacy systems while utilizing the best modernization strategies.
                                 </p>
-                                <Link href="/modernization">  <div className="md:mt-16 mt-5  md:pt-2 text-right ">
-                                    <div className="lg:ml-64 lg:mt-12"> <img className="" src="/images/Vector_black.svg" alt="" /></div>
-                                </div></Link>
+                                <Link href="/modernization">
+                                    <div className="absolute bottom-0 right-0"> <img className="" src="/images/Vector_black.svg" alt="" /></div>
+                                </Link>
                             </div>
-                            <div className="border border-solid border-white pt-10 my-10 ">
+                            <div className="border border-solid border-white pt-10 my-10 relative">
                                 <div className="px-10 text-white md:text-3xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Management
                                 </div>
-                                <p className="text-white text-lg px-10">Combining a technological and strategic approach to optimize IT ecosystems over their whole lifecycle, including bug fixes, version upgrades, issue tracking, troubleshooting, performance monitoring, timely analysis of product features, and product complexity maximizing the efficiency in an environment of market orientation.
+                                <p className="text-white text-lg px-10 md:mb-20 mb-24">Combining a technological and strategic approach to optimize IT ecosystems over their whole lifecycle, including bug fixes, version upgrades, issue tracking, troubleshooting, performance monitoring, timely analysis of product features, and product complexity maximizing the efficiency in an environment of market orientation.
                                 </p>
-                                <Link href="/management">   <div className="md:mt-4 mt-5  text-right ">
-                                    <div className="lg:ml-64 lg:mt-16"> <img className="" src="/images/Vector_black.svg" alt="" /></div>
-                                </div></Link>
+                                <Link href="/management">
+                                    <div className="absolute bottom-0 right-0"> <img className="" src="/images/Vector_black.svg" alt="" /></div>
+                                </Link>
                             </div>
                         </div>
 

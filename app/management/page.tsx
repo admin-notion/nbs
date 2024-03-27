@@ -58,7 +58,7 @@ const Management = () => {
                     </h1>
                     <div className="grid md:grid-cols-2 sm:grid-cols-1 md:pr-16 pt-10 gap-5 pb-16">
                         <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
-                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                 Application Maintenance and Support
                             </div>
                             <ul className="px-10 list-decimal ml-6  ">
@@ -68,7 +68,7 @@ const Management = () => {
                             </ul>
                         </div>
                         <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
-                            <div className="px-10 text-black md:text-3xl mb-2 mt-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4  md:text-left  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                 QA & Testing
                             </div>
                             <ul className="px-10 list-decimal ml-6  ">
@@ -79,7 +79,7 @@ const Management = () => {
                             </ul>
                         </div>
                         <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
-                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                 Enhancements and Optimization
                             </div>
                             <ul className=" px-10 list-decimal ml-6  ">
@@ -91,7 +91,7 @@ const Management = () => {
                             </ul>
                         </div>
                         <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
-                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                 Application Security Management
                             </div>
                             <ul className="px-10 list-decimal ml-6  ">
@@ -103,13 +103,12 @@ const Management = () => {
                         </div>
                     </div>
                 </section >
-                <section className="md:pl-16 md:pt-16 mt-10 bg-black text-white">
-                    <h1 className=" mx-6  md:mx-0 md:text-4xl mb-6  md:text-left  text-3xl md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className="md:pl-16 md:pt-16 md:mt-10  bg-black text-white">
+                    <h1 className="pt-6 md:pt-0 mx-6  md:mx-0 md:text-4xl mb-6  md:text-left  text-3xl md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         What is the importance of Enterprise Application Management?
                     </h1>
                     <p className=" mx-6  md:mx-0 pb-6 md:w-1/2 text-lg mr-4">
                         Supplying the best possible combination of staff, processes, and technology to manage and control business applications.
-
                     </p >
 
                     <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4 pb-16 md:mr-16">

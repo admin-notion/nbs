@@ -48,7 +48,7 @@ const Testing = () => {
                 </section>
 
                 <section className=" border border-black md:py-28 py-10 mb-10 px-10 md:pl-16">
-                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Use software testing and quality assurance to provide a fast time
                         to market and an outstanding user experience.
                     </h1>
@@ -59,12 +59,12 @@ const Testing = () => {
                 </section>
                 <section>
                     <div className="my-10 py-16 md:mt-16 md:pl-16  bg-black text-white ">
-                        <div className="mx-6 md:mx-0 md:text-4xl mb-8  md:text-left  text-4xl md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <div className="mx-6 md:mx-0 md:text-4xl mb-8  md:text-left  text-3xl md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Services Offerings <br /><span className="md:w-3/4"> Ensuring superior quality and accelerating time-to-market with QA testing services.</span>
                         </div>
                         <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6 md:mr-16">
                             <div className="border border-solid border-white px-10 py-10">
-                                <div className=" md:text-3xl mb-10  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                <div className=" md:text-3xl mb-10  md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Test Consulting
                                 </div>
                                 <p className=" text-lg">Using our Test Advisory Service, you can improve software maturity levels and meet software objectives. Test Centers of Excellence are also established with our help, carefully designed to match your future roadmap and present company demands. We collaborate closely to establish the goals, schedule, and framework for your TCoE.
@@ -72,7 +72,7 @@ const Testing = () => {
 
                             </div>
                             <div className="border border-solid border-white px-10 py-10">
-                                <div className=" md:text-3xl mb-10  md:text-left  text-4xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                <div className=" md:text-3xl mb-10  md:text-left  text-2xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Data Testing
                                 </div>
                                 <p className=" text-lg">Strategic Performance/Security Testing, Business Functionality Testing, Audit Report/Data Quality Report, and Automated ETL Data Validation can help prevent the loss of important data. We support ongoing testing of ETL pipelines to maintain the accuracy and dependability of data.
@@ -80,7 +80,7 @@ const Testing = () => {
 
                             </div>
                             <div className="border border-solid border-white px-10 py-10">
-                                <div className=" md:text-3xl mb-10  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                <div className=" md:text-3xl mb-10  md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Functiona &
                                     Non-Functional Testing
                                 </div>
@@ -94,7 +94,7 @@ const Testing = () => {
                 </section>
                 <section className="border border-black md:py-28  py-6 mb-10">
                     <div className=" ml-8 md:ml-16 ">
-                        <h1 className=" text-black md:text-4xl pr-6 mb-6  md:text-left  text-4xl md:w-3/4 font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className=" text-black md:text-4xl pr-6 mb-6  md:text-left  text-3xl md:w-3/4 font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Improved customer satisfaction, shorter time-to-market, better product
                             quality, and more operational efficiency are some of the business advantages
                             of QA and testing.

@@ -6,7 +6,7 @@ const Manufacturing = () => {
             <main className="max-w-7xl mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white text-black">
                 <section className=" w-full md:py-10">
                     <div className=" mx-8 py-16  md:ml-16 ">
-                        <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <h1 className=" text-black md:text-4xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Manufacturing and Distribution
                         </h1>
                         <p className="mb-16 md:w-3/4  text-lg">Optimizing Efficiency and Fostering Innovation in Manufacturing and Distribution through IT Solutions

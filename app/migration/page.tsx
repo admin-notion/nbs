@@ -77,82 +77,82 @@ const Migration = () => {
                 </section>
                 <section>
                     <div className=" py-16 my-10 md:pl-16 md:mt-16  md:pr-16 bg-black text-white">
-                        <div className=" mx-6 md:mx-0 md:text-4xl mb-10  md:text-left  text-4xl  md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <div className=" mx-6 md:mx-0 md:text-4xl mb-10  md:text-left  text-3xl  md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Offerings <br /> <span>&quot;System Migration Services encompass data, application, OS, cloud, legacy
                                 system upgrades, database, platform, infrastructure migrations, version upgrades,
                                 and risk assessment.&quot;</span>
                         </div>
                         <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6">
-                            <div className="border border-solid border-white px-10 py-10">
-                                <div className="  md:text-3xl mb-4 md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  py-10">
+                                <div className="px-10  md:text-3xl mb-4 md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Data Migration
                                 </div>
-                                <p className=" text-lg">Transfer of data from one system to another while ensuring integrity and consistency.
+                                <p className="px-10 text-lg">Transfer of data from one system to another while ensuring integrity and consistency.
                                 </p>
 
                             </div>
-                            <div className="border border-solid border-white  px-10 py-10">
-                                <div className="  md:text-3xl mb-4  md:text-left  text-4xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  py-10">
+                                <div className="px-10  md:text-3xl mb-4  md:text-left  text-2xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Application Migration:
                                 </div>
-                                <p className=" text-lg">Moving software applications from one environment to another, often involving code refactoring or compatibility adjustments.
+                                <p className="px-10 text-lg">Moving software applications from one environment to another, often involving code refactoring or compatibility adjustments.
                                 </p>
 
                             </div>
-                            <div className="border border-solid border-white    px-10 py-10">
-                                <div className=" md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white py-10">
+                                <div className="px-10 md:text-3xl mb-4  md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Operating System Migration
 
 
                                 </div>
-                                <p className="text-lg">Transitioning from one operating system to another, such as migrating from Windows to Linux.
+                                <p className="px-10 text-lg">Transitioning from one operating system to another, such as migrating from Windows to Linux.
                                 </p>
                             </div>
-                            <div className="border border-solid border-white  px-10 py-10">
-                                <div className=" md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  py-10">
+                                <div className="px-10 md:text-3xl mb-4  md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Cloud Migration:
 
                                 </div>
-                                <p className="text-lg"> Shifting on-premises systems and data to cloud-based platforms like AWS, Azure, or Google Cloud.
+                                <p className="px-10 text-lg"> Shifting on-premises systems and data to cloud-based platforms like AWS, Azure, or Google Cloud.
                                 </p>
                             </div>
-                            <div className="border border-solid border-white px-10 py-10">
-                                <div className=" md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  py-10">
+                                <div className="px-10 md:text-3xl mb-4  md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Legacy System Upgrades:
 
                                 </div>
-                                <p className="text-lg">Upgrading outdated or unsupported systems to newer versions for improved performance, security, and functionality.
+                                <p className="px-10 text-lg">Upgrading outdated or unsupported systems to newer versions for improved performance, security, and functionality.
                                 </p>
                             </div>
-                            <div className="border border-solid border-white  px-10 py-10">
-                                <div className=" md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white py-10">
+                                <div className="px-10 md:text-3xl mb-4  md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Database Migration:
 
                                 </div>
-                                <p className="text-lg">Moving databases from one platform or architecture to another, ensuring data integrity and minimal downtime.
+                                <p className="px-10 text-lg">Moving databases from one platform or architecture to another, ensuring data integrity and minimal downtime.
                                 </p>
                             </div>
-                            <div className="border border-solid border-white  px-10 py-10">
-                                <div className="  md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white py-10">
+                                <div className=" px-10 md:text-3xl mb-4  md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Platform Migration:
 
                                 </div>
-                                <p className="text-lg">Transitioning between different hardware or software platforms, such as migrating from physical servers to virtualized environments.
+                                <p className="px-10 text-lg">Transitioning between different hardware or software platforms, such as migrating from physical servers to virtualized environments.
                                 </p>
                             </div>
-                            <div className="border border-solid border-white  px-10 py-10">
-                                <div className="  md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  py-10">
+                                <div className="px-10  md:text-3xl mb-4  md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Infrastructure Migration:
 
                                 </div>
-                                <p className="text-lg">Moving entire IT infrastructures, including servers, networking equipment, and storage, to new locations or configurations.
+                                <p className="px-10 text-lg">Moving entire IT infrastructures, including servers, networking equipment, and storage, to new locations or configurations.
                                 </p>
                             </div>
-                            <div className="border border-solid border-white  px-10 py-10">
-                                <div className=" md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  py-10">
+                                <div className="px-10 md:text-3xl mb-4  md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Version Upgrades:
                                 </div>
-                                <p className="text-lg">Updating software applications or systems to newer versions while ensuring compatibility with existing data and workflows.
+                                <p className="px-10 text-lg">Updating software applications or systems to newer versions while ensuring compatibility with existing data and workflows.
                                 </p>
                             </div>
 

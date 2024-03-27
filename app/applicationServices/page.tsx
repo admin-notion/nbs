@@ -75,13 +75,13 @@ const ApplicationServices = () => {
                             <div className="  pt-10 border border-white relative">
                                 <h1 className="md:px-10 px-8 text-2xl md:text-3xl font-semibold  font-['Urbanist'] leading-snug pb-3">Modernization</h1>
                                 <p className=" px-10 text-lg md:mb-20 mb-24">Shifting to more contemporary, adaptable platforms will renew legacy environments. In order to deliver future-ready solutions with improved usability, security, and agility, we assess and test legacy systems while utilizing the best modernization strategies.</p>
-                                <Link href="/development" >    <div className="absolute bottom-0 right-0"><img className="" src="/images/Vector_black.svg" alt="" /></div>
+                                <Link href="/modernization" >    <div className="absolute bottom-0 right-0"><img className="" src="/images/Vector_black.svg" alt="" /></div>
                                 </Link>
                             </div>
                             <div className="  pt-10 border border-white relative">
                                 <h1 className="md:px-10 px-8 text-2xl md:text-3xl font-semibold  font-['Urbanist'] leading-snug pb-3">Management</h1>
                                 <p className=" px-10 text-lg md:mb-20 mb-24">Combining a technological and strategic approach to optimize IT ecosystems over their whole lifecycle, including bug fixes, version upgrades, issue tracking, troubleshooting, performance monitoring, timely analysis of product features, and product complexity maximizing the efficiency in an environment of market orientation.</p>
-                                <Link href="/development" >    <div className="absolute bottom-0 right-0"><img className="" src="/images/Vector_black.svg" alt="" /></div>
+                                <Link href="/management" >    <div className="absolute bottom-0 right-0"><img className="" src="/images/Vector_black.svg" alt="" /></div>
                                 </Link>
                             </div>
 
@@ -118,7 +118,7 @@ const ApplicationServices = () => {
                 </section>
 
                 <div className="bg-black text-white grid md:grid-cols-2 sm:grid-cols-1 md:pl-16 md:pr-16  pt-10 gap-5 pb-16">
-                    <div className="border border-solid border-white md:w-full w-full bg-black  py-10">
+                    <div className="border border-solid border-white md:w-full w-full  py-10">
                         <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Agility
                         </div>

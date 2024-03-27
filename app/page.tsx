@@ -43,7 +43,7 @@ export default function Home() {
             Discover the potential of innovation through our comprehensive range of integrated services.
           </div>
         </div>
-        <div className=" md:mx-14 mx-8 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 col-span-2  text-white">
+        <div className=" md:mx-14 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 col-span-2  text-white">
 
           <div className="  pt-10 border border-white relative">
             <h1 className=" px-10 text-2xl font-semibold  font-['Urbanist'] leading-snug pb-3">Application Services</h1>
@@ -177,7 +177,9 @@ export default function Home() {
               We offer a complete range of services that seamlessly integrate IT solutions, captivating design and reliable cloud services to enhance your organisations.</h1>
           </div>
           <div className="md:ml-14 mb-10 md:mb-0 text-center flex justify-center items-center md:text-left md:justify-start">
-            <button className=" border border-black text-center flex justify-center items-center  h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button>
+            <div>
+              <Link href="/enquire" >  <button className=" border border-black text-center justify-center h-10 w-40 bg-black hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Talk to us</button></Link>
+            </div>
           </div>
         </div>
       </section>
@@ -224,20 +226,20 @@ export default function Home() {
             /></Link>
           </div>
           <div className="">
-            <h1 className="md:mt-0 mt-6 text-black md:text-xl  text-center  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+            <h1 className="md:mt-0 mt-6 text-black md:text-xl  text-center  text-xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
               PHONE
             </h1>
-            <Link href="tel:+918884208188">   <h1 className=" hover:underline text-black md:text-xl  text-center  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+            <Link href="tel:+918884208188">   <h1 className=" hover:underline text-black md:text-xl  text-center  text-xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
 
               +91 888 420 8188
             </h1></Link>
           </div>
           <div>
-            <h1 className="md:mt-0 mt-6 text-black md:text-xl  text-center  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+            <h1 className="md:mt-0 mt-6 text-black md:text-xl  text-center  text-xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
               EMAIL
 
             </h1>
-            <Link href="mailto:people@notion.business"> <h1 className="mb-10 md:mb-0 hover:underline text-black md:text-xl text-center  text-2xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+            <Link href="mailto:people@notion.business"> <h1 className="mb-10 md:mb-0 hover:underline text-black md:text-xl text-center  text-xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
               people@notion.business
             </h1></Link>
           </div>

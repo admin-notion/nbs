@@ -18,13 +18,13 @@ const Transformation = () => {
                         <Link href="/utilizeLegacy"> <button className="mt-3 md:mt-0 border border-black text-center justify-center h-10 w-40 bg-gray-500 hover:bg-yellow-300 hover:text-black  text-white md:text-xl md:text-center  text-2xl font-light font-['Urbanist'] leading-normal md:leading-snug">Explore</button></Link>
                     </div>
                 </section>
-                <section className=" border border-black md:py-28 py-10 mb-10 px-10 md:pl-16">
-                    <h1 className=" text-black md:text-4xl mb-4 md:w-3/4   md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                <section className=" border border-black md:py-28 py-10 mb-10 md:pl-16">
+                    <h1 className="px-8  text-black md:text-4xl mb-4 md:w-3/4   md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Transformation for an Agile & Efficient Digital Future
                     </h1>
-                    <p className=" text-black text-lg md:w-3/4">Businesses are forced to modernize their legacy systems due to a number of factors, including market disruptions, customer expectations, a competitive landscape that is becoming more complicated, and the necessity of digitization. Organizations can get agility and flexibility by transforming their IT infrastructure, which makes it easier to supply cutting-edge goods and services quickly and effectively. Our experience includes a wide range of contemporary technologies, applications, security, and industry sectors. We provide full modernization services including enterprise security, digital engineering, cloud enablement, infrastructure services, application stack management, and core application redesign.
+                    <p className="px-10  text-black text-lg md:w-3/4">Businesses are forced to modernize their legacy systems due to a number of factors, including market disruptions, customer expectations, a competitive landscape that is becoming more complicated, and the necessity of digitization. Organizations can get agility and flexibility by transforming their IT infrastructure, which makes it easier to supply cutting-edge goods and services quickly and effectively. Our experience includes a wide range of contemporary technologies, applications, security, and industry sectors. We provide full modernization services including enterprise security, digital engineering, cloud enablement, infrastructure services, application stack management, and core application redesign.
                     </p>
-                    <p className=" text-black text-lg md:w-3/4 mt-5">Together, you and our skilled specialists will develop resilient and agile
+                    <p className="px-10  text-black text-lg md:w-3/4 mt-5">Together, you and our skilled specialists will develop resilient and agile
                         modernization strategies for relic systems that fulfill growing business
                         demands and reduce the risks associated with change. </p>
                 </section>

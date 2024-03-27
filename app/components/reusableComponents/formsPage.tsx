@@ -17,7 +17,7 @@ const FormsPage = () => {
     <>
       <div id="forms">
         <div className="max-w-7xl md:ml-6 md:mt-10  mx-auto px-4 py-8 md:px-6 lg:px-8 xl:px-10 bg-white">
-          <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+          <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
             Is your business prepared to take a leap into the future?
           </h1>
           <form action={onClick}>
@@ -98,7 +98,7 @@ const FormsPage = () => {
               </div>
               <label
                 htmlFor="remember"
-                className="ms-2 text-lg font-medium text-gray-900 dark:text-gray-300 md:w-3/4"
+                className="ms-2 text-lg font-medium text-gray-900 dark:text-gray-900 md:w-3/4"
               >
                 Get Strategy Guides, Industry Insights, Trend Reports And Many More Delivered Straight To Your Email By Subscribing To Our Resources!
               </label>

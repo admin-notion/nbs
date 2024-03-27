@@ -40,9 +40,9 @@ const Itstaffing = () => {
                         <h1 className=" text-white md:text-4xl mb-6  md:text-left pt-10 px-14 text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Our services in technology staffing.
                         </h1>
-                        <div className="md:mx-14 mx-8 grid md:grid-cols-2 sm:grid-cols-1 gap-4 pb-10">
+                        <div className="md:mx-14  grid md:grid-cols-2 sm:grid-cols-1 gap-4 pb-10">
                             <div className="py-10 md:px-10 px-8 border border-white">
-                                <h1 className=" text-white md:text-4xl mb-6  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                <h1 className=" text-white md:text-4xl mb-6  md:text-left  text-2xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Contract Staffing and Placement
                                 </h1>
                                 <p className=" text-lg">As one of the most seasoned IT staffing companies, we have a team of knowledgeable
@@ -54,7 +54,7 @@ const Itstaffing = () => {
                             </div>
                             <div className="border  border-white py-10 md:px-10 px-8">
 
-                                <h1 className=" text-white md:text-4xl mb-6 mt-6 md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                                <h1 className=" text-white md:text-4xl mb-6 mt-6 md:text-left  text-2xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Recruitment and Assignment Assistance
                                 </h1>
                                 <p className=" text-lg">Our technical staffing services offer a consistent flow of technical personnel that are in line with your business goals, such as project managers, QA specialists, and software developers. We are aware that finding applicants is only one aspect of technical recruitment. Our services cover every facet of the working relationship, making sure that the employer&apos;s and the employee&apos;s expectations are met.</p>

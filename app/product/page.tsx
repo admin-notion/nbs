@@ -40,7 +40,7 @@ const Product = () => {
                     </div>
                 </section>
                 <section className=" border border-black md:py-28 py-10 mb-10 px-10 md:pl-16">
-                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-4xl  md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl  md:w-3/4  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                         Create cutting-edge, commercially successful software applications more quickly.
                     </h1>
                     <p className=" text-black pb-4 md:w-3/4 text-lg mr-4">
@@ -52,58 +52,58 @@ const Product = () => {
                 </section>
                 <section>
                     <div className=" py-16 my-10 md:mt-16 md:pl-16 bg-black text-white">
-                        <div className="mx-6 md:mx-0  md:text-4xl mb-8 md:text-left  text-4xl  md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <div className="mx-10 md:mx-0  md:text-4xl mb-8 md:text-left  text-3xl  md:w-2/3  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Offerings <br /> <span >Evolving Software Portfolios With Our Solutions for Product Engineering</span>
                         </div>
                         <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6 md:mr-16">
-                            <div className="border border-solid border-white px-10 py-10">
-                                <div className="  md:text-3xl mb-4 md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  py-10">
+                                <div className="px-10  md:text-3xl mb-4 md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Product Engineering
                                     Consulting
                                 </div>
-                                <p className=" text-lg">evaluating product architecture and modernization options as part of a thorough technological stack evaluation, with the help of our team, in order to create a strategic plan. We give end-to-end assessments for setting up innovation centers according to our clients needs and offer advice on cutting-edge technologies like machine learning and the Internet of Things.
+                                <p className="px-10 text-lg">evaluating product architecture and modernization options as part of a thorough technological stack evaluation, with the help of our team, in order to create a strategic plan. We give end-to-end assessments for setting up innovation centers according to our clients needs and offer advice on cutting-edge technologies like machine learning and the Internet of Things.
                                 </p>
 
                             </div>
-                            <div className="border border-solid border-white px-10 py-10">
-                                <div className="  md:text-3xl mb-4  md:text-left  text-4xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  py-10">
+                                <div className="px-10  md:text-3xl mb-4  md:text-left  text-2xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Product Development
                                 </div>
-                                <p className=" text-lg">A complete product cycle includes engineering design for improvements, documenting of specifications and needs, conceptual development, and product development utilizing relevant technologies.
+                                <p className="px-10 text-lg">A complete product cycle includes engineering design for improvements, documenting of specifications and needs, conceptual development, and product development utilizing relevant technologies.
                                 </p>
 
                             </div>
-                            <div className="border border-solid border-white px-10 py-10">
-                                <div className="  md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  py-10">
+                                <div className="px-10  md:text-3xl mb-4  md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Mobile Product
                                     Development
 
                                 </div>
-                                <p className="text-lg">Encouraging a smooth user experience and cross-device communication to improve results via enterprise and user-facing mobile products, using our tried-and-true RAPADIT wireframes that are customized on-demand to match client requirements.
+                                <p className="px-10 text-lg">Encouraging a smooth user experience and cross-device communication to improve results via enterprise and user-facing mobile products, using our tried-and-true RAPADIT wireframes that are customized on-demand to match client requirements.
                                 </p>
                             </div>
-                            <div className="border border-solid border-white px-10 py-10">
-                                <div className="  md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  py-10">
+                                <div className="px-10  md:text-3xl mb-4  md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Product Modernization
 
                                 </div>
-                                <p className="text-lg">Utilizing cutting-edge technology to transform and rejuvenate current portfolios, staying abreast of innovation. Enhancing software and platforms to deliver a superior digital experience through Technology Upgrades, UX Enhancements, Architecture Modernization, Analytics Enablement, and beyond.
+                                <p className="px-10 text-lg">Utilizing cutting-edge technology to transform and rejuvenate current portfolios, staying abreast of innovation. Enhancing software and platforms to deliver a superior digital experience through Technology Upgrades, UX Enhancements, Architecture Modernization, Analytics Enablement, and beyond.
                                 </p>
                             </div>
-                            <div className="border border-solid border-white px-10 py-10">
-                                <div className="  md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white  py-10">
+                                <div className="px-10  md:text-3xl mb-4  md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Product Testing
 
                                 </div>
-                                <p className="text-lg">Before a product is released onto the market, extensive testing that includes Functional (Manual/Automated), Integration, Performance, Mobile App, Compatibility, Security, and Graphic User Interface (GUI) Testing is carried out.
+                                <p className="px-10 text-lg">Before a product is released onto the market, extensive testing that includes Functional (Manual/Automated), Integration, Performance, Mobile App, Compatibility, Security, and Graphic User Interface (GUI) Testing is carried out.
                                 </p>
                             </div>
-                            <div className="border border-solid border-white px-10 py-10">
-                                <div className="  md:text-3xl mb-4  md:text-left  text-4xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            <div className="border border-solid border-white py-10">
+                                <div className="px-10  md:text-3xl mb-4  md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                     Product Support & Maintenance
 
                                 </div>
-                                <p className="text-lg">Our skilled maintenance services, which include product support services, product rationalization, and product sustainance engineering, are tailored to rejuvenated portfolios. These services are intended to maintain the software environment, improve user satisfaction, and maximize productivity.
+                                <p className="px-10 text-lg">Our skilled maintenance services, which include product support services, product rationalization, and product sustainance engineering, are tailored to rejuvenated portfolios. These services are intended to maintain the software environment, improve user satisfaction, and maximize productivity.
                                 </p>
                             </div>
 
@@ -122,29 +122,29 @@ const Product = () => {
                 </section>
 
                 <div className=" text-white grid md:grid-cols-2 sm:grid-cols-1 md:pl-16 md:pr-16 pt-10 gap-5 pb-16">
-                    <div className="border border-solid border-black md:w-full w-full   py-10">
-                        <div className="px-10  text-black  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                    <div className="border border-solid border-black md:w-full py-10">
+                        <div className="px-10  text-black  md:text-3xl mb-4  md:text-left  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Accelerated time to market
                         </div>
                         <p className=" text-black  px-10  text-lg">Rapidly launch products with fresh features and functionalities into the market.
                         </p>
                     </div>
                     <div className="border border-solid border-black md:w-full  py-10">
-                        <div className="px-10  text-black  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <div className="px-10  text-black  md:text-3xl mb-4  md:text-left  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Enhanced Productivity
                         </div>
                         <p className="px-10  text-black   text-lg">Attain heightened automation in business operations, resulting in enhanced efficiency.
                         </p>
                     </div>
                     <div className="border border-solid border-black md:w-full  py-10">
-                        <div className="px-10 text-black  md:text-3xl mb-4 md:mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <div className="px-10 text-black  md:text-3xl mb-4 md:mt-4 md:text-left  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Cost-effectiveness
                         </div>
                         <p className=" px-10  text-black text-lg">Portfolio upgrades without the need to upgrade the internal engineering team.
                         </p>
                     </div>
                     <div className="border border-solid border-black md:w-full  py-10">
-                        <div className="px-10  text-black  md:text-3xl mb-4 md:mt-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <div className="px-10  text-black  md:text-3xl mb-4 md:mt-4  md:text-left  text-2xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Access to New Opportunities
                         </div>
                         <p className="px-10 text-black  text-lg">Take advantage of new developments in technology and trends to open up new possibilities.

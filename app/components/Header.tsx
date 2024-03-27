@@ -114,44 +114,44 @@ const Header = () => {
       } else if (menu === "contact") {
         submenuContent = (
           <div className="fixed inset-0  bg-black z-50 md:max-w-5xl md:max-h-fit md:pb-72  md:mt-24 mx-auto md:right-64 px-4 py-8 md:px-6 lg:px-8 xl:px-10">
-            <div className="container mx-auto px-4 py-10">
+            <div className="container mx-auto px-4 md:py-10">
               <ul>
                 <div className="  align-middle text-white">
                   <li className="text-4xl  text-center font-Oswald">
                     <Link href="/industries">Industries</Link>
                   </li>
                   <div className="grid md:grid-cols-3 gap-2  text-center justify-center  items-center  md:mt-14">
-                    <li className=" pt-3 md:pt-0  underline underline-offset-4 ">
+                    <li className=" pt-2 md:pt-0  underline underline-offset-4 ">
                       <Link href="/startup">Start up</Link>
                     </li>
-                    <li className="pt-3 md:pt-0    underline underline-offset-4 ">
+                    <li className="pt-2 md:pt-0    underline underline-offset-4 ">
                       <Link href="/retailSector">Retail Sector</Link>
                     </li>
-                    <li className="pt-3 md:pt-0   underline underline-offset-4 ">
+                    <li className="pt-2 md:pt-0   underline underline-offset-4 ">
                       <Link href="/professional">Professional Services</Link>
                     </li>
-                    <li className="pt-3 md:pt-0   underline underline-offset-4 ">
+                    <li className="pt-2 md:pt-0   underline underline-offset-4 ">
                       <Link href="/notForProfit">Not for Profit</Link>
                     </li>
-                    <li className="pt-3 md:pt-0   underline underline-offset-4 md:col-start-3 ">
+                    <li className="pt-2 md:pt-0   underline underline-offset-4  ">
                       <Link href="/manufacturing">Manufacturing and Distribution</Link>
                     </li>
-                    <li className="pt-3 md:pt-0   underline underline-offset-4 ">
+                    <li className="pt-2 md:pt-0   underline underline-offset-4 ">
                       <Link href="/healthCare">Health Care and Life Science</Link>
                     </li>
-                    <li className="pt-3 md:pt-0   underline underline-offset-4 ">
+                    <li className="pt-2 md:pt-0   underline underline-offset-4 ">
                       <Link href="/food">Food and Beverage</Link>
                     </li>
-                    <li className="pt-3 md:pt-0   underline underline-offset-4 ">
+                    <li className="pt-2 md:pt-0   underline underline-offset-4 ">
                       <Link href="/finTech">Fin Tech</Link>
                     </li>
-                    <li className="pt-3 md:pt-0   underline underline-offset-4 ">
+                    <li className="pt-2 md:pt-0   underline underline-offset-4 ">
                       <Link href="/engineering">Engineering</Link>
                     </li>
-                    <li className="pt-3 md:pt-0   underline underline-offset-4 ">
+                    <li className="pt-2 md:pt-0   underline underline-offset-4 ">
                       <Link href="/energy">Energy</Link>
                     </li>
-                    <li className="pt-3 md:pt-0   underline underline-offset-4 ">
+                    <li className="pt-2 md:pt-0   underline underline-offset-4 ">
                       <Link href="/education">Education</Link>
                     </li>
                   </div>

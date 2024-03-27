@@ -53,50 +53,51 @@ const devops = () => {
                     </p >
                     <p className=" text-black md:w-2/3 text-lg">  Our DevOps approach closes the gap between development and operations, speeding up product releases. DevOps enhances collaborative workflows, automates tasks, and accelerates innovation.</p>
                 </section>
-                <section>
-                    <div className="my-10 py-16 md:mt-16  md:pl-16  bg-black text-white ">
-                        <div className="mx-6 md:mx-0 md:text-4xl mb-8  md:text-left  text-4xl  md:w-1/2  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+
+
+                <section className="pr-10 md:pr-0 bg-black text-white mt-4">
+                    <div className="ml-8 md:ml-16 md:mt-16 pt-10 ">
+                        <h1 className=" md:text-3xl   md:text-left  text-4xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             DevOps Services Offerings
-                        </div>
-                        <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6 md:mr-16 ">
-                            <div className="border border-solid border-white  px-10 py-10">
-                                <div className=" md:text-3xl mb-16  md:text-left  text-3xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                                    Consulting Services
-                                </div>
-                                <p className=" text-lg">Through the help of our DevOps consulting services, you may improve the caliber of software builds, foster an agile culture, and accelerate application releases. We apply continuous integration and development using cloud capabilities to help businesses achieve their objectives while cutting expenses.
-                                </p>
-
-                            </div>
-                            <div className="border border-solid border-white px-10  py-10">
-                                <div className=" md:text-3xl mb-4  md:text-left  text-3xl font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                                    Implementation &
-                                    Containerization Services
-                                </div>
-                                <p className=" text-lg">Together with our DevOps Implementation & Containerization Services, you can install and manage container-driven workloads effectively, streamline end-to-end delivery pipelines, and accelerate product releases. Our development, operations, and containerization teams work together to create a strategic roadmap that gives companies a competitive edge.
-                                </p>
-
-                            </div>
-                            <div className="border border-solid border-white px-10 py-10">
-                                <div className=" md:text-3xl mb-4  md:text-left  text-3xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                                    Continuous Integration &
-                                    Continuous Delivery
-                                </div>
-                                <p className="text-lg">Create a solid continuous integration and delivery plan so you can release new versions of your product with confidence. Businesses can automate the whole product development cycle and construct a modernized CI/CD pipeline with our DevOps CI/CD Services.
-                                </p>
-                            </div>
-
-                        </div>
-
+                        </h1>
                     </div>
+
                 </section>
+
+                <div className="bg-black text-white grid md:grid-cols-3 sm:grid-cols-1 md:pl-16 md:pr-16 pt-10 gap-5 pb-16">
+                    <div className="border border-solid border-white md:w-full  py-10">
+                        <div className="px-10  md:text-3xl md:mb-24 mb-6 md:text-left  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            Consulting Services
+                        </div>
+                        <p className=" px-10  text-lg">Through the help of our DevOps consulting services, you may improve the caliber of software builds, foster an agile culture, and accelerate application releases. We apply continuous integration and development using cloud capabilities to help businesses achieve their objectives while cutting expenses.
+                        </p>
+                    </div>
+                    <div className="border border-solid border-white md:w-full  py-10">
+                        <div className="px-10 md:text-3xl mb-6  md:text-left  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            Implementation &
+                            Containerization Services
+                        </div>
+                        <p className="px-10 text-lg">Together with our DevOps Implementation & Containerization Services, you can install and manage container-driven workloads effectively, streamline end-to-end delivery pipelines, and accelerate product releases. Our development, operations, and containerization teams work together to create a strategic roadmap that gives companies a competitive edge.
+                        </p>
+                    </div>
+                    <div className="border border-solid border-white md:w-full  py-10">
+                        <div className="px-10 md:text-3xl mb-6 md:mt-4 md:text-left  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            Continuous Integration &
+                            Continuous Delivery
+                        </div>
+                        <p className=" px-10  text-lg">Create a solid continuous integration and delivery plan so you can release new versions of your product with confidence. Businesses can automate the whole product development cycle and construct a modernized CI/CD pipeline with our DevOps CI/CD Services.
+                        </p>
+                    </div>
+
+                </div>
                 <section className="border border-black md:mt-16 md:py-28 py-6">
-                    <div className="ml-8 md:ml-16 ">
-                        <h1 className=" text-black md:text-4xl mb-6  md:text-left  text-3xl  md:w-3/4 font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
-                            &quot;Eliminate silos while establishing a stable operating
-                            environment through DevOps Implementation.&quot;
+                    <div className=" md:ml-16 ">
+                        <h1 className=" md:px-0 px-8 text-black md:text-4xl mb-6  md:text-left  text-3xl  md:w-3/4 font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                            Eliminate silos while establishing a stable operating
+                            environment through DevOps Implementation
                         </h1>
 
-                        <h1 className=" text-black md:text-3xl mb-6  md:text-left  text-3xl  md:w-3/4  font-light font-['Urbanist'] leading-normal md:leading-snug  ">To Future-Proof Your Portfolio, Adopt Cloud, SaaS-based Business Models, and Cutting-Edge Technology Stacks.
+                        <h1 className="md:px-0 px-10 text-black md:text-3xl mb-6  md:text-left  text-3xl  md:w-3/4  font-light font-['Urbanist'] leading-normal md:leading-snug  ">To Future-Proof Your Portfolio, Adopt Cloud, SaaS-based Business Models, and Cutting-Edge Technology Stacks.
                         </h1>
                     </div>
 
@@ -117,7 +118,7 @@ const devops = () => {
                 </section>
 
                 <div className="bg-black text-white grid md:grid-cols-2 sm:grid-cols-1 md:pl-16 md:pr-16 pt-10 gap-5 pb-16">
-                    <div className="border border-solid border-white md:w-full w-full bg-black  py-10">
+                    <div className="border border-solid border-white md:w-full  py-10">
                         <div className="px-10  md:text-3xl mb-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                             Faster Deployment
                         </div>

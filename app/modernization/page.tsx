@@ -51,8 +51,8 @@ const Modernization = () => {
                         innovation through our legacy application modernization services.
                     </h1>
                     <div className="grid md:grid-cols-2 sm:grid-cols-1 md:pr-16 pt-10 gap-5 pb-16">
-                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
-                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <div className="border border-solid border-black md:w-full  bg-white  py-10">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                 Consulting
                             </div>
 
@@ -64,8 +64,8 @@ const Modernization = () => {
                             </ul>
 
                         </div>
-                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
-                            <div className="px-10 text-black md:text-3xl mb-2 mt-4  md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <div className="border border-solid border-black md:w-full  bg-white  py-10">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4  md:text-left  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                 Technology Modernization
                             </div>
                             <ul className="px-10 list-decimal ml-6  ">
@@ -75,8 +75,8 @@ const Modernization = () => {
                                 <li className="text-lg"> Application Re-Platforming</li>
                             </ul>
                         </div>
-                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
-                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <div className="border border-solid border-black md:w-full  bg-white  py-10">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-2xl   font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                 Architecture Modernization
                             </div>
                             <ul className="px-10 list-decimal ml-6  ">
@@ -86,8 +86,8 @@ const Modernization = () => {
                                 <li className="text-lg">    Service Aggregation and Consolidation</li>
                             </ul>
                         </div>
-                        <div className="border border-solid border-black md:w-full w-full bg-white  py-10">
-                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-3xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
+                        <div className="border border-solid border-black md:w-full  bg-white  py-10">
+                            <div className="px-10 text-black md:text-3xl mb-2 mt-4 md:text-left  text-2xl  font-semibold font-['Urbanist'] leading-normal md:leading-snug  ">
                                 UI/UX Modernization
                             </div>
                             <ul className="px-10 list-decimal ml-6  ">
